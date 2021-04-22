@@ -8,7 +8,7 @@ A Geo Web spatial browser is like a traditional web browser, but without a URL b
 
 A key attribute of Geo Web spatial browsers is that they enable arbitrary multimedia content display and use cases. The browser "window" can take the form of a blank white canvas \(for "flat" content\) or a transparent lens \(for AR/VR content\). Spatial browsers will run across different device types and operating systems as web browsers do today.
 
-We've become accustomed to switching between apps or ceding control to an AI assistant to get anything done on our smartphones. Not only is this user experience not conducive to a seamless [metaverse](../geo-web-intro/what-is-the-geo-web.md) experience, but it gives outsized control and profits to the smartphone OS duopoly of Apple & Google. 
+We've become accustomed to switching between apps or ceding control to an AI assistant to get anything done on our smartphones. Not only is this user experience not conducive to a seamless [metaverse](../introduction/what-is-the-geo-web.md) experience, but it gives outsized control and profits to the smartphone OS duopoly of Apple & Google. 
 
 As we move deeper into the next generation of smart devices \(glasses, heads-up displays, embedded, etc\), we must do better. We can return to the open and permissionless roots that made the Web and internet so powerful. With a spatial browser, Geo Web users will move through the world and interact with all the network has to offer without downloading a different proprietary app every minute or serving as a cog in the attention economy. 
 

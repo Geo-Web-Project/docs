@@ -1,7 +1,3 @@
----
-description: Join us on the journey to build the "World Wide Web for the Physical World"
----
-
 # Welcome
 
 The Geo Web is a public good augmented reality metaverse. 

@@ -2,11 +2,11 @@
 
 * [Welcome](README.md)
 
-## Introduction <a id="geo-web-intro"></a>
+## Introduction
 
-* [The Next Computing Paradigm](geo-web-intro/when-ar.md)
-* [What is an AR Metaverse?](geo-web-intro/what-is-the-geo-web.md)
-* [Who owns the Geo Web?](geo-web-intro/why-the-geo-web.md)
+* [The Next Computing Paradigm](introduction/when-ar.md)
+* [What is an AR Metaverse?](introduction/what-is-the-geo-web.md)
+* [Who owns the Geo Web?](introduction/why-the-geo-web.md)
 
 ## Geo Web Concepts <a id="concepts"></a>
 
