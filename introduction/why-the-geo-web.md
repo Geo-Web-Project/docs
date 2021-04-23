@@ -1,6 +1,6 @@
 ---
 description: >-
-  No one. The Geo Web's protocols are closer to "laws of physics" for the
+  No one. The Geo Web's protocols are closer to "laws of physics" for a
   metaverse than a "thing" that should be privately owned or controlled.
 ---
 
@@ -14,9 +14,9 @@ The world is full of smart, creative, diverse, and driven people. The internet a
 
 The internet and World Wide Web’s minimalist protocol designs were key to scaling the networks to billions of devices and across years of hardware, software, and use case innovation. The protocols had contemporary competitors that were more opinionated, had more features, and/or had proprietary backing. Yet the open, neutral, and decentralized approaches became the de facto standards. 
 
-The same will hold true for this three-dimensional iteration of a global information network.
+We aim for this lesson to hold true for the three-dimensional iteration of a global information network as well.
 
-We have positioned the Geo Web accordingly. The narrow waist of the network is the Geo Web's [Digital Land Registry](../concepts/digital-land-registry.md). It creates the necessary coordination and consensus for global network scale without specifying the hardware and software used throughout the rest of the stack. By including [credibly neutral](https://nakamoto.com/credible-neutrality/) economic incentives in the core protocols \(something the internet and WWW don't have\), we can supercharge the dynamic of permissionless innovation and counteract centralizing forces.
+The narrow waist of the Geo Web network is the Geo Web's [Digital Land Registry](../concepts/digital-land-registry.md). It creates the necessary coordination and consensus for global network scale without specifying the hardware and software used throughout the rest of the stack. By including [credibly neutral](https://nakamoto.com/credible-neutrality/) economic incentives in the core protocols \(something the internet and WWW don't have\), we can supercharge the dynamic of permissionless innovation and counteract centralizing forces.
 
 We simply believe that we will go further together than those that attempt to privatize, exclude, and go it alone. 
 

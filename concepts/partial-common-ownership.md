@@ -32,10 +32,10 @@ These rules are implemented and enforced on the Geo Web via the [Digital Land Re
 
 The system offers numerous benefits for the network's health versus a system of pure private property rights:
 
-* The system encourages allocative efficiency. This essentially means it's easier for land to make its way into the hands of those that will put it into higher productive use.
+* The system encourages allocative efficiency. Essentially, it's easier for land to make its way into the hands of those that will put it into higher productive use because they are willing to pay more.
   * This dynamic increases the aggregate utility of the network and helps drive a virtuous network effects cycle.
 * The requirement for a public "For Sale Price" eliminates long, inefficient negotiations and monopoly holdouts. 
-  * This is a pervasive issue in the World Wide Web's domain name market. It would crush AR metaverse adoption due to the extremely low substitutability of two land parcels.
+  * This is a pervasive issue in the World Wide Web's domain name market. This dynamic would severely hamper AR metaverse adoption due to the low substitutability of two land parcels.
 * An individual holding a parcel of land means all other participants \(i.e. "the network"\) are excluded from doing the same. This system assesses direct cost to the land holder to compensate the network for their exclusion—making for a more fair system.
 * Network fees are used to fund protocol and ecosystem development which, in turn, drives value and users.
 
@@ -49,7 +49,7 @@ Additional Implementation Details:
 * At the time of initial claim, users must deposit at least one year worth of network fees.
 * Land holders cannot raise their "For Sale Price" to a level that results in an expiration date less than two weeks in the future.
 * Expiration dates can only be set two years into the future. A land holder can lower their "For Sale Price" to a level that would otherwise result in an expiration date beyond two years, but this results in forfeiture of the proportionally excessive network fees. 
-* Parcels that reach their expiration date go into a Dutch auction. The auction price is linearly decreased from the "For Sale Price" to 0 over two weeks. Any user can claim the land during the auction at the current price. The previous land holder receives the proceeds from the auction.
+* Parcels that reach their expiration date go into a Dutch auction. The auction price is linearly decreased from the "For Sale Price" to zero over two weeks. Any user can claim the land during the auction at the current price. The previous land holder receives the proceeds from the auction.
 {% endhint %}
 
 ## Footnotes
