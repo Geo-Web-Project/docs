@@ -6,7 +6,7 @@ description: >-
 
 # Digital Land Registry
 
-In essence, the Digital Land Registry \(DLR\) is just a global list of land parcel entries with links to digital content. 
+In essence, the Digital Land Registry \(DLR\) is a global list of land parcel entries with links to digital content. 
 
 ![A conceptual representation of the Digital Land Registry](../.gitbook/assets/dlr-concept.png)
 
@@ -18,5 +18,5 @@ Blockchain-based domain names like [Ethereum Name Service](https://ens.domains/)
 
 The DLR extends this idea to create "spatial domain names." When Geo Web users visit a physical location, their [browser](spatial-browser.md) references the corresponding land parcel in one of the many distributed copies of the DLR and automatically resolves the publisher's content.
 
-The Geo Web instantly benefits from Ethereum's security, global distribution, and decentralized trust through this smart contract implementation of the DLR. Building something similar from the ground up on traditional internet infrastructure would take years, government or mega-corporation backing, and trust in a new third-party. The Geo Web is bootstrapped into existence simply by users/browsers choosing to look at the Registry.
+The Geo Web instantly benefits from Ethereum's security, global distribution, and decentralized trust through this smart contract implementation of the DLR. Building something similar from the ground up on traditional internet infrastructure would take years, government or mega-corporation backing, and/or trust in a new third-party. The Geo Web can be bootstrapped into existence simply by users/browsers choosing reference the DLR smart contracts.
 

@@ -14,11 +14,11 @@ Even with no private profit motive, this will still be a dynamic challenge rathe
 
 It is not the Geo Web protocol designers' goal to play kingmaker with the funds, but instead develop [value-driven](https://github.com/Geo-Web-Project/governance/blob/main/DRAFT_Constitution.md), [credibly neutral](https://nakamoto.com/credible-neutrality/) mechanisms that encourage permissionless innovation and embrace decentralized decision making through markets and voting. 
 
-Some non-trivial amount of early network funds will be reserved and transparently used for the advancement of the core protocols and infrastructure of the network. Given the stage of the network, it's a reasonable assumption about incentive alignment and the common good. Over time, even core protocol development funding will transition to more decentralized decision making mechanisms. 
+Some non-trivial amount of early network funds will be reserved and transparently used for the advancement of the core protocols and infrastructure of the network. Given the stage of the network, it's a reasonable assumption to make about incentive alignment and the common good. Over time, even core protocol development funding will transition to more decentralized decision making mechanisms. 
 
-The scope of what can be done with network funds won't stop there. There are endless other public goods, private goods with positive externalities for the network, and prosocial opportunities. The mechanism design to better allocate these funds will be an exciting area of research and development for the Geo Web for years to come.
+The scope of what can be done with network funds won't stop there. There are endless other public goods, private goods with positive externalities, and prosocial opportunities. The mechanism design to better allocate these funds will be an exciting area of research and development for the Geo Web for years to come.
 
 ## Footnotes
 
-$$^1$$ Digital land licensing is exclusionary in that each parcel can only be licensed/controlled by one person/entity at a time. This scarcity is a necessary evil that partial common ownership accounts for: digital land license fees can be thought of as reimbursement paid by the land holder to the network for excluding others from controlling the parcel.
+$$^1$$ Digital land licensing is exclusionary in that each parcel can only be licensed/controlled by one party at a time. This scarcity is a necessary evil that partial common ownership accounts for: digital land license fees can be thought of as reimbursement paid by the land holder to the network for excluding others from controlling the parcel.
 
