@@ -20,9 +20,8 @@
 
 ## Getting Started
 
-* [Quickstart Requirements](getting-started/quickstart.md)
+* [Quick Start Requirements](getting-started/quickstart.md)
 * [Use Cases](getting-started/use-cases.md)
-* [Testnet vs Mainnet](getting-started/testnet-vs-mainnet.md)
 
 ## Developers
 
