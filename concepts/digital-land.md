@@ -4,11 +4,11 @@ description: An introduction to the core digital asset of the Geo Web.
 
 # Digital Land
 
-The Geo Web is composed of unique digital land parcels that map to physical locations on Earth's surface \(We'll add the moon & Mars eventually...\). 
+The Geo Web is composed of unique digital land parcels that map to physical locations on Earth's surface \(We'll add the moon & Mars eventually...\).
 
 ![Claiming a digital land parcel on the testnet Cadastre](../.gitbook/assets/digital-land-claim.png)
 
-Geo Web digital land parcels are non-fungible tokens \(NFTs\). They confer the bearer the exclusive right to anchor digital content within the parcel's boundaries on the network. 
+Geo Web digital land parcels are non-fungible tokens \(NFTs\). They confer the bearer the exclusive right to anchor digital content within the parcel's boundaries on the network.
 
 The system creates utility analogous to the having property rights for physical land. If anyone could turn your single family home into a duplex or come change the paintings on your walls, the world would be chaos. These examples sound ridiculous, but that's effectively what augmented reality will become without a global property rights system.
 

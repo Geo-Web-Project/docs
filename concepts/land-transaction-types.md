@@ -12,23 +12,23 @@ On the [testnet Cadastre](https://geoweb.eth.link/), Kovan ETH and a placeholder
 3\) Authorize the Cadastre to spend your tokens
 {% endhint %}
 
-### Claims
+## Claims
 
-At network genesis, no land is controlled by any individual. The world is a blank canvas. Geo Web users claim and define new parcels of land to populate the network. 
+At network genesis, no land is controlled by any individual. The world is a blank canvas. Geo Web users claim and define new parcels of land to populate the network.
 
 Land claims are started by clicking on any open coordinate on the [Geo Web Cadastre](cadastre.md) and selecting additional coordinates to define the parcel shape. Prospective land claimants must enter a **For Sale Price** and at least one year's worth of **Network Fee Payment** to claim the parcel. The transaction must be successfully signed and paid for \(including gas fees\) through the user's Web3 wallet for the claim to become a valid Geo Web parcel.
 
 ![A land claim on the Geo Web Cadastre](../.gitbook/assets/land-claim.gif)
 
-### Network Fee Payments
+## Network Fee Payments
 
 To maintain control of a Geo Web parcel, a land holder must make network fee payments in accordance with the [partial common ownership](partial-common-ownership.md) system. This requirement is expressed with the parcel **Expiration Date** and **Network Fee Balance** on the Cadastre.
 
-The first network fee deposit is required at the time of the land claim. Additional network fee payments can be made at any time by the current land holder to extend the duration of their license. 
+The first network fee deposit is required at the time of the land claim. Additional network fee payments can be made at any time by the current land holder to extend the duration of their license.
 
 To complete a payment, the land holder should navigate to their parcel, click **Edit**, enter the value for an **Additional Network Fee Payment**, and sign the transaction via their Web3 wallet. The parcel's **Expiration Date** and **Network Fee Balance** are recalculated accordingly.
 
-### For Sale Price Change
+## For Sale Price Change
 
 Geo Web land holders may update their public **For Sale Price** at any time. This transaction impacts the parcel's **Network Fee Balance** depletion rate and results in a new **Expiration Date.**
 
@@ -41,7 +41,7 @@ The Digital Land Registry enforces minimum and maximum values for a parcel's **E
 * Price Decrease/Maximum Expiration Date= +2 Years \(Users will be warned, but not prevented from making the proposed change. Excess network funds will be forfeited.\)
 {% endhint %}
 
-### Forced Transfers
+## Forced Transfers
 
 Forced transfers are market transactions which result in change in control of a land parcel. They are "forced" because when a buyer triggers the transaction, the current land holder doesn't have the right to refuse it. This may seem radical, but it's part of an important dynamic in the partial common ownership system.
 
@@ -51,13 +51,13 @@ Forced transfers are triggered by a buyer submitting a transaction to the Regist
 Modifications to this system \(e.g. a 1 time right of refusal, monthly vs instantaneous transfers, etc.\) may be implemented at a later date. Modifications can be made to help limit the potential disruption and other user experience hurdles caused by forced transfers, but they should not undermine the core economic mechanisms and market dynamic.
 {% endhint %}
 
-### Auction Claim
+## Auction Claim
 
 When a land parcel reaches its expiration date \(i.e. the land holder's network fee deposits have run out\), it goes into a [Dutch auction](https://en.wikipedia.org/wiki/Dutch_auction). The auction price decreases linearly \(every second\) from the previous **For Sale Price** to zero over a two week period. This helps ensure open and efficient price discovery. When a parcel reaches the end of the auction period and has not been claimed, it simply remains free to claim \(excluding transaction costs\).
 
 Prospective land holders can submit an auction claim at the current price to take control of the parcel. The land holder who let their license lapse will still receive the proceeds from the auction as part of the transaction \(so the penalty for accidental lapses aren't overly harsh\).
 
-### Auction Rescue
+## Auction Rescue
 
 When a parcel goes into auction, the previous land holder can reclaim their parcel from auction by making at least the minimum **Network Fee Payment** required. The land holder regains full rights to the parcel as long as this is done before someone else makes a successful auction claim.
 

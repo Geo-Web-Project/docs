@@ -15,7 +15,7 @@ The Geo Web uses a novel property rights regime referred to as _partial common o
 Here's an example of how it works in practice:
 
 {% hint style="info" %}
-1\) Alice is the first Geo Web user to claim a plot of land in a park. She does so for free \(excluding blockchain transaction costs\). 
+1\) Alice is the first Geo Web user to claim a plot of land in a park. She does so for free \(excluding blockchain transaction costs\).
 
 2\) Alice sets her "For Sale Price" at 1 ETH. She prepays .1 ETH for one year of network fees \(10% annual rate for this example\). The expiration date of her land parcel license is set one year into the future.
 
@@ -54,5 +54,5 @@ Additional Implementation Details:
 
 ## Footnotes
 
-$$^1$$This system is also known as Harberger Taxes and is named after Arnold Harberger, the economist who initially outlined the basic scheme. Most recently it's gained attention through the book [_Radical Markets_](http://radicalmarkets.com/) __by Eric A. Posner and Glen E. Weyl. Vitalik Buterin has [helped popularize the idea](https://vitalik.ca/general/2018/04/20/radical_markets.html) in blockchain/crypto circles as well.
+$$^1$$This system is also known as Harberger Taxes and is named after Arnold Harberger, the economist who initially outlined the basic scheme. Most recently it's gained attention through the book [_Radical Markets_](http://radicalmarkets.com/) \_\_by Eric A. Posner and Glen E. Weyl. Vitalik Buterin has [helped popularize the idea](https://vitalik.ca/general/2018/04/20/radical_markets.html) in blockchain/crypto circles as well.
 
