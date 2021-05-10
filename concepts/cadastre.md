@@ -4,7 +4,7 @@ description: The user interface for digital land management and content publishi
 
 # Geo Web Cadastre
 
-A _cadastre_ is a register of property showing the extent, value, and ownership of land. 
+A _cadastre_ is a register of property showing the extent, value, and ownership of land.
 
 The Geo Web Cadastre is the graphical user interface that serves that role for the Geo Web network. It can be thought of something like a combination of a domain name registrar \(e.g. GoDaddy\) and a content management system \(e.g. WordPress\). It integrates with the network's core infrastructure to make Geo Web land administration and content publishing accessible to non-technical users.
 

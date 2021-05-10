@@ -49,5 +49,3 @@ If you encounter any issues, [join our Discord server](https://discord.com/invit
 
 \*Recommended, but not required - **Install an IPFS node** \([Desktop](https://docs.ipfs.io/install/ipfs-desktop/#ipfs-desktop) or [Command Line](https://docs.ipfs.io/how-to/command-line-quick-start/) version\) and the [IPFS Browser Companion](https://github.com/ipfs/ipfs-desktop#quick-install-shortcuts). Running an IPFS node on your machine means that Geo Web content publishing and resolution is completed peer-to-peer rather than through a centralized gateway.
 
-
-
