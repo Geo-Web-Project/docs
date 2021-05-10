@@ -7,6 +7,7 @@
 * [The Next Computing Paradigm](introduction/when-ar.md)
 * [What is an AR Metaverse?](introduction/what-is-the-geo-web.md)
 * [Who owns the Geo Web?](introduction/why-the-geo-web.md)
+* [What is a public good?](introduction/what-is-a-public-good.md)
 
 ## Geo Web Concepts <a id="concepts"></a>
 
@@ -38,8 +39,7 @@
 
 ## Community & Governance
 
-* [Open Org Vision](community-and-governance/open-org-vision.md)
+* [Open Org](community-and-governance/open-org-vision.md)
 * [SourceCred](community-and-governance/sourcecred.md)
 * [Geo Web DAO](community-and-governance/geo-web-dao.md)
-* [How to Contribute](community-and-governance/ways-to-contribute.md)
 

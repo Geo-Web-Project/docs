@@ -1,12 +1,13 @@
 ---
 description: >-
-  No one. The Geo Web's protocols are closer to "laws of physics" for a
-  metaverse than a "thing" that should be privately owned or controlled.
+  No one. And everyone.The Geo Web's protocols are closer to "laws of physics"
+  for our metaverse than a "thing" that should be privately owned. The resulting
+  world? We all own it.
 ---
 
 # Who owns the Geo Web?
 
-No one owns the Geo Web. 
+No one and everyone owns the Geo Web. It's a [public good](what-is-a-public-good.md).
 
 All of it's protocols are open-source. The user interfaces that we're initially building are also open-source and non-exclusive. We aren't building a for-profit corporation around the Geo Web to monetize services, features, or hosting \(although others are empowered to do so\). Geo Web contributors will steward the protocols to maximize permissionless opportunity on the network rather than for personal private gain.
 
