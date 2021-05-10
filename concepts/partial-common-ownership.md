@@ -17,7 +17,7 @@ Here's an example of how it works in practice:
 {% hint style="info" %}
 1\) Alice is the first Geo Web user to claim a plot of land in a park. She does so for free \(excluding blockchain transaction costs\).
 
-2\) Alice sets her "For Sale Price" at 1 ETH. She prepays .1 ETH for one year of network fees \(10% annual rate for this example\). The expiration date of her land parcel license is set one year into the future.
+2\) Alice sets her "For Sale Price" at 1 ETH. She prepays 0.1 ETH for one year of network fees \(10% annual rate for this example\). The expiration date of her land parcel license is set one year into the future.
 
 3\) Alice anchors a piece of augmented reality art to the parcel. She loves showing her art installation to her friends every time they walk through the park.
 
