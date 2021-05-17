@@ -16,7 +16,7 @@ On the [testnet Cadastre](https://geoweb.eth.link/), Kovan ETH and a placeholder
 
 At network genesis, no land is controlled by any individual. The world is a blank canvas. Geo Web users claim and define new parcels of land to populate the network.
 
-Land claims are started by clicking on any open coordinate on the [Geo Web Cadastre](cadastre.md) and selecting additional coordinates to define the parcel shape. Prospective land claimants must enter a **For Sale Price** and at least one year's worth of **Network Fee Payment** to claim the parcel. The transaction must be successfully signed and paid for \(including gas fees\) through the user's Web3 wallet for the claim to become a valid Geo Web parcel.
+Land claims are started by clicking on any open coordinate on the [Geo Web Cadastre](cadastre-intro.md) and selecting additional coordinates to define the parcel shape. Prospective land claimants must enter a **For Sale Price** and at least one year's worth of **Network Fee Payment** to claim the parcel. The transaction must be successfully signed and paid for \(including gas fees\) through the user's Web3 wallet for the claim to become a valid Geo Web parcel.
 
 ![A land claim on the Geo Web Cadastre](../.gitbook/assets/land-claim.gif)
 
