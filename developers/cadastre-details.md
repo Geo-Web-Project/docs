@@ -1,4 +1,0 @@
-# Cadastre Details
-
-Coming soon!
-

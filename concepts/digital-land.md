@@ -14,7 +14,7 @@ The system creates utility analogous to the having property rights for physical 
 
 You can think of publishers on the Geo Web as digital real estate developers. They can augment their physical real estate holdings or create something completely new. Just as physical land changes hands occasionally, digital land will too \(often in tandem\). Publishers that create compelling virtual experiences and business on their Geo Web land can create significant economic value.
 
-The shape and size of each land parcel is defined as an array of [Geo Web Coordinates](../developers/geo-web-coordinate-system.md) \(in production, ~1 m² rectangles created by a global grid system\). Two digital land parcels cannot contain the same Geo Web coordinate \(i.e. they cannot overlap\). Land parcels can only contain a contiguous set of Coordinates \(i.e. a parcel cannot be two or more separated sections\).
+The shape and size of each land parcel is defined as an array of [Geo Web Coordinates](../developers/smart-contracts/geo-web-coordinates.md) \(in production, ~1 m² rectangles created by a global grid system\). Two digital land parcels cannot contain the same Geo Web coordinate \(i.e. they cannot overlap\). Land parcels can only contain a contiguous set of Coordinates \(i.e. a parcel cannot be two or more separated sections\).
 
 Land parcel boundaries are defined by users during the initial claim. While not currently enabled, users will be able to split and combine land parcels under their control to suit their needs.
 

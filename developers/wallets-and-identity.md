@@ -1,4 +1,0 @@
-# Wallets & Identity
-
-Coming soon!
-

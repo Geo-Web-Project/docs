@@ -1,4 +1,0 @@
-# Architecture Overview
-
-Coming soon!
-
