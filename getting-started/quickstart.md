@@ -14,7 +14,7 @@ Below are the requirements to begin publishing, building, and experimenting on t
 If you encounter any issues, [join our Discord server](https://discord.com/invite/reXgPru7ck) and send a message to the Geo Web team. We can help troubleshoot your setup, send you test tokens, etc. There are no bad questions!
 {% endhint %}
 
-* Install and setup a wallet in the latest version of [**MetaMask**](https://metamask.io/download.html) ****browser extension
+* Install and setup a wallet in the latest version of [**MetaMask**](https://metamask.io/download.html) _\*\*_browser extension
 * Navigate to the [**Geo Web Cadastre**](https://geoweb.eth.link/)\*\*\*\*
 * Switch to the **Kovan Test Network** in your MetaMask extension
 
