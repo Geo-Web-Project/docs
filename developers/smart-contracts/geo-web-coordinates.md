@@ -1,26 +1,22 @@
----
-description: >-
-  GeoWebCoordinate.sol is used to define and validate the shape of Geo Web land
-  parcels.
----
-
 # Geo Web Coordinate
 
-## Summary
+### Summary
 
-The Geo Web Coordinate system is the basis for the spatial definition of all [Geo Web land parcels](../../concepts/digital-land.md). 
+The Geo Web Coordinate library defines the Geo Web's fixed global grid and coordinate system. It is the basis for the spatial definition of all [Geo Web land parcels](../../concepts/digital-land.md). 
 
-The system consists of a fixed global grid optimized for EVM smart contracting efficiency. The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each Geo Web land parcel is an array of Geo Web Coordinates.
+The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each Geo Web land parcel is an array of Geo Web Coordinates.
 
 ![A single Geo Web Coordinate \(yellow rectangle\) on the Kovan testnet](../../.gitbook/assets/geo-web-coordinate.png)
 
-In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a \(smaller\) grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines. This is one of the reason that the Geo Web will be implemented on a ETH Layer 2 network \(evaluation is underway\).
+In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a \(smaller\) grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines. 
 
-## Implementation \(WIP\)
+The [Geo Web Parcel ](geo-web-parcel.md)contract uses the library defined in Geo Web Coordinate to traverse parcel paths and map coordinates to the word index. 
 
 ### Code
 
-[`GeoWebCoordinate.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/master/contracts/GeoWebCoordinate.sol)\`\`
+[`GeoWebCoordinate.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/master/contracts/GeoWebCoordinate.sol)
+
+## Reference Documentation
 
 ### GeoWebCoordinate
 
