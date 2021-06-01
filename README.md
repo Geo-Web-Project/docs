@@ -1,5 +1,9 @@
 # Welcome
 
+{% hint style="info" %}
+This documentation site is a work in progress. Some docs are unfinished or pending updates.
+{% endhint %}
+
 The Geo Web is a public good augmented reality metaverse.
 
 Publishers anchor digital content \(image, video, audio, or 3D objects\) to physical land using the Geo Web's open, ownerless protocols. Users engage with the content based on their location in the world with their smartphones, smartwatches, and smartglasses.
