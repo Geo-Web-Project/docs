@@ -4,9 +4,9 @@ description: A tool for measuring and rewarding value creation on the Geo Web pr
 
 # SourceCred
 
-One of the tools that we're most excited about for supporting the Geo Web's [open organizational vision](open-org.md) is [SourceCred](https://sourcecred.io/). 
+One of the tools that we're most excited about for supporting the Geo Web's [open organizational vision](open-org.md) is [SourceCred](https://sourcecred.io/).
 
-SourceCred is a tool for communities to measure and reward value creation. It uses an algorithm and customizable weights to assign an accumulating score \("Cred"\) to community member actions. It integrates with a number of popular organizational/development tools \(Github, Discord, Discourse, and more to come\) in an attempt to to capture a broad, but nuanced picture of project contributions and contributors. 
+SourceCred is a tool for communities to measure and reward value creation. It uses an algorithm and customizable weights to assign an accumulating score \("Cred"\) to community member actions. It integrates with a number of popular organizational/development tools \(Github, Discord, Discourse, and more to come\) in an attempt to to capture a broad, but nuanced picture of project contributions and contributors.
 
 > "\[That\] Cred flows from the contribution to all the people and other contributions that supported it. In this way, you can imagine how a project could be represented as a "node graph" made up of contribution and people dots \(aka "nodes"\) connected by lines \(aka "edges"\) that flow Cred around to the nodes based on what supported what." - [SourceCred Introduction Docs](https://sourcecred.io/docs)
 
@@ -24,5 +24,5 @@ Grain distributions are considered a taxable event, so Grain is only distributed
 
 Grain distributions are currently funded by the generosity of the supporters of the [Geo Web Gitcoin Grant](https://gitcoin.co/grants/1403/the-geo-web) 🙏. Upon mainnet launch, it is envision that some portion of network fees will be allocated toward the core development and community building activities which SourceCred helps recognize and reward.
 
-The goal is for SourceCred to become one of the several credibly neutral mechanisms which reward Geo Web stakeholders for helping advance the project. 
+The goal is for SourceCred to become one of the several credibly neutral mechanisms which reward Geo Web stakeholders for helping advance the project.
 
