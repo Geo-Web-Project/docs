@@ -25,5 +25,7 @@ In addition to this site, here are a few other important links to get you starte
 * [Join our community Discord sever](https://discord.com/invite/reXgPru7ck) - a great place to participate in community discussion and ask questions.
 * [Check out the Geo Web Github organization](https://github.com/Geo-Web-Project) - the go-to for our source code and to start contributing code to the project
 * [Read the Geo Web litepaper](https://uploads-ssl.webflow.com/5f8b34b0e6d64d9a87a21740/5f8b3ed55b3416dcd1ff32eb_Geo%20Web%20Litepaper_Draft%202.pdf) - a deep dive into the Geo Web's founding idea \(new draft coming soon!\)
-* [Claim your home, business, or other place of personal interest on the Geo Web](https://geoweb.eth.link/) - start publishing content into the metaverse \(currently testnet only\)
+* [Claim your home, business, or other place of personal interest on the Geo Web](https://cadastre.geoweb.eth.link/) - start publishing content into the metaverse \(currently testnet only\)
+
+
 

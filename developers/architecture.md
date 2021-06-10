@@ -22,18 +22,16 @@ While not 100% analogous, we can compare the Geo Web stack to the more familiar 
       <td
       style="text-align:left"><a href="smart-contracts/">Geo Web Smart Contracts</a>
         </td>
-        <td style="text-align:left">
-          <p><a href="smart-contracts/geo-web-coordinates.md">Geo Web coordinates</a> are
-            like</p>
-          <p>IP addresses. Parcels are like domain names.</p>
-        </td>
+        <td style="text-align:left"><a href="smart-contracts/geo-web-coordinates.md">Geo Web coordinates</a> are
+          like IP addresses. Parcels are like domain names.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Namespace Lookup</td>
-      <td style="text-align:left">Root name servers</td>
+      <td style="text-align:left">Lookup</td>
+      <td style="text-align:left">DNS Servers</td>
       <td style="text-align:left"><a href="subgraph/">Geo Web Subgraph</a>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The Graph network allows the Geo Web subgraph to scale and perform like
+        DNS without centralization or an extensive infrastructure buildout.</td>
     </tr>
     <tr>
       <td style="text-align:left">Namespace Registration</td>
@@ -43,13 +41,8 @@ While not 100% analogous, we can compare the Geo Web stack to the more familiar 
       </td>
       <td style="text-align:left"><a href="../concepts/cadastre-intro.md">Cadastre</a>
       </td>
-      <td style="text-align:left">
-        <p>The Cadastre also includes</p>
-        <p>functions similar to a CMS</p>
-        <p>on the traditional web. It</p>
-        <p>won&apos;t be the exclusive way</p>
-        <p>to register or trade Geo Web land.</p>
-      </td>
+      <td style="text-align:left">The Cadastre also includes functions similar to a CMS on the traditional
+        web. It won&apos;t be the exclusive way to register or trade Geo Web land.</td>
     </tr>
     <tr>
       <td style="text-align:left">Content Transfer</td>
@@ -57,13 +50,10 @@ While not 100% analogous, we can compare the Geo Web stack to the more familiar 
         <p>Hypertext Transfer</p>
         <p>Protocol (<a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a>)</p>
       </td>
-      <td style="text-align:left"><a href="https://ipfs.io/">IPFS</a> &amp; <a href="https://filecoin.io/">Filecoin</a>
+      <td style="text-align:left"><a href="https://ipfs.io/">IPFS</a>
       </td>
-      <td style="text-align:left">
-        <p>IPFS &amp; Filecoin include</p>
-        <p>content storage mechanisms</p>
-        <p>&amp; are peer-to-peer.</p>
-      </td>
+      <td style="text-align:left">IPFS is a peer-to-peer transfer protocol, so concepts around file storage
+        differ from HTTP&apos;s client-server assumptions.</td>
     </tr>
     <tr>
       <td style="text-align:left">Content Formatting</td>
@@ -73,12 +63,19 @@ While not 100% analogous, we can compare the Geo Web stack to the more familiar 
       </td>
       <td style="text-align:left"><a href="https://www.ceramic.network/">Ceramic Network</a>
       </td>
-      <td style="text-align:left">
-        <p>Ceramic can additionally be</p>
-        <p>used to define identities on the</p>
-        <p>Geo Web via <a href="https://idx.xyz/">IDX</a>
-        </p>
+      <td style="text-align:left">Ceramic can additionally be used to define identities on the Geo Web via
+        <a
+        href="https://idx.xyz/">IDX</a>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Archive</td>
+      <td style="text-align:left"><a href="https://archive.org/web/">Wayback Machine</a>
+      </td>
+      <td style="text-align:left"><a href="https://filecoin.io/">Filecoin</a>
+      </td>
+      <td style="text-align:left">Filecoin is used as the archival complement to IPFS &amp; Ceramic&apos;s
+        &quot;hot storage&quot; for Geo Web content.</td>
     </tr>
     <tr>
       <td style="text-align:left">Browsing Interface</td>
@@ -88,13 +85,11 @@ While not 100% analogous, we can compare the Geo Web stack to the more familiar 
       </td>
       <td style="text-align:left"><a href="../concepts/spatial-browsing.md">Spatial Browser</a>
       </td>
-      <td style="text-align:left">
-        <p>Competition across</p>
-        <p>browsers will be encouraged</p>
-        <p>on the Geo Web as on the WWW.</p>
-      </td>
+      <td style="text-align:left">Competition across browsers will be encouraged on the Geo Web as on the
+        WWW.</td>
     </tr>
   </tbody>
 </table>
 
 In the remainder of this section, we'll explore these components first from a functional perspective then at a detailed technical level. This section is targeted for developers and technical users, but non-developers can benefit from this information as well.
+

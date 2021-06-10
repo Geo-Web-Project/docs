@@ -1,5 +1,7 @@
 ---
-description: Queryable index of data from the Geo Web's smart contracts
+description: >-
+  Queryable index of data from the Geo Web's smart contracts
+  (https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph)
 ---
 
 # Geo Web Subgraph
@@ -12,14 +14,18 @@ You can explore The Graph's documentation for more details about [subgraphs ](ht
 
 ### Geo Web Subgraph
 
-The [Geo Web subgraph \(Kovan testnet\)](https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph) indexes the Geo Web's [smart contracts](../smart-contracts/) to make the data more easily accessible for decentralized applications. 
+The [Geo Web subgraph \(Kovan testnet\)](https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph) indexes the Geo Web's [smart contracts](../smart-contracts/) to make the data more easily accessible and useful for decentralized applications. 
 
 Currently, the subgraph is used to populate digital land data on the [Cadastre](../cadastre-details.md) and enable efficient content resolution for [Spatial Browsers](../spatial-browsers.md). In the future, this Geo Web subgraph \(or others\) could expand to support land market evaluation tools, historical lookups, and other use cases.
 
-The following sections lay out the details of the Geo Web subgraph's four _entities_:
+The following sections lay out the details of the Geo Web subgraph's four queryable _entities_:
 
 * [ERC721License](erc721license.md)
 * [LandParcel](landparcel.md)
 * [GeoWebCoordinate](geowebcoordinate.md)
 * [GeoPoint](geopoint.md)
+
+### Schema
+
+[`schema.graphql`](https://github.com/Geo-Web-Project/geo-web-subgraph/blob/main/schema.graphql) 
 
