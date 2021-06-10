@@ -98,3 +98,4 @@ While not 100% analogous, we can compare the Geo Web stack to the more familiar 
 </table>
 
 In the remainder of this section, we'll explore these components first from a functional perspective then at a detailed technical level. This section is targeted for developers and technical users, but non-developers can benefit from this information as well.
+
