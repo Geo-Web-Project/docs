@@ -1,4 +1,4 @@
 # Smart Contracts
 
-Summary coming soon
+Coming soon!
 
