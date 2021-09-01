@@ -39,10 +39,10 @@
   * [GeoWebCoordinate](developers/subgraph/geowebcoordinate.md)
   * [GeoPoint](developers/subgraph/geopoint.md)
 * [Identity](developers/identity.md)
-* [Content Linking](developers/content-linking/README.md)
-  * [Ceramic Network](developers/content-linking/ceramic-network.md)
-  * [IPFS](developers/content-linking/ipfs.md)
-  * [Storage](developers/content-linking/storage.md)
+* [Content Layer](developers/content-layer/README.md)
+  * [IPFS](developers/content-layer/ipfs.md)
+  * [Ceramic](developers/content-layer/ceramic.md)
+  * [Persistence & Storage](developers/content-layer/storage.md)
 * [Spatial Browsers](developers/spatial-browsers.md)
 
 ## Community & Governance
