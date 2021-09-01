@@ -6,13 +6,13 @@ description: >-
 
 # Geo Web Subgraph
 
-### Intro to The Graph
+## Intro to The Graph
 
 [The Graph](https://thegraph.com/) is decentralized protocol for indexing and querying data from blockchains \(like Ethereum\) and distributed networks \(like IPFS\). The protocol is used to create open APIs called subgraphs.
 
 You can explore The Graph's documentation for more details about [subgraphs ](https://thegraph.com/docs/introduction)and The Graph's [decentralized network of indexes](https://thegraph.com/docs/network#overview).
 
-### Geo Web Subgraph
+## Geo Web Subgraph
 
 The [Geo Web subgraph \(Kovan testnet\)](https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph) indexes the Geo Web's [smart contracts](../smart-contracts/) to make the data more easily accessible and useful for decentralized applications. 
 
