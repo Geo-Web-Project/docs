@@ -8,7 +8,7 @@ The Geo Web network is under beta development. That doesn't mean that you can't 
 
 The testnet version of the Geo Web is live on the Ethereum Kovan network. Testnet publishing and browsing function just like our mainnet will, but without the economic incentives (freely available test tokens are used to transact in the land market). There are two interfaces that you can start experimenting with on the Geo Web today:
 
-* Geo Web Cadastre
+* [Geo Web Cadastre](https://goeweb.land)
 * [Alpha Spatial Browser](https://geoweb.app) (mobile suggested)
 
 Below are the requirements to begin buying land and publishing on the Geo Web today:
