@@ -1,20 +1,19 @@
 ---
-description: An introduction to the core digital asset of the Geo Web.
+description: An introduction to the core enabling asset of the Geo Web.
 ---
 
 # Digital Land
 
-The Geo Web is composed of unique digital land parcels that map to physical locations on Earth's surface \(We'll add the moon & Mars eventually...\).
+The Geo Web is composed of unique digital land parcels that map to physical locations on Earth's surface (Maybe we'll add the moon & Mars eventually...).
 
 ![Claiming a digital land parcel on the testnet Cadastre](../.gitbook/assets/digital-land-claim.png)
 
-Geo Web digital land parcels are non-fungible tokens \(NFTs\). They confer the bearer the exclusive right to anchor digital content within the parcel's boundaries on the network.
+Geo Web digital land parcels are non-fungible tokens (NFTs). They confer the bearer the exclusive right to anchor digital content within the parcel's boundaries on the network. The system creates the augmented reality counterpart to the having property rights for physical land.&#x20;
 
-The system creates utility analogous to the having property rights for physical land. If anyone could turn your single family home into a duplex or come change the paintings on your walls, the world would be chaos. These examples sound ridiculous, but that's effectively what augmented reality will become without a global property rights system.
+You can think of publishers on the Geo Web like digital real estate developers. They can augment their existing physical spaces or create something completely new.&#x20;
 
-You can think of publishers on the Geo Web as digital real estate developers. They can augment their physical real estate holdings or create something completely new. Just as physical land changes hands occasionally, digital land will too \(often in tandem\). Publishers that create compelling virtual experiences and business on their Geo Web land can create significant economic value.
+Publishers that create compelling experiences on Geo Web land can create "real" economic value by attracting visitors to their offline business and offering unique virtual offerings/services. A Geo Web digital land presence can become an assumed complement to any business just as a web and social presence are today.
 
-The shape and size of each land parcel is defined as an array of [Geo Web Coordinates](../developers/smart-contracts/geo-web-coordinates.md) \(in production, ~1 m² rectangles created by a global grid system\). Two digital land parcels cannot contain the same Geo Web coordinate \(i.e. they cannot overlap\). Land parcels can only contain a contiguous set of Coordinates \(i.e. a parcel cannot be two or more separated sections\).
+The shape and size of each land parcel is defined as a continuous path of [Geo Web Coordinates](../developers/smart-contracts/geo-web-coordinates.md) (\~1 m² rectangle tiles created by a global grid system). Two digital land parcels cannot contain the same Geo Web coordinate (i.e. they cannot overlap). Land parcels can only contain a contiguous set of Coordinates (i.e. a parcel cannot be two or more separated sections).
 
-Land parcel boundaries are defined by users during the initial claim. While not currently enabled, users will be able to split and combine land parcels under their control to suit their needs.
-
+Land parcel boundaries on the Geo Web are defined by users during the initial claim. While not currently enabled, users will be able to split and combine land parcels under their control to suit the needs of an evolving world.

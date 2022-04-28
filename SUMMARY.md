@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome to the Geo Web](README.md)
 
 ## Introduction
 
 * [The Next Computing Paradigm](introduction/the-next-computing-paradigm.md)
-* [What is an AR Metaverse?](introduction/what-is-an-ar-metaverse.md)
+* [What is the Metaverse?](introduction/what-is-an-ar-metaverse.md)
 * [What is a public good?](introduction/what-is-a-public-good.md)
 * [Who owns the Geo Web?](introduction/who-owns-the-geo-web.md)
 
@@ -14,9 +14,10 @@
 * [Quick Start Requirements](getting-started/quickstart.md)
 * [Use Cases](getting-started/use-cases.md)
 
-## Core Concepts <a id="concepts"></a>
+## Core Concepts <a href="#concepts" id="concepts"></a>
 
 * [Digital Land](concepts/digital-land.md)
+* [Digital Property Rights](concepts/digital-property-rights.md)
 * [Partial Common Ownership](concepts/partial-common-ownership.md)
 * [Digital Land Registry](concepts/digital-land-registry.md)
 * [Cadastre](concepts/cadastre-intro.md)
@@ -50,4 +51,3 @@
 * [Open Org](community-and-governance/open-org.md)
 * [SourceCred](community-and-governance/sourcecred.md)
 * [Geo Web DAO](community-and-governance/geo-web-dao.md)
-
