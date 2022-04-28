@@ -17,6 +17,7 @@
 ## Core Concepts <a href="#concepts" id="concepts"></a>
 
 * [Digital Land](concepts/digital-land.md)
+* [Digital Property Rights](concepts/digital-property-rights.md)
 * [Partial Common Ownership](concepts/partial-common-ownership.md)
 * [Digital Land Registry](concepts/digital-land-registry.md)
 * [Cadastre](concepts/cadastre-intro.md)
