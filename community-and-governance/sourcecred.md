@@ -4,25 +4,24 @@ description: A tool for measuring and rewarding value creation on the Geo Web pr
 
 # SourceCred
 
-One of the tools that we're most excited about for supporting the Geo Web's [open organizational vision](open-org.md) is [SourceCred](https://sourcecred.io/). 
+One of the tools that we're most excited about for supporting the Geo Web's [open organizational vision](open-org.md) is [SourceCred](https://sourcecred.io).&#x20;
 
-SourceCred is a tool for communities to measure and reward value creation. It uses an algorithm and customizable weights to assign an accumulating score \("Cred"\) to community member actions. It integrates with a number of popular organizational/development tools \(Github, Discord, Discourse, and more to come\) in an attempt to to capture a broad, but nuanced picture of project contributions and contributors. 
+SourceCred is a tool for communities to measure and reward value creation. It uses an algorithm and customizable weights to assign an accumulating score ("Cred") to community member actions. It integrates with a number of popular organizational/development tools (Github, Discord, Discourse, and more to come) in an attempt to to capture a broad, but nuanced picture of project contributions and contributors.&#x20;
 
-> "\[That\] Cred flows from the contribution to all the people and other contributions that supported it. In this way, you can imagine how a project could be represented as a "node graph" made up of contribution and people dots \(aka "nodes"\) connected by lines \(aka "edges"\) that flow Cred around to the nodes based on what supported what." - [SourceCred Introduction Docs](https://sourcecred.io/docs)
+> "\[That] Cred flows from the contribution to all the people and other contributions that supported it. In this way, you can imagine how a project could be represented as a "node graph" made up of contribution and people dots (aka "nodes") connected by lines (aka "edges") that flow Cred around to the nodes based on what supported what." - [SourceCred Introduction Docs](https://sourcecred.io/docs)
 
-A high Cred balance indicates that a contributor has added a lot of value to the project \(Cred is non-transferrable\). Cred holders can be regularly rewarded for their contributions with distributions of a project-specific digital currency \(i.e. it has monetary value\) called Grain.
+A high Cred balance indicates that a contributor has added a lot of value to the project (Cred is non-transferrable). Cred holders can be regularly rewarded for their contributions with distributions of a project-specific digital currency (i.e. it has monetary value) called Grain.
 
-The Geo Web project uses SourceCred to monitor our [Github repositories](https://github.com/Geo-Web-Project) and [Discord server](https://discord.com/invite/reXgPru7ck). Pull requests, reviews, mentions, comments, and community discussion can all earn Cred. The more that an action is referenced, reacted to \(i.e. emojis\), and generally engaged with, the more Cred it will accrue. In practice, it's as easy as asking a question in Discord that sparks a response to earn Cred.
+The Geo Web project uses SourceCred to monitor our [Github repositories](https://github.com/Geo-Web-Project) and [Discord server](https://discord.com/invite/reXgPru7ck). Pull requests, reviews, mentions, comments, and community discussion can all earn Cred. The more that an action is referenced, reacted to (i.e. emojis), and generally engaged with, the more Cred it will accrue. In practice, it's as easy as asking a question in Discord that sparks a response to earn Cred.
 
-The current Geo Web admins \([@codynhat](https://github.com/codynhat) & [@gravenp](https://github.com/gravenp)\) have configured weights for various actions and platforms in an attempt to faithfully recognize value creation on the project. [The project's SourceCred instance](https://github.com/Geo-Web-Project/sourcecred-instance) mostly runs on an automated basis, but the admins will adjust the weights over time to account for unintended anomalies and gaming of the system.
+The current Geo Web admins ([@codynhat](https://github.com/codynhat) & [@gravenp](https://github.com/gravenp)) have configured weights for various actions and platforms in an attempt to faithfully recognize value creation on the project. [The project's SourceCred instance](https://github.com/Geo-Web-Project/sourcecred-instance) mostly runs on an automated basis, but the admins will adjust the weights over time to account for unintended anomalies and gaming of the system.
 
-The project currently runs a small, weekly Grain distribution. The distribution is 70% weighted to immediate contributions \(last week\) and 30% toward balancing lifetime contributions. 1 Grain on the Geo Web is equivalent to 1 DAI/xDAI. The [public Geo Web SourceCred dashboard ](https://geo-web-project.github.io/sourcecred-instance/#/explorer)shows the project's Cred and Grain distributions to-date.
+The project currently runs a small, weekly Grain distribution. The distribution is 70% weighted to immediate contributions (last week) and 30% toward balancing lifetime contributions. 1 Grain on the Geo Web is equivalent to 1 DAI/xDAI. The [public Geo Web SourceCred dashboard ](https://geo-web-project.github.io/sourcecred-instance/#/explorer)shows the project's Cred and Grain distributions to-date.
 
 {% hint style="warning" %}
 Grain distributions are considered a taxable event, so Grain is only distributed to Cred holders who have opted-in. Please reach out to one of the admins on Discord to opt-in.
 {% endhint %}
 
-Grain distributions are currently funded by the generosity of the supporters of the [Geo Web Gitcoin Grant](https://gitcoin.co/grants/1403/the-geo-web) 🙏. Upon mainnet launch, it is envision that some portion of network fees will be allocated toward the core development and community building activities which SourceCred helps recognize and reward.
+Grain distributions are currently funded by the generosity of the supporters of the [Geo Web Gitcoin Grant](https://gitcoin.co/grants/1403/the-geo-web) :pray:. Upon mainnet launch, it is envision that some portion of network fees will be allocated toward the core development and community building activities which SourceCred helps recognize and reward.
 
-The goal is for SourceCred to become one of the several credibly neutral mechanisms which reward Geo Web stakeholders for helping advance the project. 
-
+The goal is for SourceCred to become one of the several credibly neutral mechanisms which reward Geo Web stakeholders for helping advance the project.&#x20;

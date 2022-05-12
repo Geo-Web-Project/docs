@@ -6,9 +6,9 @@ The Geo Web Coordinate library defines the Geo Web's fixed global grid and coord
 
 The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each Geo Web land parcel is an array of Geo Web Coordinates.
 
-![A single Geo Web Coordinate \(yellow rectangle\) on the Kovan testnet](../../.gitbook/assets/geo-web-coordinate.png)
+![A single Geo Web Coordinate (yellow rectangle) on the Kovan testnet](<../../.gitbook/assets/Geo Web Coordinate.png>)
 
-In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a \(smaller\) grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines.
+In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a (smaller) grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines.
 
 The [Geo Web Parcel ](geo-web-parcel.md)contract uses the library defined in Geo Web Coordinate to traverse parcel paths and map coordinates to the word index.
 
@@ -24,7 +24,7 @@ GeoWebCoordinate is an unsigned 64-bit integer that contains x and y coordinates
 
 ### Grid Size
 
-```text
+```
 uint64 constant MAX_X = ((2**19) - 1);
 uint64 constant MAX_Y = ((2**18) - 1);
 ```
@@ -33,7 +33,7 @@ Sets the fixed number of latitudinal and longitudinal gridlines.
 
 ### traverse
 
-```text
+```
     function traverse(
         uint64 origin,
         uint256 direction,
@@ -55,7 +55,7 @@ Returns the destination coordinate traversed in single direction from the origin
 
 ### toWordIndex
 
-```text
+```
     function toWordIndex(uint64 coord)
         public
         pure
@@ -72,14 +72,14 @@ Returns a word index converted from a coordinate.
 
 GeoWebCoordinatePath stores a path of directions in a uint256. The most significant 8 bits encodes the length of the path.
 
-```text
+```
     uint256 constant INNER_PATH_MASK = (2**(256 - 8)) - 1;
     uint256 constant PATH_SEGMENT_MASK = (2**2) - 1;
 ```
 
 ### nextDirection
 
-```text
+```
     function nextDirection(uint256 path)
         public
         pure
@@ -90,5 +90,4 @@ GeoWebCoordinatePath stores a path of directions in a uint256. The most signific
         );
 ```
 
-Returns the next direction \(if it exists\) from a path.
-
+Returns the next direction (if it exists) from a path.

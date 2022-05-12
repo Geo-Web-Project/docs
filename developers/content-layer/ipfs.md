@@ -9,7 +9,7 @@ description: IPFS is a peer-to-peer hypermedia protocol. It's a web3 alternative
 The Geo Web utilizes IPFS as the basis for its open, censorship resistant, resilient, and efficient content layer. Linked media on the Geo Web are essentially geo-anchored IPFS files.\
 
 
-![A depiction of the advantages of a p2p content layer for geo-anchored content](../../.gitbook/assets/client-server-vs-p2p.png)
+![A depiction of the advantages of a p2p content layer for geo-anchored content](<../../.gitbook/assets/Client-Server vs P2P.png>)
 
 Geo Web users seeking the same content will for the most part be geographically clustered. This is an optimal environment for p2p transmission: reduced search radius for peers, shorter transmission distance, and network redundancy. As media on the Geo Web grows in volume and fidelity (especially with augmented reality), leveraging p2p transmission could significantly improve performance and network scalability.
 
@@ -19,7 +19,7 @@ Users can trust the authenticity of a requested file on IPFS regardless of who i
 
 The [Cadastre](../../concepts/cadastre-intro.md)'s current publishing tools enable uploads digital content to the IPFS network via a IPFS node running in the browser. Uploaded content is hashed to produce its CID and remote "preload" nodes provide temporary persistence of content that isn't [pinned with another service](storage.md) before the web page is closed.
 
-![Uploading a 3D model of a Astronaut to IPFS on the Cadastre](../../.gitbook/assets/content-upload.png)
+![Uploading a 3D model of a Astronaut to IPFS on the Cadastre](<../../.gitbook/assets/Content Upload.png>)
 
 \---
 

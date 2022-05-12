@@ -6,29 +6,28 @@ description: >-
 
 # Ceramic
 
-On networks like [IPFS](ipfs.md), every piece of content gets a unique, deterministic cryptographic identifier through a concept known as [content addressing](https://docs.ipfs.io/concepts/content-addressing/). This is great because it enables trustless peer-to-peer content sharing, but creates overhead for content that needs to change over time—every content modification results in an entirely new **content identifier \(CID\)**. 
+On networks like [IPFS](ipfs.md), every piece of content gets a unique, deterministic cryptographic identifier through a concept known as [content addressing](https://docs.ipfs.io/concepts/content-addressing/). This is great because it enables trustless peer-to-peer content sharing, but creates overhead for content that needs to change over time—every content modification results in an entirely new **content identifier (CID)**.&#x20;
 
-Ceramic is a protocol built on top of IPFS which makes it easy to create, manage, and share mutable [**Streams**](https://developers.ceramic.network/learn/advanced/overview/#streams) of content addressed data. 
+Ceramic is a protocol built on top of IPFS which makes it easy to create, manage, and share mutable [**Streams**](https://developers.ceramic.network/learn/advanced/overview/#streams) of content addressed data.&#x20;
 
 The Geo Web uses Ceramic to manage mutable content linking for its digital land parcels. Ceramic allows the Geo Web to utilize IPFS's p2p content network, but greatly simplifies the user experience for publishers. It maintains trustlessness, but does not require expensive blockchain transactions for each update.
 
-Upon an initial claim of a Geo Web land parcel, a root Ceramic [StreamID](https://developers.ceramic.network/learn/glossary/#streamid) is created and associated to the parcel in the digital land registry. A StreamID is immutable \(it doesn't change with changes to its content\) and is exclusively controlled by the land parcel's claimant. 
+Upon an initial claim of a Geo Web land parcel, a root Ceramic [StreamID](https://developers.ceramic.network/learn/glossary/#streamid) is created and associated to the parcel in the digital land registry. A StreamID is immutable (it doesn't change with changes to its content) and is exclusively controlled by the land parcel's claimant.&#x20;
 
 {% hint style="info" %}
-Currently when a parcel is transferred from one licensor to another, a new StreamID is created and associated to the parcel. This is necessary so that the new licensor is the owner of the parcel's root Stream. 
+Currently when a parcel is transferred from one licensor to another, a new StreamID is created and associated to the parcel. This is necessary so that the new licensor is the owner of the parcel's root Stream.&#x20;
 
 With the upcoming integration of [NFT:DID](https://developers.ceramic.network/learn/glossary/#streamid), this will no longer be necessary as the root Stream will be owned and controlled by the land parcel itself. The current licensor of the parcel will control the stream via proxy.
 {% endhint %}
 
-Arbitrary digital content can be linked and resolved within a Stream using different [StreamTypes](https://developers.ceramic.network/#streamtypes), [schemas](https://developers.ceramic.network/tools/idx/overview/#schemas), and [records](https://developers.ceramic.network/tools/idx/overview/#records). 
+Arbitrary digital content can be linked and resolved within a Stream using different [StreamTypes](https://developers.ceramic.network/#streamtypes), [schemas](https://developers.ceramic.network/tools/idx/overview/#schemas), and [records](https://developers.ceramic.network/tools/idx/overview/#records).&#x20;
 
-The Cadastre currently manages Stream creation and modification automatically for publishers for a limited set of use cases. Currently users can name their parcel and associate a URI via the [ParcelContentRoot schema](https://tiles.ceramic.community/document/k3y52l7qbv1frxig7l0udkrauoao40tel9cnfndqsjc4b4edec8ktchbn9r7lehhc) and add 3D and AR content via the [MediaGallery schema](https://tiles.ceramic.community/document/k3y52l7qbv1frxljeh1z6cypcapiazvn35g939py3ygp3m6lt3tfbk7cxqggj239c). 
+The Cadastre currently manages Stream creation and modification automatically for publishers for a limited set of use cases. Currently users can name their parcel and associate a URI via the [ParcelContentRoot schema](https://tiles.ceramic.community/document/k3y52l7qbv1frxig7l0udkrauoao40tel9cnfndqsjc4b4edec8ktchbn9r7lehhc) and add 3D and AR content via the [MediaGallery schema](https://tiles.ceramic.community/document/k3y52l7qbv1frxljeh1z6cypcapiazvn35g939py3ygp3m6lt3tfbk7cxqggj239c).&#x20;
 
-![The ParcelContentRoot Ceramic schema seen on the Tiles explorer](../../.gitbook/assets/parcelcontentroot-schema.png)
+![The ParcelContentRoot Ceramic schema seen on the Tiles explorer](<../../.gitbook/assets/ParcelContentRoot Schema.png>)
 
-More content linking experiences \(including point-specific anchoring\) will be added over time and maintained in a public list. The community will always be empowered create and share their own schemas as well. Proper coordination with browsers \(i.e., a browser must know how to interpret the content\) is the only limit to content linking on the Geo Web with Ceramic.
+More content linking experiences (including point-specific anchoring) will be added over time and maintained in a public list. The community will always be empowered create and share their own schemas as well. Proper coordination with browsers (i.e., a browser must know how to interpret the content) is the only limit to content linking on the Geo Web with Ceramic.
 
----
+\---
 
 Check out the [developer docs](https://developers.ceramic.network/learn/welcome/) for additional details about Ceramic.
-

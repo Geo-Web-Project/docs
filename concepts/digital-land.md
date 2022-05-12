@@ -6,7 +6,7 @@ description: An introduction to the core enabling asset of the Geo Web.
 
 The Geo Web is composed of unique digital land parcels that map to physical locations on Earth's surface (Maybe we'll add the moon & Mars eventually...).
 
-![Claiming a digital land parcel on the testnet Cadastre](../.gitbook/assets/digital-land-claim.png)
+![Claiming a digital land parcel on the testnet Cadastre](<../.gitbook/assets/Digital Land Claim.png>)
 
 Geo Web digital land parcels are non-fungible tokens (NFTs). They confer the bearer the exclusive right to anchor digital content within the parcel's boundaries on the network. The system creates the augmented reality counterpart to the having property rights for physical land.&#x20;
 

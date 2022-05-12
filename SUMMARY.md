@@ -22,6 +22,7 @@
 * [Digital Land Registry](concepts/digital-land-registry.md)
 * [Cadastre](concepts/cadastre-intro.md)
 * [Land Transactions](concepts/land-transaction-types.md)
+* [Fair Launch](concepts/fair-launch.md)
 * [Spatial Browsing](concepts/spatial-browsing.md)
 * [Network Funds](concepts/network-funds.md)
 
