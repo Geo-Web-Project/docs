@@ -8,8 +8,8 @@ The Geo Web network is under beta development. That doesn't mean that you can't 
 
 The testnet version of the Geo Web is live on the Ethereum Kovan network. Testnet publishing and browsing function just like our mainnet will, but without the economic incentives (freely available test tokens are used to transact in the land market). There are two interfaces that you can start experimenting with on the Geo Web today:
 
-* [Geo Web Cadastre](https://goeweb.land)
-* [Alpha Spatial Browser](https://geoweb.app) (mobile suggested)
+* [Geo Web Cadastre](https://geoweb.land/)
+* [Alpha Spatial Browser](https://geoweb.app/) (mobile suggested)
 
 Below are the requirements to begin buying land and publishing on the Geo Web today:
 
@@ -18,7 +18,7 @@ If you encounter any issues, [join our Discord ](https://discord.com/invite/reXg
 {% endhint %}
 
 * Install and set up a wallet in the latest version of the [**MetaMask**](https://metamask.io/download.html) browser extension
-* Navigate to the [**Geo Web Cadastre**](https://geoweb.land)****
+* Navigate to the [**Geo Web Cadastre**](https://geoweb.land/)****
 * Switch to the **Kovan Test Network** in your MetaMask extension
 
 ![Changing the Ethereum network connection in MetaMask](<../.gitbook/assets/Kovan Network Change.gif>)
@@ -39,7 +39,7 @@ If you encounter any issues, [join our Discord ](https://discord.com/invite/reXg
 
 ![An end-to-end land claim action on the Cadastre ](<../.gitbook/assets/Land Claim.gif>)
 
-* If you don't have any Kovan ETH, scroll to the bottom of the transaction panel and [claim free kETH from a Kovan Faucet](https://faucets.chain.link).
+* If you don't have any Kovan ETH, scroll to the bottom of the transaction panel and [claim free kETH from a Kovan Faucet](https://faucets.chain.link/).
 * Complete and submit the required **land parcel fields in the transaction panel**&#x20;
 * Sign the triggered **MetaMask transaction**
 * After your transaction is confirmed on the network, the Cadastre will refresh to **display your new Geo Web land parcel**
