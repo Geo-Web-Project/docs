@@ -5,7 +5,7 @@ description: An overview of the six basic transactions of the Geo Web digital la
 # Land Transactions
 
 {% hint style="danger" %}
-On the [testnet Cadastre](https://geoweb.eth.link), Kovan ETH and a placeholder GEO token (no value) are required for all transactions. On your first Cadastre visit, scroll to the bottom of any transaction panel for links to complete these three required steps:
+On the [testnet Cadastre](https://geoweb.land/), Kovan ETH and a placeholder GEO token (no value) are required for all transactions. On your first Cadastre visit, scroll to the bottom of any transaction panel for links to complete these three required steps:
 
 1\) Claim kETH\
 2\) Claim GEO\
