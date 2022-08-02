@@ -26,5 +26,5 @@ In addition to this site, here are a few other important links to get you starte
 * [Check out the Geo Web Github organization](https://github.com/Geo-Web-Project) - the go-to for our source code and to start contributing code to the project
 * [Read the Geo Web litepaper](https://uploads-ssl.webflow.com/5f8b34b0e6d64d9a87a21740/5f8b3ed55b3416dcd1ff32eb\_Geo%20Web%20Litepaper\_Draft%202.pdf) - a deep dive into the Geo Web's founding idea (new draft coming soon!)
 * [Claim your home, business, or other places of personal interest on the Geo Web](https://geoweb.land/) - start publishing content into the metaverse (currently testnet only)
-* Browse the Geo Web at your current location with the [alpha Spatial Browser (mobile)](https://browse.geoweb.eth.link/)
+* Browse the Geo Web at your current location with the [alpha Spatial Browser (mobile)](https://geoweb.app/)
 
