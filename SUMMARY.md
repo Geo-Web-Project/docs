@@ -25,6 +25,7 @@
 * [Fair Launch](concepts/fair-launch.md)
 * [Spatial Browsing](concepts/spatial-browsing.md)
 * [Network Funds](concepts/network-funds.md)
+* [Harberger Tax Misconceptions](concepts/harberger-tax-misconceptions.md)
 
 ## Developers
 
