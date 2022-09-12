@@ -10,9 +10,9 @@ description: >-
 
 **Websites** - No more QR code scanning to pull up a restaurant's menu or searching the web to find that coupon for a retail outlet. Any place of business can anchor an existing website and traditional web content to be frictionlessly discovered by their customers on a Geo Web spatial browser.
 
-**Scavenger Hunts** - Think Pokemon Go, but not on a proprietary, siloed platform. You can use location-based Easter eggs on the Geo Web to drive traffic to specific real world locations or as part of a generalized game.&#x20;
+**Scavenger Hunts** - Think Pokemon Go, but not on a proprietary, siloed platform. You can use location-based Easter eggs on the Geo Web to drive traffic to real world locations or as part of a generalized game.&#x20;
 
-**Social Experiences** - Some time in 2021, concerts, sporting events, and festivals will become a thing again. The shared social experience is what makes these gatherings special. Event organizers can use the Geo Web to augment the physical experience with shared digital engagement (e.g. chat/posts, collaborative art, games, etc) that is restricted to participants at the venue.
+**Social Experiences** - The shared social experience is what makes concerts, sporting events, and festivals special. Event organizers can use the Geo Web to augment the physical experience with shared digital engagement (e.g. chat/posts, collaborative art, games, etc) that is restricted to participants at the venue.
 
 **Data Anchoring** - The simple display of numbers and words can make all the difference sometimes. How long is the wait for a table? When is the next train? What's the score of the game? The Geo Web can replace physical signage and video boards with bytes through a smart device.
 
