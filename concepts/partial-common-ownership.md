@@ -33,7 +33,7 @@ Here's an overview of how it works in practice:
 
 6\) Alice now has 7 days to accept or reject Bob's bid. Alice cannot change her For Sale Price. No other party can place a bid during this period.
 
-7\) If Alice wants to keep control of the parcel, she can reject the bid within the window by paying a penalty fee to the Geo Web treasury equal to 5% of the bid's value (think of this like paying for back taxes because the previous For Sale Price was too low). Bob's collateral is returned in full and his preauthorized stream is cancelled.
+7\) If Alice wants to keep control of the parcel, she can reject the bid within the window by paying a penalty fee to the Geo Web treasury equal to 10% of the bid's value (think of this as paying for back taxes because the previous For Sale Price was too low). Bob's collateral is returned in full and his preauthorized stream is canceled.
 
 8\) If Alice wants to accept the bid, she will be paid 1 ETHx (her For Sale price) from Bob's collateral. Her payment stream will be closed, Bob's will be opened, his remaining collateral will be returned to him, and the license for the parcel will transfer to Bob.&#x20;
 
@@ -44,14 +44,14 @@ The Geo Web implements and enforces these rules via the [Digital Land Registry s
 
 The system offers numerous benefits for the network's health versus a system of pure private property rights:
 
-* The system encourages allocative efficiency. Essentially, it's easier for land to make its way into the hands of those that will put it into higher productive use because they are willing to pay more.
+* The system encourages allocative efficiency. Essentially, it's easier for land to make its way into the hands of those that will put it to higher productive use because they are willing to pay more.
   * This dynamic increases the aggregate utility of the network and helps drive a virtuous network effects cycle.
 * The requirement for a public "For Sale Price" eliminates long, inefficient negotiations and monopoly holdouts.&#x20;
   * This is a pervasive issue in the World Wide Web's domain name market. This dynamic would severely hamper adoption due to the low substitutability of two land parcels.
-* An individual holding a parcel of land means all other participants (i.e. "the network") are excluded from doing the same. This system assesses direct cost to the land holder to compensate the rest of the network for their exclusion—making for a more fair system.
+* An individual holding a parcel of land means all other participants (i.e. "the network") are excluded from doing the same. This system assesses direct cost to the landholder to compensate the rest of the network for their exclusion—making for a more fair system.
 * Network fees are used to fund protocol and ecosystem development which, in turn, drives value and users.
 
-While the novelty of this property rights system will require effective messaging and additional user education, it is the optimal system for taking the Geo Web from boostrap to scale.
+While the novelty of this property rights system will require effective messaging and additional user education, it is the optimal system for taking the Geo Web from bootstrap to scale.
 
 {% hint style="warning" %}
 Additional Implementation Details:
@@ -59,9 +59,9 @@ Additional Implementation Details:
 * The fee rate for the Geo Web testnet is set at 10%. Mainnet rate will likely be set slightly lower to encourage early adoption and investment.
 * A minimum "For Sale Price" will be enforced for mainnet to limit spam land grabs.
 * The mainnet Geo Web land market will be initiated with a fair launch auction. Claims during this period will require a one-time payment as determined by a Dutch auction (starts at a high value and linearly decrease to 0). This is to limit gas price wars for highly-desirable locations and create a playing field in which those who genuinely value the land the most have a fair opportunity to claim it.
-* If a licensor's payment stream runs dry, their corresponding parcel(s) will also be placed in a Dutch auction. The auction price will linearly decrease from the previous "For Sale Price" to zero over two weeks. Any user can claim the land during the auction at the current price. The previous land holder receives the proceeds from the auction.
+* If a licensor's payment stream runs dry, their corresponding parcel(s) will also be placed in a Dutch auction. The auction price will linearly decrease from the previous "For Sale Price" to zero over two weeks. Any user can claim the land during the auction at the current price. The previous landholder receives the proceeds from the auction.
 {% endhint %}
 
 ## Footnotes
 
-$$^1$$This system is also known as Harberger Taxes (economist Arnold Harberger initially outlined the basic scheme), Self-Assessed Licenses Sold at Auction (SALSA), Common Ownership Self-assessed Tax (COST), and Depreciating Licenses. Most recently it's gained attention through the book [_Radical Markets_](http://radicalmarkets.com) by Eric A. Posner and Glen E. Weyl. Vitalik Buterin has [helped popularize the idea](https://vitalik.ca/general/2018/04/20/radical\_markets.html) in blockchain/crypto circles as well.
+$$^1$$This system is also known as Harberger Taxes (economist Arnold Harberger initially outlined the basic scheme), Self-Assessed Licenses Sold at Auction (SALSA), Common Ownership Self-assessed Tax (COST), and Depreciating Licenses. Most recently it's gained attention through the book [_Radical Markets_](http://radicalmarkets.com/) by Eric A. Posner and Glen E. Weyl. Vitalik Buterin has [helped popularize the idea](https://vitalik.ca/general/2018/04/20/radical\_markets.html) in blockchain/crypto circles as well.
