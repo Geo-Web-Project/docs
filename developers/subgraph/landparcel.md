@@ -6,7 +6,7 @@ description: >-
 
 # LandParcel
 
-The LandParcel entity is comprised of [ERC721License](erc721license.md) and [GeoWebCoordinate](geowebcoordinate.md) data. It links the shape and location of a parcel \(i.e. its [Geo Web Coordinates](../smart-contracts/geo-web-coordinates.md)\) to the parcel's license:
+The LandParcel entity is comprised of [ERC721License](erc721license.md) and [GeoWebCoordinate](geowebcoordinate.md) data. It links the shape and location of a parcel (i.e. its [Geo Web Coordinates](../core-contracts/geo-web-coordinates.md)) to the parcel's license:
 
 {% code title="LandParcel" %}
 ```graphql
@@ -16,5 +16,4 @@ coordinates: [GeoWebCoordinate!]
 ```
 {% endcode %}
 
-The coordinate-to-parcel mapping originates from the [Geo Web Parcel](../smart-contracts/geo-web-parcel.md) smart contract. 
-
+The coordinate-to-parcel mapping originates from the [Geo Web Parcel](broken-reference) smart contract.&#x20;

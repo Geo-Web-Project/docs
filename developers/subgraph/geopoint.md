@@ -6,7 +6,7 @@ description: >-
 
 # GeoPoint
 
-The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [Geo Web Coordinate](../smart-contracts/geo-web-coordinates.md) library:
+The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [Geo Web Coordinate](../core-contracts/geo-web-coordinates.md) library:
 
 {% code title="GeoPoint" %}
 ```graphql
@@ -17,4 +17,3 @@ lat: BigDecimal!
 {% endcode %}
 
 GeoPoint IDs define the four corners of Geo Web Coordinates in the [GeoWebCoordinate](geowebcoordinate.md) entity.
-

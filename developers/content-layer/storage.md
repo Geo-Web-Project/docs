@@ -15,7 +15,7 @@ Luckily there are many diverse (p2p) options for content storage that the Geo We
 
 [Pinning](https://docs.ipfs.io/concepts/persistence/#pinning-in-context) is a concept native to the IPFS. Content pinned in a IPFS node is protected from garbage collection (automatic clean-up/deletion of unused content). As long as the node remains online and content remains pinned, the content persists on the IPFS network.&#x20;
 
-For the average individual user, keeping their own node online at all times and pinning all of their content is impractical. This is why there are a number of pinning services (that run lots of reliable, redundant IPFS nodes) available in the IPFS ecosystem including [Pinata](https://www.pinata.cloud), [Textile](https://www.textile.io), and [Estuary](https://estuary.tech).
+For the average individual user, keeping their own node online at all times and pinning all of their content is impractical. This is why there are a number of pinning services (that run lots of reliable, redundant IPFS nodes) available in the IPFS ecosystem including [Pinata](https://www.pinata.cloud/), [Textile](https://www.textile.io/), and [Estuary](https://estuary.tech/).
 
 The [Cadastre](../../concepts/cadastre-intro.md) integrates with these 3rd-party services using the [IPFS Pinning Service API](https://ipfs.github.io/pinning-services-api-spec/) to provide long-term storage options for linked content.
 
@@ -33,8 +33,8 @@ As the Ceramic network is progressively decentralized, the Geo Web may choose to
 
 The Geo Web-Estuary integration is both convenient and powerful. Each Geo Web land licensor is allocated this free storage without requiring any extra account creation or credentials. Upon integration of [NFT:DID](https://developers.ceramic.network/authentication/nft-did/method/), storage will be allocated per land parcel (which opens up the possibility of using the parcel's network fees to sustainably offer decentralized storage).&#x20;
 
-In addition to providing IPFS pinning (think of it as hot storage), Estuary offers [Filecoin](https://filecoin.io) archiving (cold storage). Filecoin is a decentralized storage network and the companion project of IPFS. It uses economic incentives (i.e., a token called FIL) and cryptography to create redundant, verifiable p2p storage.
+In addition to providing IPFS pinning (think of it as hot storage), Estuary offers [Filecoin](https://filecoin.io/) archiving (cold storage). Filecoin is a decentralized storage network and the companion project of IPFS. It uses economic incentives (i.e., a token called FIL) and cryptography to create redundant, verifiable p2p storage.
 
 \---
 
-Check out [Estuary](https://docs.estuary.tech) and [Filecoin](https://docs.filecoin.io)'s developer documentation for detailed information about their offerings.
+Check out [Estuary](https://docs.estuary.tech/) and [Filecoin](https://docs.filecoin.io/)'s developer documentation for detailed information about their offerings.

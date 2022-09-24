@@ -14,6 +14,6 @@ You can think of publishers on the Geo Web like digital real estate developers. 
 
 Publishers that create compelling experiences on Geo Web land can create "real" economic value by attracting visitors to their offline business and offering unique virtual offerings/services. A Geo Web digital land presence can become an assumed complement to any business just as a web and social presence are today.
 
-The shape and size of each land parcel is defined as a continuous path of [Geo Web Coordinates](../developers/smart-contracts/geo-web-coordinates.md) (\~1 m² rectangle tiles created by a global grid system). Two digital land parcels cannot contain the same Geo Web coordinate (i.e. they cannot overlap). Land parcels can only contain a contiguous set of Coordinates (i.e. a parcel cannot be two or more separated sections).
+The shape and size of each land parcel is defined as a continuous path of [Geo Web Coordinates](../developers/core-contracts/geo-web-coordinates.md) (\~1 m² rectangle tiles created by a global grid system). Two digital land parcels cannot contain the same Geo Web coordinate (i.e. they cannot overlap). Land parcels can only contain a contiguous set of Coordinates (i.e. a parcel cannot be two or more separated sections).
 
 Land parcel boundaries on the Geo Web are defined by users during the initial claim. While not currently enabled, users will be able to split and combine land parcels under their control to suit the needs of an evolving world.

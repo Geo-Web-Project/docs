@@ -10,7 +10,7 @@ The system's grid lines create rectangular areas referred to as Geo Web Coordina
 
 In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a (smaller) grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines.
 
-The [Geo Web Parcel ](geo-web-parcel.md)contract uses the library defined in Geo Web Coordinate to traverse parcel paths and map coordinates to the word index.
+The [Geo Web Parcel ](broken-reference)contract uses the library defined in Geo Web Coordinate to traverse parcel paths and map coordinates to the word index.
 
 ### Code
 

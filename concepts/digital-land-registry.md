@@ -14,7 +14,7 @@ This list is maintained and publicly available on the Ethereum network. Smart co
 
 It's conceptually similar to the Domain Name Service (DNS) of the World Wide Web. On the WWW, a publisher purchases a domain name (and pays the required renewal fees) to obtain the right to point the domain name to an IP address of their choice. When a web user enters a URL, their browser references one of the numerous DNS servers around the world and navigates them to the appropriate server/resolves the publisher's content.
 
-Blockchain-based domain names like [Ethereum Name Service](https://ens.domains) have become popular because DNS's basic functionality can be replicated, improved (censorship resistance, trust minimization, etc.), and extended with smart contract infrastructure.
+Blockchain-based domain names like [Ethereum Name Service](https://ens.domains/) have become popular because DNS's basic functionality can be replicated, improved (censorship resistance, trust minimization, etc.), and extended with smart contract infrastructure.
 
 The DLR extends this idea to create "spatial domain names." When Geo Web users visit a physical location, their [browser](spatial-browsing.md) references the corresponding land parcel in one of the many distributed copies of the DLR and automatically resolves the publisher's content.
 

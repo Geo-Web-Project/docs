@@ -1,4 +1,0 @@
-# Smart Contracts
-
-Coming soon!
-

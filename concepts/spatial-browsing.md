@@ -4,7 +4,7 @@ description: The portal for the Geo Web's core user experience.
 
 # Spatial Browsing
 
-A [Geo Web spatial browser](https://geoweb.app) is like a traditional web browser, but without a URL bar. It uses GPS (and/or suitable navigation system alternatives) to determine the user's location and then renders the corresponding land parcel's digital content.
+A [Geo Web spatial browser](https://geoweb.app/) is like a traditional web browser, but without a URL bar. It uses GPS (and/or suitable navigation system alternatives) to determine the user's location and then renders the corresponding land parcel's digital content.
 
 A key attribute of Geo Web spatial browsers is that they enable arbitrary multimedia content display and use cases. The "browser window" can take the form of a blank white canvas on a screen (for "flat" content) or a transparent lens (for AR/VR content). Spatial browsers will run across different device types and operating systems as web browsers do today.
 

@@ -6,9 +6,9 @@ description: >-
 
 # ERC721License
 
-The ERC721License entity indexes data from both the [ERC-721 License](../smart-contracts/erc-721-license.md) and [Geo Web Controller](../smart-contracts/geo-web-controller.md) smart contracts. 
+The ERC721License entity indexes data from both the [ERC-721 License](../core-contracts/registrydiamond.sol/erc721facet.md) and [Geo Web Controller](broken-reference) smart contracts.&#x20;
 
-It includes the most fundamental information about each Geo Web land parcel \(`owner` & [`lanndParcel`](landparcel.md)\), linked content \(`rootCID` of the Ceramic stream\), and [partial common ownership](../../concepts/partial-common-ownership.md) attributes \(`value` & `expirationTimestamp`\):
+It includes the most fundamental information about each Geo Web land parcel (`owner` & [`lanndParcel`](landparcel.md)), linked content (`rootCID` of the Ceramic stream), and [partial common ownership](../../concepts/partial-common-ownership.md) attributes (`value` & `expirationTimestamp`):
 
 {% code title="ERC721License" %}
 ```graphql
@@ -21,5 +21,4 @@ landParcel: LandParcel
 ```
 {% endcode %}
 
-[Spatial Browsers](../spatial-browsers.md) can use a chain of queries to obtain the`rootCID` from ERC721License for the user's current location \(i.e. land parcel\) then resolve the content from the Ceramic & IPFS networks.
-
+[Spatial Browsers](../spatial-browsers.md) can use a chain of queries to obtain the`rootCID` from ERC721License for the user's current location (i.e. land parcel) then resolve the content from the Ceramic & IPFS networks.

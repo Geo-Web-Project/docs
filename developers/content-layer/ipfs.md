@@ -23,4 +23,4 @@ The [Cadastre](../../concepts/cadastre-intro.md)'s current publishing tools enab
 
 \---
 
-Check out [IPFS's official documentation](https://docs.ipfs.io) to learn more.
+Check out [IPFS's official documentation](https://docs.ipfs.io/) to learn more.

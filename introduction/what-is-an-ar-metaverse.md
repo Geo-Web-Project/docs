@@ -13,7 +13,7 @@ The term metaverse was coined in Neal Stephenson's sci-fi classic [_Snow Crash_]
 3. It was always "on" (i.e. persistent)
 4. It was a shared, social space
 
-_The Metaverse_ has inspired countless fictional and real instantiations of the idea. [Ready Player One](https://en.wikipedia.org/wiki/Ready\_Player\_One) had the OASIS. Fortnite, Minecraft, and Roblox are [sometimes described as precursors to the metaverse](https://www.matthewball.vc/all/themetaverse). There are numerous blockchain-based worlds like [Cryptovoxels](https://www.cryptovoxels.com), [Decentraland](https://decentraland.org), [Somnium Space](https://www.somniumspace.com), [Axie Infinity](https://axieinfinity.com), and [The Sandbox](https://www.sandbox.game/en/) that fit the bill too.
+_The Metaverse_ has inspired countless fictional and real instantiations of the idea. [Ready Player One](https://en.wikipedia.org/wiki/Ready\_Player\_One) had the OASIS. Fortnite, Minecraft, and Roblox are [sometimes described as precursors to the metaverse](https://www.matthewball.vc/all/themetaverse). There are numerous blockchain-based worlds like [Cryptovoxels](https://www.cryptovoxels.com/), [Decentraland](https://decentraland.org/), [Somnium Space](https://www.somniumspace.com/), [Axie Infinity](https://axieinfinity.com/), and [The Sandbox](https://www.sandbox.game/en/) that fit the bill too.
 
 The worlds listed above all exist separate from physical reality. What does the metaverse look like if we don't just live our lives in a VR headset or pod?&#x20;
 
