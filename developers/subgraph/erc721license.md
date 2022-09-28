@@ -1,23 +1,21 @@
 ---
 description: >-
-  1 of 4 queryable entities in the Geo Web Subgraph
-  (https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph)
+  1 of 5 queryable entities in the Geo Web Subgraph
+  (https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph).
 ---
 
-# ERC721License
+# GeoWebParcel
 
-The ERC721License entity indexes data from both the [ERC-721 License](../core-contracts/registrydiamond.sol/erc721facet.md) and [Geo Web Controller](broken-reference) smart contracts.&#x20;
+The `GeoWebParcel` entity indexes the most fundamental information about each Geo Web land parcel (ID, parcel coordinates, owners) & [partial common ownership](../../concepts/partial-common-ownership.md) attributes (current For Sale Price and incoming bid value):
 
-It includes the most fundamental information about each Geo Web land parcel (`owner` & [`lanndParcel`](landparcel.md)), linked content (`rootCID` of the Ceramic stream), and [partial common ownership](../../concepts/partial-common-ownership.md) attributes (`value` & `expirationTimestamp`):
-
-{% code title="ERC721License" %}
+{% code title="GeoWebParcel" %}
 ```graphql
 id: ID!
-owner: Bytes
-value: BigInt
-expirationTimestamp: BigInt
-rootCID: String
-landParcel: LandParcel
+coordinates: [GeoWebCoordinate!]
+licenseOwner: Bytes
+currentBid: Bid
+pendingBid: Bid
+licenseDiamond: Bytes
 ```
 {% endcode %}
 

@@ -1,12 +1,12 @@
 ---
-description: Documentation for PCOLicenseBeacon.sol
+description: Documentation for the PCOLicenseBeacon contract.
 ---
 
-# PCOLicenseBeacon.sol
+# PCOLicenseBeacon
 
 ## Summary
 
-The `PCOLicenseBeacon` establishes the current mapping of facets to be used by each individual instance of [`BeaconDiamond`](beacondiamond.sol.md) contract.&#x20;
+The `PCOLicenseBeacon` establishes the current mapping of facets to be used by each individual instance of [`BeaconDiamond`](beacondiamond.md) contract.&#x20;
 
 This pair of contracts uses a hybrid [Diamonds](standards-and-protocols/diamonds-multi-facet-proxy-eip-2535.md)-[Beacon Proxy](standards-and-protocols/beacon-proxy.md) architecture to maintain extensibility of land market operations even as each land parcel requires a separate contract instance.
 

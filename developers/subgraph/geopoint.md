@@ -1,12 +1,12 @@
 ---
 description: >-
-  1 of 4 queryable entities in the Geo Web Subgraph
-  (https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph)
+  1 of 5 queryable entities in the Geo Web Subgraph
+  (https://thegraph.com/explorer/subgraph/geo-web-project/geo-web-subgraph).
 ---
 
 # GeoPoint
 
-The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [Geo Web Coordinate](../core-contracts/geo-web-coordinates.md) library:
+The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [LibGeoWebCoordinate](../core-contracts/geowebparcelfacet/geo-web-coordinates.md) library:
 
 {% code title="GeoPoint" %}
 ```graphql

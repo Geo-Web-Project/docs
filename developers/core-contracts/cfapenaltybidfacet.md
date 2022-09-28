@@ -1,8 +1,8 @@
 ---
-description: Documentation for CFAPenaltyBidFacet.sol
+description: Documentation for the CFAPenaltyBidFacet contract.
 ---
 
-# CFAPenaltyBidFacet.sol
+# CFAPenaltyBidFacet
 
 ## Summary
 
@@ -15,6 +15,8 @@ The Geo Web introduces an "owner-forgiving" auction mechanism instead of a "pure
 ## Code
 
 [`CFAPenaltyBidFacet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/pco-license/facets/CFAPenaltyBidFacet.sol)
+
+[`LibCFAPenaltyBid.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/pco-license/libraries/LibCFAPenaltyBid.sol)
 
 ## Reference Documentation
 

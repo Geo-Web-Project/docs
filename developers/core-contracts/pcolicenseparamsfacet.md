@@ -1,8 +1,8 @@
 ---
-description: Documentation for PCOLicenseParamsFacet.sol
+description: Documentation for the PCOLicenseParamsFacet contract.
 ---
 
-# PCOLicenseParamsFacet.sol
+# PCOLicenseParamsFacet
 
 ## Summary
 
@@ -22,6 +22,8 @@ This contract is upgradeable so that parameters can be updated via governance wh
 ## Code
 
 [`PCOLicenseParamsFacet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/PCOLicenseParamsFacet.sol)
+
+[`LibPCOLicenseParams.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibPCOLicenseParams.sol)
 
 ## Reference Documentation
 

@@ -20,14 +20,15 @@ The Geo Web's contracts use and are inspired by several design patterns and prot
 
 The resulting contracts are detailed in the following sections:
 
-* [RegistryDiamond](registrydiamond.sol/)
-  * [ERC721Facet](registrydiamond.sol/erc721facet.md)
-  * [GeoWebParcelFacet](registrydiamond.sol/geowebparcelfacet.sol.md)
-  * [PCOLicenseClaimerFacet](registrydiamond.sol/pcolicenseclaimerfacet.sol.md)
-  * [PCOLicenseParamsFacet](registrydiamond.sol/pcolicenseparamsfacet.sol.md)
-* [PCOLicenseBeacon](pcolicensebeacon.sol.md)
-* [BeaconDiamond](beacondiamond.sol.md)
-* [CFABasePCOFacet](cfabasepcofacet.sol.md)
-* [CFAPenaltyBidFacet](cfapenaltybidfacet.sol.md)
-* [CFAReclaimerFacet](cfareclaimerfacet.sol.md)
-* [DiamondCut](broken-reference)
+* [RegistryDiamond](registrydiamond.md)
+  * [ERC721Facet](erc721facet.md)
+  * [GeoWebParcelFacet](geowebparcelfacet/)
+  * [PCOLicenseClaimerFacet](pcolicenseclaimerfacet.md)
+  * [PCOLicenseParamsFacet](pcolicenseparamsfacet.md)
+* [PCOLicenseBeacon](pcolicensebeacon.md)
+* [BeaconDiamond](beacondiamond.md)
+* [CFABasePCOFacet](cfabasepcofacet.md)
+* [CFAPenaltyBidFacet](cfapenaltybidfacet.md)
+* [CFAReclaimerFacet](cfareclaimerfacet.md)
+* DiamondCut
+* [BeneficiarySuperApp](beneficiarysuperapp.md)

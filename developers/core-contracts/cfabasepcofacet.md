@@ -1,8 +1,8 @@
 ---
-description: Documentation for CFABasePCOFacet.sol
+description: Documentation for the CFABasePCOFacet contract.
 ---
 
-# CFABasePCOFacet.sol
+# CFABasePCOFacet
 
 ## Summary
 
@@ -11,6 +11,8 @@ The `CFABasePCOFacet` implements the functions required for the current licensor
 ## Code
 
 [`CFABasePCOFacet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/pco-license/facets/CFABasePCOFacet.sol)
+
+[`LibCFABasePCO.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/pco-license/libraries/LibCFABasePCO.sol)
 
 ## Reference Documentation
 
