@@ -6,7 +6,7 @@ This documentation site is a work in progress. Some docs are unfinished or pendi
 
 The Geo Web is a public good augmented reality network.
 
-On the Geo Web, publishers anchor digital content (images, videos, audio, or 3D objects) to physical locations using open, ownerless protocols. Users discover content in a [universal browser](concepts/spatial-browsing.md) on their smartphones, smartwatches, smartglasses, etc. based on their location.
+On the Geo Web, publishers anchor digital content (images, videos, audio, or 3D objects) to physical locations using open, ownerless protocols. Users discover content in a [universal browser](concepts/spatial-browsing.md) on their smartphones, smartwatches, smartglasses, etc. based on their geolocation.
 
 The Geo Web creates a persistent, virtual layer covering Earth that can be experienced as naturally as the physical world. Rather than experiences intermediated by siloed apps and proprietary app stores, we can create an _augmented, shared reality_ with the Geo Web.
 
@@ -22,9 +22,8 @@ We hope that you'll join us on this journey as a user, contributor, educator, pu
 
 In addition to this site, here are a few other important links to get you started with the Geo Web:
 
-* [Join our community Discord server](https://discord.com/invite/reXgPru7ck) - a great place to participate in community discussion and ask questions.
-* [Check out the Geo Web Github organization](https://github.com/Geo-Web-Project) - the go-to for our source code and to start contributing code to the project
-* [Read the Geo Web litepaper](https://uploads-ssl.webflow.com/5f8b34b0e6d64d9a87a21740/5f8b3ed55b3416dcd1ff32eb\_Geo%20Web%20Litepaper\_Draft%202.pdf) - a deep dive into the Geo Web's founding idea (new draft coming soon!)
+* [Join our community Discord server](https://discord.com/invite/reXgPru7ck) - a great place to participate in community discussions and ask questions.
+* [Check out the Geo Web Github organization](https://github.com/Geo-Web-Project) - the go-to for reviewing our source code and starting to contribute code to the project
 * [Claim your home, business, or other places of personal interest on the Geo Web](https://geoweb.land/) - start publishing content into the metaverse (currently testnet only)
 * Browse the Geo Web at your current location with the [alpha Spatial Browser (mobile)](https://geoweb.app/)
 

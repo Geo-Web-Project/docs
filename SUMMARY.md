@@ -52,7 +52,6 @@
   * [LandParcel](developers/subgraph/landparcel.md)
   * [GeoWebCoordinate](developers/subgraph/geowebcoordinate.md)
   * [GeoPoint](developers/subgraph/geopoint.md)
-* [Identity](developers/identity.md)
 * [Content Layer](developers/content-layer/README.md)
   * [IPFS](developers/content-layer/ipfs.md)
   * [Ceramic](developers/content-layer/ceramic.md)

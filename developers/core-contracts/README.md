@@ -1,3 +1,7 @@
+---
+description: Documentation for the core of the Geo Web protocol.
+---
+
 # Core Contracts
 
 The Geo Web’s core smart contracts define the network’s digital land asset structure and market operations. They are the foundation on which all other aspects of the Geo Web are built.
@@ -22,8 +26,8 @@ The resulting contracts are detailed in the following sections:
   * [PCOLicenseClaimerFacet](registrydiamond.sol/pcolicenseclaimerfacet.sol.md)
   * [PCOLicenseParamsFacet](registrydiamond.sol/pcolicenseparamsfacet.sol.md)
 * [PCOLicenseBeacon](pcolicensebeacon.sol.md)
-  * [CFABasePCOFacet](cfabasepcofacet.sol.md)
-  * [CFAPenaltyBidFacet](cfapenaltybidfacet.sol.md)
-  * [CFAReclaimerFacet](cfareclaimerfacet.sol.md)
 * [BeaconDiamond](beacondiamond.sol.md)
-  * [DiamondCut](broken-reference)
+* [CFABasePCOFacet](cfabasepcofacet.sol.md)
+* [CFAPenaltyBidFacet](cfapenaltybidfacet.sol.md)
+* [CFAReclaimerFacet](cfareclaimerfacet.sol.md)
+* [DiamondCut](broken-reference)

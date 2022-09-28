@@ -18,7 +18,7 @@ Dogmatically elevating any technology to sacred status just isn’t a winning pr
 
 ### Harberger taxes eliminate investment incentives
 
-This one seems to stem from muscle memory from years of true-blue capitalists arguing against socialist ideas: _Those naive socialists think taxes solve everything. They don’t understand the power of incentives and the free market like we do!_
+This one seems to stem from muscle memory from years of true-blue capitalists arguing against more collectivist ideas: _Those naive socialists think taxes solve everything. They don’t understand the power of incentives and the free market like we do!_
 
 It’s generally true that capitalist/private property rights systems have incentive structures that reward the investment of time, money, and effort into improving/managing assets more effectively than common ownership ([but not always!](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5)).
 
@@ -45,7 +45,7 @@ But Harberger taxes are designed for a dynamic economy (i.e. the real world). A 
 
 This isn’t a situation where losing money initially through aggressive market tactics gains an unassailable competitive position or monopoly. That’s actually closer to the status quo with traditional private property.
 
-If a wealthy person buys up a bunch of private property, they might have a tougher time negotiating the individual purchases up front, but there’s always a motivated seller somewhere. Once the private transactions are complete, wealth can be perpetuated for generations. Capital begets more capital, even when idle because there’s no economic check on private property rights.
+If a wealthy person buys up a bunch of private property, they might have a tougher time negotiating the individual purchases up front, but there’s always a motivated seller somewhere. Once the private transactions are complete, wealth can be perpetuated for generations. Capital begets more capital, even when idle, because there’s no economic check on private property rights.
 
 ### **Owners are constantly under the threat of a rug pull in a Harberger tax system**
 
@@ -57,8 +57,8 @@ Detractors think of Harberger tax transfers as unannounced and instantaneous. Th
 
 ### **Harberger taxes are evil because taxes are evil**
 
-Harberger taxes don’t have to be taxes. The mechanism works in lots of different contexts where a coercive government isn’t making the decree.
+Harberger taxes don’t have to be _taxes_. The mechanism works in many contexts where a coercive government isn’t making the decree.
 
 The Geo Web is one example. That’s why we use the [partial common ownership](partial-common-ownership.md) terminology.
 
-Artist royalties, decentralized network assets, and other bottom-up community creations don’t require taxes,, but might benefit from the Harberger-style mechanism to manage scarcity and better reward value creation. These things aren’t evil or coercive and can fly under the banner of SALSA (Self-Assessed Licenses Sold at Auction), plural ownership, depreciating licenses, etc.
+Artist royalties, decentralized network assets, and other bottom-up community creations don’t require taxes but might benefit from the Harberger-style mechanism to manage scarcity and better reward value creation. These things aren’t evil or coercive and can fly under the banner of SALSA (Self-Assessed Licenses Sold at Auction), plural ownership, depreciating licenses, etc.
