@@ -19,4 +19,4 @@ licenseDiamond: Bytes
 ```
 {% endcode %}
 
-[Spatial Browsers](../spatial-browsers.md) can use a chain of queries to obtain the`rootCID` from ERC721License for the user's current location (i.e. land parcel) then resolve the content from the Ceramic & IPFS networks.
+[Spatial Browsers](../spatial-browser-development.md) can use a chain of queries to obtain the`rootCID` from ERC721License for the user's current location (i.e. land parcel) then resolve the content from the Ceramic & IPFS networks.

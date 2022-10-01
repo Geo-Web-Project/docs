@@ -6,7 +6,7 @@ description: >-
 
 # Bidder
 
-
+The `Bidder` entity indexes all outstanding bids and parcels for a given wallet address. This can be used to provide a user with all of their land portfolio information.
 
 {% code title="Bidder" %}
 ```graphql

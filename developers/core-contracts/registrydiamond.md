@@ -19,6 +19,6 @@ The `RegistryDiamond`'s facets are modular, upgradable, and serve distinct purpo
 
 ## Code
 
-The Geo Web's `RegistryDiamond.sol` contract is an implementation of [`Diamond.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/Diamond.sol)
+The Geo Web's `RegistryDiamond.sol` contract is an implementation of [`Diamond.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/Diamond.sol)that uses the [`DiamondCutFacet.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/facets/DiamondCutFacet.sol), [`DiamondLoupeFacet.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/facets/DiamondLoupeFacet.sol), & [`OwnershipFacet.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/facets/OwnershipFacet.sol) templates.
 
 It's pulled in at deployment through the [hardhat-deploy plug-in](https://github.com/wighawag/hardhat-deploy).

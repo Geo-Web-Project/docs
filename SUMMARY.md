@@ -41,7 +41,8 @@
     * [LibGeoWebCoordinate](developers/core-contracts/geowebparcelfacet/geo-web-coordinates.md)
   * [PCOLicenseClaimerFacet](developers/core-contracts/pcolicenseclaimerfacet.md)
   * [PCOLicenseParamsFacet](developers/core-contracts/pcolicenseparamsfacet.md)
-  * [PCOLicenseBeacon](developers/core-contracts/pcolicensebeacon.md)
+  * [PCOLicenseBeacon](developers/core-contracts/pcolicensebeacon/README.md)
+    * [DiamondCut](developers/core-contracts/pcolicensebeacon/diamondcut.md)
   * [BeaconDiamond](developers/core-contracts/beacondiamond.md)
   * [CFABasePCOFacet](developers/core-contracts/cfabasepcofacet.md)
   * [CFAPenaltyBidFacet](developers/core-contracts/cfapenaltybidfacet.md)
@@ -57,8 +58,9 @@
   * [IPFS](developers/content-layer/ipfs.md)
   * [Ceramic](developers/content-layer/ceramic.md)
   * [Persistence & Storage](developers/content-layer/storage.md)
-* [Cadastre Interface](developers/cadastre-details.md)
-* [Spatial Browsers](developers/spatial-browsers.md)
+* [Data Models](developers/data-models.md)
+* [Cadastre Development](developers/cadastre-development.md)
+* [Spatial Browser Development](developers/spatial-browser-development.md)
 
 ## Community & Governance
 

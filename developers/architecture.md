@@ -2,7 +2,7 @@
 
 The Geo Web is an open information network. It's conceptually (and philosophically) similar to the World Wide Web in many ways. Just as several underlying protocols and components create the experience of "surfing the web," the Geo Web is defined with a multi-layer technology stack.
 
-<figure><img src="../.gitbook/assets/High-Level Architecture 20220928.png" alt=""><figcaption><p>A high-level overview of the Geo Web architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/High-Level Architecture 20220928.png" alt="High-level overview of the Geo Web architecture"><figcaption><p>High-level overview of the Geo Web architecture</p></figcaption></figure>
 
 While not 100% analogous, we can compare the Geo Web stack to the more familiar web stack as a starting point for deeper technical exploration. Check out the table below to start building your mental model of the Geo Web:
 

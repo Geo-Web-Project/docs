@@ -6,7 +6,9 @@ description: >-
 
 # Bid
 
+The `Bid` entity indexes the details of each outstanding bid on the Geo Web including the `Network Fee` rate at the time the bid was placed.&#x20;
 
+This index covers active bids (i.e. parcels) and pending bids (i.e. bids waiting for the current licensor's response).
 
 {% code title="Bid" %}
 ```graphql

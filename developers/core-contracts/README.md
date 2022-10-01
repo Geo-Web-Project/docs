@@ -25,10 +25,12 @@ The resulting contracts are detailed in the following sections:
   * [GeoWebParcelFacet](geowebparcelfacet/)
   * [PCOLicenseClaimerFacet](pcolicenseclaimerfacet.md)
   * [PCOLicenseParamsFacet](pcolicenseparamsfacet.md)
-* [PCOLicenseBeacon](pcolicensebeacon.md)
-* [BeaconDiamond](beacondiamond.md)
+* [PCOLicenseBeacon](pcolicensebeacon/)
+  * [DiamondCut](pcolicensebeacon/diamondcut.md)
+* [BeaconDiamond](beacondiamond.md)(s)
 * [CFABasePCOFacet](cfabasepcofacet.md)
 * [CFAPenaltyBidFacet](cfapenaltybidfacet.md)
 * [CFAReclaimerFacet](cfareclaimerfacet.md)
-* DiamondCut
 * [BeneficiarySuperApp](beneficiarysuperapp.md)
+
+<figure><img src="../../.gitbook/assets/Core Contract Architecture.png" alt="High-level architecture of the Geo Web core contracts"><figcaption><p>High-level architecture of the Geo Web core contracts</p></figcaption></figure>

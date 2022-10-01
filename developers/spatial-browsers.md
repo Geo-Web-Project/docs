@@ -1,4 +1,0 @@
-# Spatial Browsers
-
-Coming soon!
-

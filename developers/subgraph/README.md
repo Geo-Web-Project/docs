@@ -18,7 +18,7 @@ You can explore The Graph's documentation for more details about [subgraphs ](ht
 
 The [Geo Web subgraph](https://thegraph.com/hosted-service/subgraph/geo-web-project/geo-web-subgraph) indexes the Geo Web's [smart contracts](../core-contracts/) to make the data more easily accessible and useful for decentralized applications.
 
-Currently, the subgraph is used to populate digital land data on the [Cadastre](../cadastre-details.md) and enable efficient content resolution for [Spatial Browsers](../spatial-browsers.md). In the future, this Geo Web subgraph (or others) could expand to support land market evaluation tools, historical lookups, and other use cases.
+Currently, the subgraph is used to populate digital land data on the [Cadastre](../cadastre-development.md) and enable efficient content resolution for [Spatial Browsers](../spatial-browser-development.md). In the future, this Geo Web subgraph (or others) could expand to support land market evaluation tools, historical lookups, and other use cases.
 
 The following sections lay out the details of the Geo Web subgraph's four queryable _entities_:
 

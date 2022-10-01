@@ -1,4 +1,0 @@
-# Cadastre Interface
-
-Coming soon!
-
