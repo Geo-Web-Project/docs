@@ -12,9 +12,9 @@ Geo Web land will transition from ownerless/non-existent to globally claimable a
 
 It is [well-established](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches) that "first-come-first-serve" is not a fair or efficient allocation mechanism under these conditions. It's not fair because [technically advanced participants have structural advantages](https://docs.flashbots.net/new-to-mev) over the average user to win these races on blockchains. It's not efficient because funds that could go [toward the project/public goods](network-funds.md) are consumed with high transaction fees. To top it all off, these races create negative externalities for the underlying blockchain network and its users through network congestion (see: Yuga Labs' [_Otherside_ metaverse launch](https://www.coindesk.com/business/2022/05/01/bayc-team-raises-285m-with-otherside-nfts-clogs-ethereum/) for a perfect demonstration of these issues).
 
-Our solution is to launch the Geo Web with a two-week, global [Dutch auction](https://en.wikipedia.org/wiki/Dutch\_auction).
+Our solution is to launch the Geo Web with a global [Dutch auction](https://en.wikipedia.org/wiki/Dutch\_auction).
 
-The auction will start with a high claim fee (TBD, but higher than land parcels should feasibly be initially valued at) which linearly decreases each second until it reaches the miniumum `For Sale Price` at the end of the auction period.&#x20;
+The auction will start with a high claim fee ([TBD](../community-and-governance/network-parameters.md), but higher than land parcels should feasibly be initially valued at) which linearly decreases each second until it reaches the minimum `For Sale Price` at the end of the auction period.&#x20;
 
 This claim fee is uniformly applicable to any parcel claim across the globe at the given time during the auction. It is a one-time fee and does not interact with the ongoing requirements of ownership in the PCO market.&#x20;
 
@@ -37,4 +37,4 @@ The initial funds generated during this auction will fund public goods and may b
 
 Making initial land claims "free" may sound noble (and fairer to those with less capital), but that is just not how it would play out in practice if there is any competition/demand: the claim process would devolve into the FCFS race described in the opening of this article.&#x20;
 
-If there is no competition for a given area (e.g. a low population area or a single-family home), then the auction will end with at the minimum `For Sale Price`. All interested participants will have been given a fair chance to back their claim(s) with a payment of commensurate value.
+If there is no competition for a given area (e.g. a low population area or a single-family home), then the auction will end with at the [minimum `For Sale Price`](../community-and-governance/network-parameters.md). All interested participants will have been given a fair chance to back their claim(s) with a payment of commensurate value.

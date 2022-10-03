@@ -17,7 +17,7 @@ Geo Web users seeking the same content will for the most part be geographically 
 Users can trust the authenticity of a requested file on IPFS regardless of who it is served by because every file gets a unique content identifier (CID) generated through a cryptographic hashing algorithm. Identical files will always produce identical CIDs when run through a hashing function. But, changing just one pixel (or, more dramatically, trying to insert anything malicious) in a file will always result in a completely different CID. A CID is easily verified and can’t be faked, so a file identified with a CID is always what it says it is.
 {% endhint %}
 
-The [Cadastre](../../concepts/cadastre-intro.md)'s current publishing tools enable uploads digital content to the IPFS network via a IPFS node running in the browser. Uploaded content is hashed to produce its CID and remote "preload" nodes provide temporary persistence of content that isn't [pinned with another service](storage.md) before the web page is closed.
+The [Cadastre](../../concepts/cadastre-intro.md)'s current publishing tools enable uploads digital content to the IPFS network via a IPFS node running in the browser. Uploaded content is hashed to produce its CID then [pinned and archived](storage.md) via a [3rd-party service ](https://web3.storage/)to provide persistence on the IPFS network.
 
 ![Uploading a 3D model of a Astronaut to IPFS on the Cadastre](<../../.gitbook/assets/Content Upload.png>)
 

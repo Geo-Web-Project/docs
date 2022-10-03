@@ -14,4 +14,4 @@ At a high level, the design challenge was to be able to accommodate a separate i
 
 This is what the Beacon Proxy is designed to do. So, we combined it with the [Diamonds Multi-Facet Proxy](diamonds-multi-facet-proxy-eip-2535.md) standard for our own hybrid implementation.
 
-The complete implementation details of the [PCOLicenseDiamond](../pcolicensebeacon/) and [BeaconDiamond](../beacondiamond.md) contracts are explored in their respective sections.&#x20;
+The complete implementation details of the [PCOLicenseDiamond](../pcolicensebeacon/) and [BeaconDiamond](../beacondiamond/) contracts are explored in their respective sections.&#x20;

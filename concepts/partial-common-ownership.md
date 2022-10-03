@@ -56,10 +56,9 @@ While the novelty of this property rights system will require effective messagin
 {% hint style="warning" %}
 Additional Implementation Details:
 
-* The fee rate for the Geo Web testnet is set at 10%.
-* A minimum `For Sale Price` will be enforced for mainnet to limit spam land grabs.
+* The configurable parameters of the market like the network fee rate, minimum `For Sale Price`, bid rejection penalty, etc. can be adjusted via governance. The current values are [listed here](../community-and-governance/network-parameters.md).
 * The mainnet Geo Web land market will be initiated with a fair launch auction. Claims during this period will require a one-time payment as determined by a Dutch auction (starts at a high value and linearly decrease to the minimum `For Sale Price`). This is to limit gas price wars for highly-desirable locations and create a playing field in which those who genuinely value the land the most have a fair opportunity to claim it.
-* If a licensor's payment stream runs dry, their corresponding parcel(s) will also be placed in a Dutch auction. The auction price will linearly decrease from the previous `For Sale Price` to zero over two weeks. Any user can claim the land during the auction at the current price. The previous landholder receives the proceeds from the auction.
+* If a licensor's payment stream runs dry, their corresponding parcel(s) will also be placed in a Dutch auction. The auction price will linearly decrease from the previous `For Sale Price` to zero. Any user can claim the land during the auction at the current price. The previous landholder receives the proceeds from the auction.
 {% endhint %}
 
 ## Footnotes

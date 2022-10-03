@@ -2,11 +2,11 @@
 
 ### Summary
 
-The Geo Web Coordinate library defines the Geo Web's fixed global grid and coordinate system. It is the basis for the spatial definition of all [Geo Web land parcels](../../../concepts/digital-land.md).
+The Geo Web Coordinate library defines the Geo Web's fixed global grid and coordinate system. It is the basis for the spatial definition of all [Geo Web land parcels](../../../../concepts/digital-land.md).
 
 The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each Geo Web land parcel is an array of Geo Web Coordinates.
 
-![A single Geo Web Coordinate (yellow rectangle) on the Kovan testnet](<../../../.gitbook/assets/Geo Web Coordinate.png>)
+![A single Geo Web Coordinate (yellow rectangle) on the Kovan testnet](<../../../../.gitbook/assets/Geo Web Coordinate.png>)
 
 In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines.
 

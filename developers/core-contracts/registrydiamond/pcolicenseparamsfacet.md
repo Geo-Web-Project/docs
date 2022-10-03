@@ -12,6 +12,7 @@ Parameters include:
 
 * Beneficiary address for network fees, claim payments, & penalty fees
 * Payment token
+* Minimum `For Sale Price`
 * Network fee rate
 * Bid rejection penalty rate
 * Bid review period rate

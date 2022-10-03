@@ -22,4 +22,4 @@ pointTL: GeoPoint!
 ```
 {% endcode %}
 
-GeoWebCoordinate uses data from the [GeoWebParcel](../core-contracts/geowebparcelfacet/) smart contracts to map a coordinate to a parcel. Querying this entity is the first external call for [Spatial Browsers](../spatial-browser-development.md) to resolve content.&#x20;
+GeoWebCoordinate uses data from the [GeoWebParcel](../core-contracts/registrydiamond/geowebparcelfacet/) smart contracts to map a coordinate to a parcel. Querying this entity is the first external call for [Spatial Browsers](../spatial-browser-development.md) to resolve content.&#x20;

@@ -20,17 +20,17 @@ The Geo Web's contracts use and are inspired by several design patterns and prot
 
 The resulting contracts are detailed in the following sections:
 
-* [RegistryDiamond](registrydiamond.md)
-  * [ERC721Facet](erc721facet.md)
-  * [GeoWebParcelFacet](geowebparcelfacet/)
-  * [PCOLicenseClaimerFacet](pcolicenseclaimerfacet.md)
-  * [PCOLicenseParamsFacet](pcolicenseparamsfacet.md)
+* [RegistryDiamond](registrydiamond/)
+  * [ERC721Facet](registrydiamond/erc721facet.md)
+  * [GeoWebParcelFacet](registrydiamond/geowebparcelfacet/)
+  * [PCOLicenseClaimerFacet](registrydiamond/pcolicenseclaimerfacet.md)
+  * [PCOLicenseParamsFacet](registrydiamond/pcolicenseparamsfacet.md)
 * [PCOLicenseBeacon](pcolicensebeacon/)
   * [DiamondCut](pcolicensebeacon/diamondcut.md)
-* [BeaconDiamond](beacondiamond.md)(s)
-* [CFABasePCOFacet](cfabasepcofacet.md)
-* [CFAPenaltyBidFacet](cfapenaltybidfacet.md)
-* [CFAReclaimerFacet](cfareclaimerfacet.md)
+* [BeaconDiamond](beacondiamond/)(s)
+  * [CFABasePCOFacet](beacondiamond/cfabasepcofacet.md)
+  * [CFAPenaltyBidFacet](beacondiamond/cfapenaltybidfacet.md)
+  * [CFAReclaimerFacet](beacondiamond/cfareclaimerfacet.md)
 * [BeneficiarySuperApp](beneficiarysuperapp.md)
 
 <figure><img src="../../.gitbook/assets/Core Contract Architecture.png" alt="High-level architecture of the Geo Web core contracts"><figcaption><p>High-level architecture of the Geo Web core contracts</p></figcaption></figure>

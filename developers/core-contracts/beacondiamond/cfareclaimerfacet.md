@@ -6,7 +6,7 @@ description: Documentation for the CFAReclaimerFacet contract.
 
 ## Summary
 
-The `CFAPReclaimerdFacet` implements the functions that define the Geo Web's foreclosure system.
+The `CFAReclaimerdFacet` implements the functions that define the Geo Web's foreclosure system.
 
 This includes a 7-day Dutch auction which is initiated when a parcel's Network Fee stream runs dry or is canceled. This auction starts at the previous `For Sale Price` and lineraly decreases to 0 over the auction period.&#x20;
 

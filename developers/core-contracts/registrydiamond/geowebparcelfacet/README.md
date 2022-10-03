@@ -14,7 +14,7 @@ Coordinates can only be part of one parcel at any one time (merging, splitting, 
 
 Parcels are defined as a continuous path of coordinates (e.g. starting coordinate plus a list of traversal steps without repeats).
 
-The `GeoWebParcelFacet` defines these functions while the state is held in the [`RegistryDiamond`](../registrydiamond.md).
+The `GeoWebParcelFacet` defines these functions while the state is held in the [`RegistryDiamond`](../).
 
 ## Code
 

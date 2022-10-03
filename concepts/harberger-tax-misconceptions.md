@@ -29,7 +29,7 @@ The two biggest problems with this argument as it relates to Harberger taxes:
 
 Harberger taxes are designed to create better free markets, not a command or penal redistributive economy.
 
-If detractors took the time to read [Property is Only Another Name for a Monopoly](http://assets.press.princeton.edu/chapters/s11222.pdf) or C[hapter 1 of _Radical Markets_](http://assets.press.princeton.edu/chapters/s11222.pdf), they’d know that Harberger taxes trade some, not all, individual investment efficiency (improvements to property should be reflected in higher sale prices, but some profit is eroded by the tax) for more allocative efficiency (assets can’t be hoarded indefinitely by non-productive owners).
+If detractors took the time to read [Property is Only Another Name for a Monopoly](http://assets.press.princeton.edu/chapters/s11222.pdf) or [Chapter 1 of _Radical Markets_](http://assets.press.princeton.edu/chapters/s11222.pdf), they’d know that Harberger taxes trade some, not all, individual investment efficiency (improvements to property should be reflected in higher sale prices, but some profit is eroded by the tax) for more allocative efficiency (assets can’t be hoarded indefinitely by non-productive owners).
 
 With private property rights in a networked system, there actually exists the perverse incentive NOT to invest in an asset and instead bank on appreciation based on a neighbor’s investments (e.g. a vacant lot in Manhattan is worth a lot not because of the owner’s investment, but all the neighboring high-rises that others built).
 

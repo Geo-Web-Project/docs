@@ -6,7 +6,7 @@ description: >-
 
 # GeoPoint
 
-The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [LibGeoWebCoordinate](../core-contracts/geowebparcelfacet/geo-web-coordinates.md) library:
+The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [LibGeoWebCoordinate](../core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates.md) library:
 
 {% code title="GeoPoint" %}
 ```graphql
