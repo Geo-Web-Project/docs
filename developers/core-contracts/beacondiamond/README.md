@@ -20,6 +20,52 @@ Separate instances of this contract for each land parcel (along with [Superfluid
 
 [`LibBeaconDiamond.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/beacon-diamond/libraries/LibBeaconDiamond.sol)&#x20;
 
-## Reference Documentation
+## Contract Functions
 
-Coming soon
+### BeaconDiamond
+
+#### constructor
+
+```
+constructor(address _contractOwner, contract IDiamondLoupe _beacon) public payable
+```
+
+#### fallback
+
+```
+fallback() external payable
+```
+
+#### receive
+
+```
+receive() external payable
+```
+
+### LibBeaconDiamond
+
+#### STORAGE\_POSITION
+
+```
+bytes32 STORAGE_POSITION
+```
+
+#### DiamondStorage
+
+```
+struct DiamondStorage {
+  contract IDiamondLoupe beacon;
+}
+```
+
+#### diamondStorage
+
+```
+function diamondStorage() internal pure returns (struct LibBeaconDiamond.DiamondStorage ds)
+```
+
+#### setBeacon
+
+```
+function setBeacon(contract IDiamondLoupe beacon) internal
+```

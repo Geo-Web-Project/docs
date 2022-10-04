@@ -38,7 +38,7 @@
   * [RegistryDiamond](developers/core-contracts/registrydiamond/README.md)
     * [ERC721Facet](developers/core-contracts/registrydiamond/erc721facet.md)
     * [GeoWebParcelFacet](developers/core-contracts/registrydiamond/geowebparcelfacet/README.md)
-      * [LibGeoWebCoordinate](developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates.md)
+      * [Coordinates & Paths](developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates.md)
     * [PCOLicenseClaimerFacet](developers/core-contracts/registrydiamond/pcolicenseclaimerfacet.md)
     * [PCOLicenseParamsFacet](developers/core-contracts/registrydiamond/pcolicenseparamsfacet.md)
   * [PCOLicenseBeacon](developers/core-contracts/pcolicensebeacon/README.md)

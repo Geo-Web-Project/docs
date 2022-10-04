@@ -16,6 +16,40 @@ The previous licensor can reclaim their parcel by setting a `For Sale Price` and
 
 [`CFAReclaimerFacet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/pco-license/facets/CFAReclaimerFacet.sol)
 
-## Reference Documentation
+## Contract Functions
 
-Coming soon
+### CFAReclaimerFacet
+
+Handles reclaiming of licenses that are no longer active
+
+#### LicenseReclaimed
+
+```
+event LicenseReclaimed(address to, uint256 price)
+```
+
+Emitted when a license is reclaimed
+
+#### reclaimPrice
+
+```
+function reclaimPrice() public view returns (uint256)
+```
+
+Current price to reclaim
+
+#### reclaim
+
+```
+function reclaim(uint256 maxClaimPrice, int96 newContributionRate, uint256 newForSalePrice) external
+```
+
+Reclaim an inactive license as msg.sender - Payer bid must be inactive - Must have permissions to create flow for bidder - Must have ERC-20 approval of payment token for claimPrice amount
+
+**Parameters**
+
+| Name                | Type    | Description                                                                        |
+| ------------------- | ------- | ---------------------------------------------------------------------------------- |
+| maxClaimPrice       | uint256 | Max price willing to pay for claim. Prevents front-running                         |
+| newContributionRate | int96   | New contribution rate for license                                                  |
+| newForSalePrice     | uint256 | Intented new for sale price. Must be within rounding bounds of newContributionRate |

@@ -1,4 +1,8 @@
-# LibGeoWebCoordinate
+---
+description: Documentation of the LibGeoWebCoordinate & LibGeoWebCoordinatePath contracts
+---
+
+# Coordinates & Paths
 
 ### Summary
 
@@ -16,78 +20,125 @@ The [GeoWebParcelFacet](./) uses the library defined in Geo Web Coordinate to tr
 
 [`LibGeoWebCoordinate.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebCoordinate.sol)
 
-## Reference Documentation
+## Contract Functions
 
-### GeoWebCoordinate
+### LibGeoWebCoordinate
 
-GeoWebCoordinate is an unsigned 64-bit integer that contains x and y coordinates in the upper and lower 32 bits, respectively.
-
-### Grid Size
+#### MAX\_X
 
 ```
-uint64 constant MAX_X = ((2**23) - 1);
-uint64 constant MAX_Y = ((2**22) - 1);
+uint64 MAX_X
 ```
 
-Sets the fixed number of latitudinal and longitudinal gridlines.
-
-### traverse
+#### MAX\_Y
 
 ```
-    function traverse(
-        uint64 origin,
-        uint256 direction,
-        uint256 iX,
-        uint256 iY,
-        uint256 i
-    )
-        public
-        pure
-        returns (
-            uint64 destination,
-            uint256 i_x,
-            uint256 i_y,
-            uint256 i
-        );
+uint64 MAX_Y
 ```
 
-Returns the destination coordinate traversed in single direction from the origin coordinate.
-
-### toWordIndex
+#### traverse
 
 ```
-    function toWordIndex(uint64 coord)
-        public
-        pure
-        returns (
-            uint256 i_x,
-            uint256 i_y,
-            uint256 i
-        );
+function traverse(uint64 origin, uint256 direction, uint256 iX, uint256 iY, uint256 i) external pure returns (uint64, uint256, uint256, uint256)
 ```
 
-Returns a word index converted from a coordinate.
+Traverse a single direction
 
-### GeoWebCoordinatePath
+**Parameters**
 
-GeoWebCoordinatePath stores a path of directions in a uint256. The most significant 8 bits encodes the length of the path.
+| Name      | Type    | Description                         |
+| --------- | ------- | ----------------------------------- |
+| origin    | uint64  | The origin coordinate to start from |
+| direction | uint256 | The direction to take               |
+| iX        | uint256 |                                     |
+| iY        | uint256 |                                     |
+| i         | uint256 |                                     |
+
+**Return Values**
+
+| Name | Type    | Description                            |
+| ---- | ------- | -------------------------------------- |
+| \[0] | uint64  | destination The destination coordinate |
+| \[1] | uint256 |                                        |
+| \[2] | uint256 |                                        |
+| \[3] | uint256 |                                        |
+
+#### \_traverse
 
 ```
-    uint256 constant INNER_PATH_MASK = (2**(256 - 8)) - 1;
-    uint256 constant PATH_SEGMENT_MASK = (2**2) - 1;
+function _traverse(uint64 origin, uint256 direction, uint256 iX, uint256 iY, uint256 i) internal pure returns (uint64, uint256, uint256, uint256)
 ```
 
-### nextDirection
+#### \_getX
 
 ```
-    function nextDirection(uint256 path)
-        public
-        pure
-        returns (
-            bool hasNext,
-            uint256 direction,
-            uint256 nextPath
-        );
+function _getX(uint64 coord) internal pure returns (uint64 coordX)
 ```
 
-Returns the next direction (if it exists) from a path.
+Get the X coordinate
+
+#### \_getY
+
+```
+function _getY(uint64 coord) internal pure returns (uint64 coordY)
+```
+
+Get the Y coordinate
+
+#### toWordIndex
+
+```
+function toWordIndex(uint64 coord) external pure returns (uint256 iX, uint256 iY, uint256 i)
+```
+
+Convert coordinate to word index
+
+#### \_toWordIndex
+
+```
+function _toWordIndex(uint64 coord) internal pure returns (uint256 iX, uint256 iY, uint256 i)
+```
+
+### LibGeoWebCoordinatePath
+
+LibGeoWebCoordinatePath stores a path of directions in a uint256. The most significant 8 bits encodes the length of the path
+
+#### INNER\_PATH\_MASK
+
+```
+uint256 INNER_PATH_MASK
+```
+
+#### PATH\_SEGMENT\_MASK
+
+```
+uint256 PATH_SEGMENT_MASK
+```
+
+#### nextDirection
+
+```
+function nextDirection(uint256 path) external pure returns (bool hasNext, uint256 direction, uint256 nextPath)
+```
+
+Get next direction from path
+
+**Parameters**
+
+| Name | Type    | Description                        |
+| ---- | ------- | ---------------------------------- |
+| path | uint256 | The path to get the direction from |
+
+**Return Values**
+
+| Name      | Type    | Description                                     |
+| --------- | ------- | ----------------------------------------------- |
+| hasNext   | bool    | If the path has a next direction                |
+| direction | uint256 | The next direction taken from path              |
+| nextPath  | uint256 | The next path with the direction popped from it |
+
+#### \_nextDirection
+
+```
+function _nextDirection(uint256 path) internal pure returns (bool hasNext, uint256 direction, uint256 nextPath)
+```
