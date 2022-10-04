@@ -1,7 +1,7 @@
 # Welcome to the Geo Web
 
 {% hint style="info" %}
-This documentation site is a work in progress. Some docs are unfinished or pending updates.
+The Geo Web is in a tesntet phase and will launch as a beta product in Q4 2022. Stay tuned for updates!
 {% endhint %}
 
 The Geo Web is a public good augmented reality network.
