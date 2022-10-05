@@ -8,13 +8,13 @@ description: Documentation of the LibGeoWebCoordinate & LibGeoWebCoordinatePath 
 
 The Geo Web Coordinate library defines the Geo Web's fixed global grid and coordinate system. It is the basis for the spatial definition of all [Geo Web land parcels](../../../../concepts/digital-land.md).
 
-The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each Geo Web land parcel is an array of Geo Web Coordinates.
+The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each of these Coordinates is uniquely identified and stored with an EVM-optimized method as 1 bit (0=available, 1=claimed). This provides a scalable, on-chain way to ensure that no two parcels overlap (i.e. all Coordinates in a new claim are unclaimed) even as the number of claimed parcels grows into the millions.
+
+Each Geo Web land parcel is defined as a path of Geo Web Coordinates. A path consists of a starting Coordinate and a series of directional steps. When this path is traversed, it defines a single contiguous shape.&#x20;
 
 ![A single Geo Web Coordinate (yellow rectangle) on the Kovan testnet](<../../../../.gitbook/assets/Geo Web Coordinate.png>)
 
-In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a grid size that balances transaction fees/size with enabling faithful representation of existing real world property lines.
-
-The [GeoWebParcelFacet](./) uses the library defined in Geo Web Coordinate to traverse parcel paths and map coordinates to the word index.
+In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a grid size that balances transaction fees/size with enabling faithful representation of existing physical-world property lines.
 
 ### Code
 
@@ -142,3 +142,4 @@ Get next direction from path
 ```
 function _nextDirection(uint256 path) internal pure returns (bool hasNext, uint256 direction, uint256 nextPath)
 ```
+
