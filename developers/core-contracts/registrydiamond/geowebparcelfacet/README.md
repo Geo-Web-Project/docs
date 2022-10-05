@@ -8,7 +8,7 @@ description: Documentation for the GeoWebParcelFacet contract.
 
 The `GeoWebParcelFacet` contract extends the [basic ERC-721 functionality](../erc721facet.md) to the Geo Web-specific requirements that define a land parcel: shape, contiguousness, and uniqueness.
 
-This is done with an EVM-optimized global grid system. Grid cells are called Geo Web Coordinates. Each coordinate represents a unique \~10m$$^2$$ space on Earth.&#x20;
+This is done with an EVM-optimized global grid system. Grid cells are called Geo Web Coordinates. Each coordinate represents a unique \~20m$$^2$$ space on Earth.&#x20;
 
 Coordinates can only be part of one parcel at any one time (merging, splitting, and trimming parcels will be implemented at a later date).
 
