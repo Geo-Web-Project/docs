@@ -21,16 +21,22 @@ The Geo Web's contracts use and are inspired by several design patterns and prot
 The resulting contracts are detailed in the following sections:
 
 * [RegistryDiamond](registrydiamond/)
-  * [ERC721Facet](registrydiamond/erc721facet.md)
+  * [PCOERC721Facet](registrydiamond/erc721facet.md)
   * [GeoWebParcelFacet](registrydiamond/geowebparcelfacet/)
   * [PCOLicenseClaimerFacet](registrydiamond/pcolicenseclaimerfacet.md)
   * [PCOLicenseParamsFacet](registrydiamond/pcolicenseparamsfacet.md)
-* [PCOLicenseBeacon](pcolicensebeacon/)
-  * [DiamondCut](pcolicensebeacon/diamondcut.md)
+* [PCOLicenseDiamond](pcolicensediamond/)
+  * [DiamondCut](pcolicensediamond/diamondcut.md)
 * [BeaconDiamond](beacondiamond/)(s)
   * [CFABasePCOFacet](beacondiamond/cfabasepcofacet.md)
   * [CFAPenaltyBidFacet](beacondiamond/cfapenaltybidfacet.md)
   * [CFAReclaimerFacet](beacondiamond/cfareclaimerfacet.md)
 * [BeneficiarySuperApp](beneficiarysuperapp.md)
 
-<figure><img src="../../.gitbook/assets/Core Contract Architecture.png" alt="High-level architecture of the Geo Web core contracts"><figcaption><p>High-level architecture of the Geo Web core contracts</p></figcaption></figure>
+{% hint style="warning" %}
+When there are breaking storage changes made to facets, the previous facet(s) will remain in the Core Contract repository. The highest version number is currently active.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Core Contract Architecture Diagram.png" alt="High-level architecture of the Geo Web core contracts"><figcaption><p>High-level architecture of the Geo Web core contracts</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Parcel Actions Lifecycle_v2.png" alt=""><figcaption><p>Actions in a parcel lifecycle</p></figcaption></figure>

@@ -1,5 +1,5 @@
 ---
-description: Documentation for the GeoWebParcelFacet contract.
+description: Documentation for the GeoWebParcelFacetV2 contract.
 ---
 
 # GeoWebParcelFacet
@@ -8,19 +8,21 @@ description: Documentation for the GeoWebParcelFacet contract.
 
 The `GeoWebParcelFacet` contract extends the [basic ERC-721 functionality](../erc721facet.md) to the Geo Web-specific requirements that define a land parcel: shape, contiguousness, and uniqueness.
 
-This is done with an EVM-optimized global grid system. Grid cells are called Geo Web Coordinates. Each coordinate represents a unique \~20m$$^2$$ space on Earth.&#x20;
+This is done with an [EVM-optimized global grid system](geo-web-coordinates.md). Grid cells are called Geo Web Coordinates. Each coordinate represents a unique \~20m$$^2$$ space on Earth.&#x20;
 
 Coordinates can only be part of one parcel at any one time (merging, splitting, and trimming parcels will be implemented at a later date).
 
-Parcels are defined as a continuous path of coordinates (e.g. starting coordinate plus a list of traversal steps without repeats).
+Each Geo Web land parcel is defined by its southwestmost Coordinate plus its longitude and latitude dimensions (maximum 200 coordinates in each direction). This means that for now, all parcels are rectangles.
+
+These limitations were implemented for performance, land market efficiency, and migratability reasons. Eventually, parcels may be defined with arbitrary polygons.
 
 The `GeoWebParcelFacet` defines these functions while the state is held in the [`RegistryDiamond`](../).
 
 ## Code
 
-[`GeoWebParcelFacet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/GeoWebParcelFacet.sol)
+[`GeoWebParcelFacetV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/GeoWebParcelFacetV2.sol)
 
-[`LibGeoWebParcel.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebParcel.sol)
+[`LibGeoWebParcelV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebParcel.sol)
 
 ## Contract Functions
 

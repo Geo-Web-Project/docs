@@ -1,8 +1,8 @@
 ---
-description: Documentation of the LibGeoWebCoordinate & LibGeoWebCoordinatePath contracts
+description: Documentation of the LibGeoWebCoordinateV2 contract
 ---
 
-# Coordinates & Paths
+# Coordinates
 
 ### Summary
 
@@ -10,15 +10,13 @@ The Geo Web Coordinate library defines the Geo Web's fixed global grid and coord
 
 The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each of these Coordinates is uniquely identified and stored with an EVM-optimized method as 1 bit (0=available, 1=claimed). This provides a scalable, on-chain way to ensure that no two parcels overlap (i.e. all Coordinates in a new claim are unclaimed) even as the number of claimed parcels grows into the millions.
 
-Each Geo Web land parcel is defined as a path of Geo Web Coordinates. A path consists of a starting Coordinate and a series of directional steps. When this path is traversed, it defines a single contiguous shape.&#x20;
-
-![A single Geo Web Coordinate (yellow rectangle) on the Kovan testnet](<../../../../.gitbook/assets/Geo Web Coordinate.png>)
+![A single Geo Web Coordinate (yellow rectangle) on testnet](<../../../../.gitbook/assets/Geo Web Coordinate.png>)
 
 In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a grid size that balances transaction fees/size with enabling faithful representation of existing physical-world property lines.
 
 ### Code
 
-[`LibGeoWebCoordinate.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebCoordinate.sol)
+[`LibGeoWebCoordinateV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebCoordinateV2.sol)
 
 ## Contract Functions
 

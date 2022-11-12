@@ -12,13 +12,11 @@ The `RegistryDiamond`'s facets are modular, upgradable, and serve distinct purpo
 
 | Name                                                | Type        | Description                                             |
 | --------------------------------------------------- | ----------- | ------------------------------------------------------- |
-| [ERC721Facet](erc721facet.md)                       | Core        | Implements the ERC721 NFT standard                      |
+| [PCOERC721Facet](erc721facet.md)                    | Core        | Implements the ERC721 NFT standard                      |
 | [GeoWebParcelFacet](geowebparcelfacet/)             | Core        | Defines the rules and structure of Geo Web land parcels |
 | [PCOLicenseClaimerFacet](pcolicenseclaimerfacet.md) | Action      | Used to claim new Geo Web land parcels                  |
 | [PCOLicenseParamsFacet](pcolicenseparamsfacet.md)   | Parameters  | Sets global parameters for the Geo Web land market      |
 
 ## Code
 
-The Geo Web's `RegistryDiamond.sol` contract is an implementation of [`Diamond.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/Diamond.sol)that uses the [`DiamondCutFacet.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/facets/DiamondCutFacet.sol), [`DiamondLoupeFacet.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/facets/DiamondLoupeFacet.sol), & [`OwnershipFacet.sol`](https://github.com/wighawag/hardhat-deploy/blob/master/solc\_0.8/diamond/facets/OwnershipFacet.sol) templates.
-
-It's pulled in at deployment through the [hardhat-deploy plug-in](https://github.com/wighawag/hardhat-deploy).
+The Geo Web's [`RegistryDiamond.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/RegistryDiamond.sol) contract is an implementation of [`SolidStateDiamond.sol`](https://github.com/solidstate-network/solidstate-solidity/blob/master/contracts/proxy/diamond/SolidStateDiamond.sol).

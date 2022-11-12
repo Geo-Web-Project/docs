@@ -1,12 +1,12 @@
 ---
-description: Documentation for ERC721Facet contract.
+description: Documentation for PCOERC721Facet contract.
 ---
 
-# ERC721Facet
+# PCOERC721Facet
 
 ## Summary
 
-The `ERC721Facet` contract implements the [ERC-721 Non-Fungible Token Standard](https://eips.ethereum.org/EIPS/eip-721) for Geo Web land parcels.&#x20;
+The `PCOERC721Facet` contract implements the [ERC-721 Non-Fungible Token Standard](https://eips.ethereum.org/EIPS/eip-721) for Geo Web land parcels.&#x20;
 
 ERC-721 functions reside in this facet, but the state is held in the [`RegistryDiamond`](./) (per the [Diamonds specification](https://eips.ethereum.org/EIPS/eip-2535)).&#x20;
 
@@ -14,13 +14,11 @@ This facet "isn't aware" of the additional functionality in other facets used to
 
 ## Code
 
-[`ERC721Facet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/ERC721Facet.sol)
-
-[`LibERC721.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibERC721.sol)
+[`PCOERC721Facet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/PCOERC721Facet.sol)
 
 ## Contract Functions
 
-### ERC721Facet
+### PCOERC721Facet
 
 #### initialize
 
