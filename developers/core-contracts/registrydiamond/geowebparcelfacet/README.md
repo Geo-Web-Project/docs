@@ -30,7 +30,7 @@ The `GeoWebParcelFacet` defines these functions while the state is held in the [
 
 #### availabilityIndex
 
-```
+```solidity
 function availabilityIndex(uint256 x, uint256 y) external view returns (uint256)
 ```
 
@@ -45,7 +45,7 @@ Get availability index for coordinates
 
 #### getLandParcel
 
-```
+```solidity
 function getLandParcel(uint256 id) external view returns (uint64 baseCoordinate, uint256[] path)
 ```
 
@@ -57,122 +57,18 @@ Get a land parcel
 | ---- | ------- | ----------------- |
 | id   | uint256 | ID of land parcel |
 
-### LibGeoWebParcel
+### GeoWebParcelFacetV2
 
-#### STORAGE\_POSITION
+#### getLandParcelV2
 
-```
-bytes32 STORAGE_POSITION
-```
-
-#### LandParcel
-
-```
-struct LandParcel {
-  uint64 baseCoordinate;
-  uint256[] path;
-}
+```solidity
+function getLandParcelV2(uint256 id) external view returns (uint64 swCoordinate, uint256 latDim, uint256 lngDim)
 ```
 
-#### Action
-
-```
-enum Action {
-  Build,
-  Destroy,
-  Check
-}
-```
-
-#### MAX\_INT
-
-```
-uint256 MAX_INT
-```
-
-_Maxmium uint256 stored as a constant to use for masking_
-
-#### ParcelBuilt
-
-```
-event ParcelBuilt(uint256 _id)
-```
-
-Emitted when a parcel is built
-
-#### ParcelDestroyed
-
-```
-event ParcelDestroyed(uint256 _id)
-```
-
-Emitted when a parcel is destroyed
-
-#### ParcelModified
-
-```
-event ParcelModified(uint256 _id)
-```
-
-Emitted when a parcel is modified
-
-#### DiamondStorage
-
-```
-struct DiamondStorage {
-  mapping(uint256 => mapping(uint256 => uint256)) availabilityIndex;
-  mapping(uint256 => struct LibGeoWebParcel.LandParcel) landParcels;
-  uint256 nextId;
-}
-```
-
-#### diamondStorage
-
-```
-function diamondStorage() internal pure returns (struct LibGeoWebParcel.DiamondStorage ds)
-```
-
-#### build
-
-```
-function build(uint64 baseCoordinate, uint256[] path) internal
-```
-
-Build a new parcel. All coordinates along the path must be available. All coordinates are marked unavailable after creation.
-
-**Parameters**
-
-| Name           | Type       | Description                   |
-| -------------- | ---------- | ----------------------------- |
-| baseCoordinate | uint64     | Base coordinate of new parcel |
-| path           | uint256\[] | Path of new parcel            |
-
-#### destroy
-
-```
-function destroy(uint256 id) internal
-```
-
-Destroy an existing parcel. All coordinates along the path are marked as available.
+Get a V2 land parcel
 
 **Parameters**
 
 | Name | Type    | Description       |
 | ---- | ------- | ----------------- |
 | id   | uint256 | ID of land parcel |
-
-#### nextId
-
-```
-function nextId() internal view returns (uint256)
-```
-
-The next ID to assign to a parcel
-
-#### \_updateAvailabilityIndex
-
-```
-function _updateAvailabilityIndex(enum LibGeoWebParcel.Action action, uint64 baseCoordinate, uint256[] path) private
-```
-
-_Update availability index by traversing a path and marking everything as available or unavailable_

@@ -22,50 +22,60 @@ Separate instances of this contract for each land parcel (along with [Superfluid
 
 ## Contract Functions
 
+
+
 ### BeaconDiamond
+
+#### BeaconDiamond\_\_NoFacetForSignature
+
+```solidity
+error BeaconDiamond__NoFacetForSignature()
+```
 
 #### constructor
 
-```
-constructor(address _contractOwner, contract IDiamondLoupe _beacon) public payable
-```
-
-#### fallback
-
-```
-fallback() external payable
+```solidity
+constructor(address _contractOwner, contract IDiamondReadable _beacon) public payable
 ```
 
-#### receive
+#### \_getImplementation
 
+```solidity
+function _getImplementation() internal view returns (address)
 ```
-receive() external payable
-```
+
+get logic implementation address
+
+**Return Values**
+
+| Name | Type    | Description            |
+| ---- | ------- | ---------------------- |
+| \[0] | address | implementation address |
 
 ### LibBeaconDiamond
 
 #### STORAGE\_POSITION
 
-```
+```solidity
 bytes32 STORAGE_POSITION
 ```
 
 #### DiamondStorage
 
-```
+```solidity
 struct DiamondStorage {
-  contract IDiamondLoupe beacon;
+  contract IDiamondReadable beacon;
 }
 ```
 
 #### diamondStorage
 
-```
+```solidity
 function diamondStorage() internal pure returns (struct LibBeaconDiamond.DiamondStorage ds)
 ```
 
 #### setBeacon
 
-```
-function setBeacon(contract IDiamondLoupe beacon) internal
+```solidity
+function setBeacon(contract IDiamondReadable beacon) internal
 ```

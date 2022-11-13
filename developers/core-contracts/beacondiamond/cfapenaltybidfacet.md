@@ -26,7 +26,7 @@ Handles bidding using CFAs and penalities
 
 #### BidAccepted
 
-```
+```solidity
 event BidAccepted(address _payer, address _bidder, uint256 forSalePrice)
 ```
 
@@ -34,7 +34,7 @@ Emitted when a bid is accepted
 
 #### BidRejected
 
-```
+```solidity
 event BidRejected(address _payer, address _bidder, uint256 forSalePrice)
 ```
 
@@ -42,7 +42,7 @@ Emitted when a bid is rejected
 
 #### TransferTriggered
 
-```
+```solidity
 event TransferTriggered(address _sender, address _payer, address _bidder, uint256 forSalePrice)
 ```
 
@@ -50,31 +50,31 @@ Emitted when a transfer is triggered
 
 #### onlyIfPendingBid
 
-```
+```solidity
 modifier onlyIfPendingBid()
 ```
 
 #### onlyIfNotPendingBid
 
-```
+```solidity
 modifier onlyIfNotPendingBid()
 ```
 
 #### onlyAfterBidPeriod
 
-```
+```solidity
 modifier onlyAfterBidPeriod()
 ```
 
 #### onlyDuringBidPeriod
 
-```
+```solidity
 modifier onlyDuringBidPeriod()
 ```
 
 #### shouldBidPeriodEndEarly
 
-```
+```solidity
 function shouldBidPeriodEndEarly() public view returns (bool)
 ```
 
@@ -82,7 +82,7 @@ Should bid period end early
 
 #### pendingBid
 
-```
+```solidity
 function pendingBid() external pure returns (struct LibCFAPenaltyBid.Bid)
 ```
 
@@ -90,7 +90,7 @@ Get pending bid
 
 #### hasPendingBid
 
-```
+```solidity
 function hasPendingBid() external view returns (bool)
 ```
 
@@ -98,7 +98,7 @@ Checks if there is a pending bid
 
 #### calculatePenalty
 
-```
+```solidity
 function calculatePenalty() external view returns (uint256)
 ```
 
@@ -106,7 +106,7 @@ Get penalty payment
 
 #### editBid
 
-```
+```solidity
 function editBid(int96 newContributionRate, uint256 newForSalePrice) external
 ```
 
@@ -121,7 +121,7 @@ Edit bid - Must be the current payer - Must have permissions to update flow for 
 
 #### placeBid
 
-```
+```solidity
 function placeBid(int96 newContributionRate, uint256 newForSalePrice) external
 ```
 
@@ -136,7 +136,7 @@ Place a bid to purchase license as msg.sender - Pending bid must not exist - Mus
 
 #### acceptBid
 
-```
+```solidity
 function acceptBid() external
 ```
 
@@ -144,7 +144,7 @@ Accept a pending bid as the current payer - Must be payer - Pending bid must exi
 
 #### rejectBid
 
-```
+```solidity
 function rejectBid(int96 newContributionRate, uint256 newForSalePrice) external
 ```
 
@@ -159,7 +159,7 @@ Reject a pending bid as the current payer - Must be payer - Pending bid must exi
 
 #### triggerTransfer
 
-```
+```solidity
 function triggerTransfer() external
 ```
 
@@ -169,13 +169,13 @@ Trigger a transfer after bidding period has elapsed - Pending bid must exist - M
 
 #### STORAGE\_POSITION\_OUT\_BID
 
-```
+```solidity
 bytes32 STORAGE_POSITION_OUT_BID
 ```
 
 #### Bid
 
-```
+```solidity
 struct Bid {
   uint256 timestamp;
   address bidder;
@@ -188,13 +188,13 @@ struct Bid {
 
 #### pendingBid
 
-```
+```solidity
 function pendingBid() internal pure returns (struct LibCFAPenaltyBid.Bid ds)
 ```
 
 #### FlowChangeType
 
-```
+```solidity
 enum FlowChangeType {
   CREATE_FLOW,
   UPDATE_FLOW,
@@ -204,13 +204,13 @@ enum FlowChangeType {
 
 #### \_getBooleanFlowOperatorPermissions
 
-```
+```solidity
 function _getBooleanFlowOperatorPermissions(uint8 permissions, enum LibCFAPenaltyBid.FlowChangeType flowChangeType) internal pure returns (bool flowchangeTypeAllowed)
 ```
 
 #### \_calculatePenalty
 
-```
+```solidity
 function _calculatePenalty() internal view returns (uint256)
 ```
 
@@ -218,13 +218,13 @@ Calculate the penalty needed for the pending bid to be rejected
 
 #### \_clearPendingBid
 
-```
+```solidity
 function _clearPendingBid() internal
 ```
 
 #### \_triggerTransfer
 
-```
+```solidity
 function _triggerTransfer() internal
 ```
 
@@ -232,8 +232,14 @@ Trigger transfer of license
 
 #### \_rejectBid
 
-```
+```solidity
 function _rejectBid(int96 newContributionRate, uint256 newForSalePrice) internal
 ```
 
 Reject Bid
+
+###
+
+| Name | Type    | Description       |
+| ---- | ------- | ----------------- |
+| id   | uint256 | ID of land parcel |

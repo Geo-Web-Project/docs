@@ -24,7 +24,7 @@ Handles reclaiming of licenses that are no longer active
 
 #### LicenseReclaimed
 
-```
+```solidity
 event LicenseReclaimed(address to, uint256 price)
 ```
 
@@ -32,7 +32,7 @@ Emitted when a license is reclaimed
 
 #### reclaimPrice
 
-```
+```solidity
 function reclaimPrice() public view returns (uint256)
 ```
 
@@ -40,7 +40,7 @@ Current price to reclaim
 
 #### reclaim
 
-```
+```solidity
 function reclaim(uint256 maxClaimPrice, int96 newContributionRate, uint256 newForSalePrice) external
 ```
 

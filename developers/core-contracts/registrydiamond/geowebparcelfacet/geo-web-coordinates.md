@@ -20,23 +20,23 @@ In the testnet implementation, a larger grid size was used for more practical la
 
 ## Contract Functions
 
-### LibGeoWebCoordinate
+### LibGeoWebCoordinateV2
 
 #### MAX\_X
 
-```
+```solidity
 uint64 MAX_X
 ```
 
 #### MAX\_Y
 
-```
+```solidity
 uint64 MAX_Y
 ```
 
 #### traverse
 
-```
+```solidity
 function traverse(uint64 origin, uint256 direction, uint256 iX, uint256 iY, uint256 i) external pure returns (uint64, uint256, uint256, uint256)
 ```
 
@@ -63,13 +63,13 @@ Traverse a single direction
 
 #### \_traverse
 
-```
+```solidity
 function _traverse(uint64 origin, uint256 direction, uint256 iX, uint256 iY, uint256 i) internal pure returns (uint64, uint256, uint256, uint256)
 ```
 
 #### \_getX
 
-```
+```solidity
 function _getX(uint64 coord) internal pure returns (uint64 coordX)
 ```
 
@@ -77,7 +77,7 @@ Get the X coordinate
 
 #### \_getY
 
-```
+```solidity
 function _getY(uint64 coord) internal pure returns (uint64 coordY)
 ```
 
@@ -85,7 +85,7 @@ Get the Y coordinate
 
 #### toWordIndex
 
-```
+```solidity
 function toWordIndex(uint64 coord) external pure returns (uint256 iX, uint256 iY, uint256 i)
 ```
 
@@ -93,51 +93,7 @@ Convert coordinate to word index
 
 #### \_toWordIndex
 
-```
+```solidity
 function _toWordIndex(uint64 coord) internal pure returns (uint256 iX, uint256 iY, uint256 i)
-```
-
-### LibGeoWebCoordinatePath
-
-LibGeoWebCoordinatePath stores a path of directions in a uint256. The most significant 8 bits encodes the length of the path
-
-#### INNER\_PATH\_MASK
-
-```
-uint256 INNER_PATH_MASK
-```
-
-#### PATH\_SEGMENT\_MASK
-
-```
-uint256 PATH_SEGMENT_MASK
-```
-
-#### nextDirection
-
-```
-function nextDirection(uint256 path) external pure returns (bool hasNext, uint256 direction, uint256 nextPath)
-```
-
-Get next direction from path
-
-**Parameters**
-
-| Name | Type    | Description                        |
-| ---- | ------- | ---------------------------------- |
-| path | uint256 | The path to get the direction from |
-
-**Return Values**
-
-| Name      | Type    | Description                                     |
-| --------- | ------- | ----------------------------------------------- |
-| hasNext   | bool    | If the path has a next direction                |
-| direction | uint256 | The next direction taken from path              |
-| nextPath  | uint256 | The next path with the direction popped from it |
-
-#### \_nextDirection
-
-```
-function _nextDirection(uint256 path) internal pure returns (bool hasNext, uint256 direction, uint256 nextPath)
 ```
 
