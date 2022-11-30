@@ -2,6 +2,10 @@
 
 **Last Update: November 29, 2022**
 
+{% hint style="info" %}
+Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
+{% endhint %}
+
 The Geo Web project will be progressively decentralized.
 
 At launch, the Geo Web smart contracts and treasury funds will be stewarded by a 3/4 Safe multi-sig. The Safe is on the Optimism network and can be viewed here: (Safe address added soon).

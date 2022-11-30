@@ -2,6 +2,10 @@
 
 **Last Update: November 29, 2022**
 
+{% hint style="info" %}
+Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
+{% endhint %}
+
 The Geo Web vision is to create infinite games of positive-sum coordination at the intersection of our digital and physical realities.
 
 The project was founded to solve a specific coordination challenge—how digital information and media that augments the physical world can be credibly, openly, and productively organized for _shared_ human experiences.&#x20;

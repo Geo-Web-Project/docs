@@ -4,7 +4,11 @@ description: >-
   beyond
 ---
 
-# Open Org
+# Open Org Philosophy
+
+{% hint style="info" %}
+Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
+{% endhint %}
 
 Stakeholders can engage with the Geo Web on multiple levels. There are those that will consume and publish content on the network. Some will build applications and offer services for the network. And others will contribute to the core protocols, standards, and community.
 

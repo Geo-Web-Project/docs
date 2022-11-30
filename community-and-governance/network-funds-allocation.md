@@ -2,6 +2,10 @@
 
 **Last Update: November 29, 2022**
 
+{% hint style="info" %}
+Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
+{% endhint %}
+
 The Geo Web generates [network funds](../concepts/network-funds.md) from its [partial common ownership](../concepts/partial-common-ownership.md) land market. These funds are designated to be invested into public goods and the creation of positive-sum outcomes.&#x20;
 
 _How_ these funds are best allocated will be a perpetual challenge. There are many exciting ideas to explore and experiments to run.
