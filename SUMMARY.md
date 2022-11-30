@@ -64,7 +64,10 @@
 
 ## Community & Governance
 
-* [Open Org](community-and-governance/open-org.md)
+* [Geo Web Principles](community-and-governance/geo-web-principles.md)
+* [Governance at Launch](community-and-governance/governance-at-launch.md)
+* [Network Funds Allocation](community-and-governance/network-funds-allocation.md)
+* [Open Org Philosophy](community-and-governance/open-org.md)
 * [Network Parameters](community-and-governance/network-parameters.md)
 * [SourceCred](community-and-governance/sourcecred.md)
 * [Geo Web DAO](community-and-governance/geo-web-dao.md)
