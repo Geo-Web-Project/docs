@@ -56,8 +56,8 @@ Here's an example:
   * The required auction bid will inherently decrease between the submission of the bid and transaction processing, so the final payment will be proportionally less than 50.0025 ETHx if the claim is successful.
 * The bid must also set a `For Sale Price` and authorize a network fee payment stream.
   * From a rational perspective, the `For Sale Price` should be set greater or equal to the claim fee. No one should want to immediately sell a parcel for less than they just paid.
-  * For a 50.0025 ETHx value, the network payment stream would be \~0.000001586 ETHx/second.
-  * A [buffer deposit](https://docs.superfluid.finance/superfluid/sentinels/liquidations-and-toga#liquidation-and-solvency) is also required to incentivize bots to close streams that have become insolvent on the Superfluid protocol. In our implementation Optimism, this will require 8 hours worth of stream (\~.045666438 ETHx at this `For Sale Price`).
+  * For a 50.0025 ETHx value, the network payment stream would be 5.00025 ETHx/year (\~0.0000001586 ETHx/second)&#x20;
+  * A [buffer deposit](https://docs.superfluid.finance/superfluid/sentinels/liquidations-and-toga#liquidation-and-solvency) is also required to incentivize bots to close streams that have become insolvent on the Superfluid protocol. In our implementation Optimism, this will require 8 hours worth of stream (\~.040566644 ETHx at this `For Sale Price`).
 * The user must have enough ETHx in their wallet to complete this transaction plus maintain their stream for a reasonable time (we don't want parcels to immediately go into foreclosure!). This can be done through the "Wrap ETH to ETHx" button shown on the claim transaction window or in Cadastre's User Dashboard.
 * Ongoing ownership is subject to the normal rules and economic incentives established under the partial common ownership system.
 {% endhint %}
