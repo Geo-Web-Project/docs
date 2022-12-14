@@ -29,6 +29,8 @@ description: Describing the Geo Web's approach to initializing the land market f
 **Market Structure:** Auction bid payments are made in addition to the [ongoing PCO market requirements](partial-common-ownership.md).
 
 **Payment Token**: If you don’t have ETH on Optimism yet, you can bridge funds via the [Optimism Bridge](https://app.optimism.io/bridge/deposit) or [alternatives](https://www.optimism.io/apps/bridges). You can also directly purchase ETH on Optimism via [Ramp](https://ramp.network/buy/?defaultAsset=OPTIMISM\_ETH) (no affiliation, not an endorsement, DYOR).
+
+**Test Before You Buy:** If you're not ready for the real thing just yet, you can explore the Geo Web testnet accessible at [https://testnet.geoweb.land/](https://testnet.geoweb.land/).
 {% endhint %}
 
 The Geo Web project is a public good that attempts to establish legitimacy through fairness and economic efficiency (amongst other core values).&#x20;
