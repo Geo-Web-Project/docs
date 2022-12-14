@@ -1,7 +1,7 @@
 # Welcome to the Geo Web
 
 {% hint style="info" %}
-The Geo Web is in a tesntet phase and will launch as a beta product in Q4 2022. Stay tuned for updates!
+The Geo Web launches with a fair launch auction on Optimism on December 15th, 2022 at 17:00 UTC! Check out [the launch announcement](https://www.geoweb.network/post/geoweb-launch)!
 {% endhint %}
 
 The Geo Web is a public good augmented reality network.
@@ -24,6 +24,7 @@ In addition to this site, here are a few other important links to get you starte
 
 * [Join our community Discord server](https://discord.com/invite/reXgPru7ck) - a great place to participate in community discussions and ask questions.
 * [Check out the Geo Web Github organization](https://github.com/Geo-Web-Project) - the go-to for reviewing our source code and starting to contribute code to the project
-* [Claim your home, business, or other places of personal interest on the Geo Web](https://geoweb.land/) - start publishing content into the metaverse (currently testnet only)
+* [Claim your home, business, or other places of personal interest on the Geo Web](https://geoweb.land/) - start publishing content into the metaverse
 * Browse the Geo Web at your current location with the [alpha Spatial Browser (mobile)](https://geoweb.app/)
+* Get comfortable and start BUIDLing your own Geo Web project on the [Optimism Goerli testnet](https://testnet.geoweb.land/)
 
