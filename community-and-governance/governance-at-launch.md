@@ -8,12 +8,16 @@ Help shape the direction of the Geo Web and participate in governance on our [fo
 
 The Geo Web project will be progressively decentralized.
 
-At launch, the Geo Web smart contracts and treasury funds will be stewarded by a 3/4 Safe multi-sig. The Safe is on the Optimism network and can be viewed here: (Safe address added soon).
+At launch, the Geo Web smart contracts and treasury funds will be stewarded by a 3/4 Safe multi-sig. The Safe is on the Optimism network and can be viewed here: [oeth:0x8FC4308da9310479dF48ef77142Eef05c363e099](https://app.safe.global/oeth:0x8FC4308da9310479dF48ef77142Eef05c363e099/home).
 
 The initial signing group consists of two founding project contributors:
 
 * Cody Hatfield
+  * [0x4dc45eAc9eE25Af88958c94461fd46175C47744a](https://optimistic.etherscan.io/address/0x4dc45eac9ee25af88958c94461fd46175c47744a)
+  * [0x539cd8406b255d4b77753e5ADA02436312B47624](https://optimistic.etherscan.io/address/0x539cd8406b255d4b77753e5ADA02436312B47624)
 * Graven Prest
+  * [0xd5c0ee4d0a1833192471be968ec068d5a9f15b39](https://optimistic.etherscan.io/address/0xd5c0ee4d0a1833192471be968ec068d5a9f15b39)
+  * [0x161f9100C2aB2B4447f2ac0E50d245b709599F65](https://optimistic.etherscan.io/address/0x161f9100C2aB2B4447f2ac0E50d245b709599F65)
 
 Each signer has committed to the following statement of responsibility:
 
