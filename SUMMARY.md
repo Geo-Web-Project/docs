@@ -12,6 +12,7 @@
 ## Getting Started
 
 * [Quick Start Requirements](getting-started/quickstart.md)
+* [Making a Fair Launch Claim](getting-started/making-a-fair-launch-claim.md)
 * [Use Cases](getting-started/use-cases.md)
 
 ## Core Concepts <a href="#concepts" id="concepts"></a>
