@@ -12,7 +12,7 @@ This is done with an [EVM-optimized global grid system](geo-web-coordinates.md).
 
 Coordinates can only be part of one parcel at any one time (merging, splitting, and trimming parcels will be implemented at a later date).
 
-Each Geo Web land parcel is defined by its southwestmost Coordinate plus its longitude and latitude dimensions (maximum 200 coordinates in each direction). This means that for now, all parcels are rectangles.
+Each Geo Web land parcel is defined by its southwestmost Coordinate plus its longitude and latitude dimensions (maximum 200 coordinates in each direction and 3,000 for the total area). This means that for now, all parcels are rectangles.
 
 These limitations were implemented for performance, land market efficiency, and migratability reasons. Eventually, parcels may be defined with arbitrary polygons.
 
