@@ -1,5 +1,9 @@
 # Digital Property Rights
 
+{% hint style="info" %}
+Become a land licensor via the Geo Web Cadastre (desktop only): [https://geoweb.land/](https://geoweb.land/)
+{% endhint %}
+
 A common criticism of the blockchain space is that it creates (false) scarcity for the sake of scarcity. Any attempted limitation on the inherent abundance of the internet/digital information must be a skeuomorphic cash grab, right?
 
 That reaction is especially strong if [you're "selling imaginary land" out from under the "rightful landowners](https://www.protocol.com/entertainment/upland-augmented-reality-real-estate)"...

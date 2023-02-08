@@ -12,7 +12,7 @@ The system's grid lines create rectangular areas referred to as Geo Web Coordina
 
 ![A single Geo Web Coordinate (yellow rectangle) on testnet](<../../../../.gitbook/assets/Geo Web Coordinate.png>)
 
-In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet will use a grid size that balances transaction fees/size with enabling faithful representation of existing physical-world property lines.
+In the testnet implementation, a larger grid size was used for more practical large land claims. Mainnet uses a smaller grid size that balances transaction fees/size with enabling faithful representation of existing physical-world property lines (\~20m$$^2$$ around the equator). This grid may be further divided for more precision or migrated to a system that allows arbitrary polygon definition at a later date.
 
 ### Code
 

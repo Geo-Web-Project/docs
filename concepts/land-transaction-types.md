@@ -5,7 +5,7 @@ description: An overview of the six basic transactions of the Geo Web digital la
 # Land Transactions
 
 {% hint style="danger" %}
-On the [testnet Cadastre](https://geoweb.land/), Goerli ETH is required for all transactions. You can get free Goerli ETH from a faucet like the [Paradigm Multi-faucet](https://faucet.paradigm.xyz/).&#x20;
+On the [testnet Cadastre](https://testnet.geoweb.land/), Optimistic Goerli ETH is required for all transactions. You can get free testnet ETH from [a community faucet or bridge it from Goerli](https://community.optimism.io/docs/useful-tools/faucets/).&#x20;
 {% endhint %}
 
 {% hint style="info" %}

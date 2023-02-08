@@ -6,6 +6,10 @@ description: >-
 
 # Partial Common Ownership
 
+{% hint style="info" %}
+Become a land licensor via the Geo Web Cadastre (desktop only): [https://geoweb.land/](https://geoweb.land/)
+{% endhint %}
+
 The Geo Web uses a novel property rights regime called _partial common ownership_$$^1$$ to fairly and efficiently administer its digital land market. Partial common ownership is a market-based solution with an important twist on private property rights:
 
 1. Landholders must publicly declare a  `For Sale Price` for each of their land parcels
