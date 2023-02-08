@@ -1,7 +1,7 @@
 # Welcome to the Geo Web
 
 {% hint style="info" %}
-The Geo Web launches with a fair launch auction on Optimism on December 15th, 2022 at 17:00 UTC! Check out [the launch announcement](https://www.geoweb.network/post/geoweb-launch)!
+The Geo Web is in live beta on Optimism. Check out [the launch announcement](https://www.geoweb.network/post/geoweb-launch)!
 {% endhint %}
 
 The Geo Web is a public good augmented reality network.
