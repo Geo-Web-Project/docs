@@ -41,7 +41,10 @@ The `Parcel ID` displayed in the details window is the `TokenID` (in hexadecimal
 
 10. Click the heart icon at the top-right of the _More Info_ section.
 11. On the following notification setup screen, enter the parcel name for the `Description`, select `Notify on Incoming & Outgoing Txns`, and check the `Also Track ERC20 Token Transfers` option.
-12. &#x20;You will now receive notification emails when your parcel's `For Sale Price` is adjusted or a bid is placed on it.&#x20;
+
+<figure><img src="../.gitbook/assets/Notifications.png" alt="Configuring the notifications settings to incoming, outgoing, and ERC20 tracking for Geo Web parcels"><figcaption><p>Naming and configuring your parcel monitoring notifications</p></figcaption></figure>
+
+12. You will now receive notification emails when your parcel's `For Sale Price` is adjusted or a bid is placed on it.&#x20;
 13. You can currently monitor up to 50 addresses for free, so repeat this process for your other parcels!
 
 {% hint style="success" %}
