@@ -13,6 +13,7 @@
 
 * [Quick Start Requirements](getting-started/quickstart.md)
 * [Making a Fair Launch Claim](getting-started/making-a-fair-launch-claim.md)
+* [Parcel Monitoring & Notifications](getting-started/parcel-monitoring-and-notifications.md)
 * [Use Cases](getting-started/use-cases.md)
 
 ## Core Concepts <a href="#concepts" id="concepts"></a>
