@@ -14,9 +14,9 @@ The `BeneficiarySuperApp` is also utilized to keep track of the last deletion ti
 
 ## Code
 
-[`BeneficiarySuperApp.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/beneficiary/BeneficiarySuperApp.sol)``
+[`BeneficiarySuperApp.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/beneficiary/BeneficiarySuperApp.sol)
 
-``[`ICFABeneficiary.sol=`](https://github.com/Geo-Web-Project/core-contracts/tree/main/contracts/beneficiary/interfaces)
+[`ICFABeneficiary.sol=`](https://github.com/Geo-Web-Project/core-contracts/tree/main/contracts/beneficiary/interfaces)
 
 ## Contract Functions
 

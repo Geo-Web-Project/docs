@@ -42,7 +42,7 @@ Rejecting a rival bid requires the current licensor to set a `For Sale Price` gr
 
 ## Trigger Transfer
 
-If a landholder doesn't respond to a rival bid within the mandated timeframe or modifies their `Network Fee` stream while there is an outstanding bid, the parcel moves to a **Ready to Transfer** state. The licensor, bidder, or any other market participant can affect the transfer by navigating to the parcel and clicking **Trigger Transfer**. The licensor will receive their `For Sale Price` **** payment plus or minus their surplus/deficit for `Network Fees` (the licensor retains the responsibility to pay the required `Network Fees` until the parcel is transferred regardless of circumstances). The bidder will receive the land parcel and their returnable collateral.
+If a landholder doesn't respond to a rival bid within the mandated timeframe or modifies their `Network Fee` stream while there is an outstanding bid, the parcel moves to a **Ready to Transfer** state. The licensor, bidder, or any other market participant can affect the transfer by navigating to the parcel and clicking **Trigger Transfer**. The licensor will receive their `For Sale Price` payment plus or minus their surplus/deficit for `Network Fees` (the licensor retains the responsibility to pay the required `Network Fees` until the parcel is transferred regardless of circumstances). The bidder will receive the land parcel and their returnable collateral.
 
 ## Foreclosure Claim
 
