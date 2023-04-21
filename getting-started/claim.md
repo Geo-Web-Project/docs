@@ -5,7 +5,11 @@ description: Instructions for making Geo Web parcel claims
 # Making a Parcel Claim
 
 {% hint style="success" %}
-**OP incentives for Geo Web land claims are live for a limited time!**  Read more details here: [Announcement Blog](https://www.geoweb.network/post/op-incentives)
+**OP incentives for Geo Web land claims are live for a limited time!** [Details here.](https://www.geoweb.network/post/op-incentives)
+{% endhint %}
+
+{% hint style="info" %}
+**Reminder: All parcel claims require an upfront payment of 0.005 ETHx**. Your ongoing fee stream is variable based on your `For Sale Price`. [All funds go to supporting public goods!](../concepts/network-funds.md)
 {% endhint %}
 
 Geo Web land parcels can be claimed around the globe via the [Cadastre (https://geoweb.land)](https://geoweb.land/) user interface.&#x20;
