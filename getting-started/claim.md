@@ -1,8 +1,8 @@
 ---
-description: Instructions for making Geo Web parcel claims
+description: Step-by-step instructions for making Geo Web parcel claims
 ---
 
-# Making a Parcel Claim
+# How to claim Geo Web land
 
 {% hint style="success" %}
 **OP incentives for Geo Web land claims are live for a limited time!** [Details here.](https://www.geoweb.network/post/op-incentives)

@@ -12,7 +12,7 @@
 ## Getting Started
 
 * [Quick Start Requirements](getting-started/quickstart.md)
-* [Making a Parcel Claim](getting-started/claim.md)
+* [How to claim Geo Web land](getting-started/claim.md)
 * [Parcel Monitoring & Notifications](getting-started/parcel-monitoring-and-notifications.md)
 * [Use Cases](getting-started/use-cases.md)
 
