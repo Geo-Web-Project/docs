@@ -15,7 +15,7 @@ Use an email that you regularly monitor!
 {% endhint %}
 
 1. Navigate to the Geo Web parcel that you want to monitor.
-2. Click the \`Notification Add\`icon in the parcel panel header.
+2. Click the **Notification Add** icon in the parcel panel header.
 
 <figure><img src="../.gitbook/assets/Add Notifications.png" alt=""><figcaption><p>Set up email notifcations from the parcel details panel</p></figcaption></figure>
 

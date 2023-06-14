@@ -5,7 +5,7 @@ description: An introduction to the core enabling asset of the Geo Web.
 # Digital Land
 
 {% hint style="info" %}
-Become a land licensor via the Geo Web Cadastre (desktop only): [https://geoweb.land/](https://geoweb.land/)
+Become a land licensor via the Geo Web Cadastre: [https://geoweb.land/](https://geoweb.land/)
 {% endhint %}
 
 The Geo Web is composed of unique digital land parcels that map to physical locations on Earth's surface (Maybe we'll add the moon & Mars eventually...).
