@@ -20,9 +20,9 @@ The `GeoWebParcelFacet` defines these functions while the state is held in the [
 
 ## Code
 
-[`GeoWebParcelFacetV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/GeoWebParcelFacetV2.sol)
+[`GeoWebParcelFacet.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/facets/GeoWebParcelFacet.sol)
 
-[`LibGeoWebParcelV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebParcel.sol)
+[`LibGeoWebParcel.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebParcel.sol)
 
 ## Contract Functions
 

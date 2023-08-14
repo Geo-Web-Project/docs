@@ -16,7 +16,9 @@ In the testnet implementation, a larger grid size was used for more practical la
 
 ### Code
 
-[`LibGeoWebCoordinateV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebCoordinateV2.sol)
+[`LibGeoWebCoordinate.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebCoordinate.sol)
+
+[`LibGeoWebCoordinateV2.sol`](https://github.com/Geo-Web-Project/core-contracts/blob/main/contracts/registry/libraries/LibGeoWebParcelV2.sol)
 
 ## Contract Functions
 
