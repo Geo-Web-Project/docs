@@ -1,2 +1,0 @@
-# ERC721License
-
