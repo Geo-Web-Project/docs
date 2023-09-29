@@ -6,7 +6,7 @@ description: >-
 
 # Ceramic
 
-On networks like [IPFS](ipfs.md), every piece of content gets a unique, deterministic cryptographic identifier through a concept known as [content addressing](https://docs.ipfs.io/concepts/content-addressing/). This is great because it enables trustless peer-to-peer content sharing, but creates overhead for content that needs to change over time—every content modification results in an entirely new **content identifier (CID)**.&#x20;
+On networks like [IPFS](./ipfs), every piece of content gets a unique, deterministic cryptographic identifier through a concept known as [content addressing](https://docs.ipfs.io/concepts/content-addressing/). This is great because it enables trustless peer-to-peer content sharing, but creates overhead for content that needs to change over time—every content modification results in an entirely new **content identifier (CID)**.&#x20;
 
 Ceramic is a protocol built on top of IPFS which makes it easy to create, manage, and share mutable [**Streams**](https://developers.ceramic.network/learn/advanced/overview/#streams) of content addressed data.&#x20;
 
@@ -20,7 +20,7 @@ The Cadastre currently manages Stream creation and modification automatically fo
 
 ![The ParcelContentRoot Ceramic schema seen on the Tiles explorer](/assets/parcelcontentroot-schema.png)
 
-More content linking experiences (including point-specific anchoring) will be added over time and maintained [in a public list](https://github.com/Geo-Web-Project/datamodels). The community will always be empowered to [create and share their own schemas](../data-models.md) as well. Proper coordination with browsers (i.e., a browser must know how to interpret the content) is the only limit to content linking on the Geo Web with Ceramic.
+More content linking experiences (including point-specific anchoring) will be added over time and maintained [in a public list](https://github.com/Geo-Web-Project/datamodels). The community will always be empowered to [create and share their own schemas](../data-models) as well. Proper coordination with browsers (i.e., a browser must know how to interpret the content) is the only limit to content linking on the Geo Web with Ceramic.
 
 \---
 

@@ -4,7 +4,7 @@ description: A protocol that enables streaming token payments on the Geo Web
 
 # Superfluid
 
-Superfluid's streaming token protocol allowed the Geo Web to eliminate `Network Fee` deposits for its [partial common ownership](../../../concepts/partial-common-ownership.md) land market improving capital effiency and lowering barriers to entry for landholders.
+Superfluid's streaming token protocol allowed the Geo Web to eliminate `Network Fee` deposits for its [partial common ownership](../../../concepts/partial-common-ownership) land market improving capital effiency and lowering barriers to entry for landholders.
 
 It also provides composability and network effects for creative uses of `Network Fees` to fund public goods.
 

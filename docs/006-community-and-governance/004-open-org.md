@@ -18,10 +18,8 @@ But, the composition of the group of people building the network's infrastructur
 
 Decentralization is a term used within crypto networks to describe this ideal in both technology and organizations. It's often more easily said than done well. That's why we insert the caveat "where possible" above. The founding contributors of the project are committed to [progressive decentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/), but it won't happen overnight.
 
-We will continue to expand network [governance transparency](geo-web-dao.md) and [participation](https://forum.geoweb.network/). We will seek to implement credibly neutral mechanisms to sustain the core development and community building required to make the Geo Web a success. We will also continue to explore market-based solutions to allocate [network funds](../concepts/network-funds.md).
+We will continue to expand network [governance transparency](./geo-web-dao) and [participation](https://forum.geoweb.network/). We will seek to implement credibly neutral mechanisms to sustain the core development and community building required to make the Geo Web a success. We will also continue to explore market-based solutions to allocate [network funds](../concepts/network-funds).
 
 We have much to figure out in this arena. But even at this stage, the net result is that if you want to get involved, you can. We don't have the beautifully scalable solutions yet, but you'll be welcomed with open arms if you want to contribute to core development, community building, design, governance, app building, etc. Just join our [Discord](https://discord.com/invite/reXgPru7ck) and let us know about yourself!
-
-
 
 &#x20;

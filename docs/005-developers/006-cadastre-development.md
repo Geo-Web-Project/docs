@@ -6,9 +6,9 @@ description: >-
 
 # Cadastre Development
 
-Interested developers are encouraged to build their own [Cadastre](../concepts/cadastre-intro.md) and innovate on publishing tools, use case enablement, user experience, and marketing. Cadastres are envisioned to be supported directly through [network funds](../concepts/network-funds.md) (e.g. earn a commission on all land claims made through the interface).
+Interested developers are encouraged to build their own [Cadastre](../concepts/cadastre-intro) and innovate on publishing tools, use case enablement, user experience, and marketing. Cadastres are envisioned to be supported directly through [network funds](../concepts/network-funds) (e.g. earn a commission on all land claims made through the interface).
 
-An SDK for Cadastres will eventually be developed, but currently is supported by the [Geo Web Subgraph](subgraph/) and [Data Models](data-models.md).
+An SDK for Cadastres will eventually be developed, but currently is supported by the [Geo Web Subgraph](subgraph/) and [Data Models](./data-models).
 
 The first implementation of a Geo Web Cadastre can be found at [https://geoweb.land/](http://geoweb.land/). It supports the Geo Web definitions and schemas accordingly:
 

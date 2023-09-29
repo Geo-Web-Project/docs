@@ -6,9 +6,9 @@ description: Documentation for the DiamondCut contract.
 
 ## Summary
 
-The `DiamondCut` facet establishes the global mapping of facets (currently the [`CFABasePCOFacet`](../beacondiamond/cfabasepcofacet.md), [`CFAPenaltyBidFacet`](../beacondiamond/cfapenaltybidfacet.md), & [`CFAReclaimerFacet`](../beacondiamond/cfareclaimerfacet.md)) to be used by all instances of [`BeaconDiamond`](../beacondiamond/) contract.&#x20;
+The `DiamondCut` facet establishes the global mapping of facets (currently the [`CFABasePCOFacet`](../beacondiamond/cfabasepcofacet), [`CFAPenaltyBidFacet`](../beacondiamond/cfapenaltybidfacet), & [`CFAReclaimerFacet`](../beacondiamond/cfareclaimerfacet)) to be used by all instances of [`BeaconDiamond`](../beacondiamond/) contract.&#x20;
 
-These contracts use a hybrid [Diamonds](../standards-and-protocols/diamonds-multi-facet-proxy-eip-2535.md)-[Beacon Proxy](../standards-and-protocols/beacon-proxy.md) architecture to maintain the extensibility of land market operations even as each land parcel requires a separate contract instance.
+These contracts use a hybrid [Diamonds](../standards-and-protocols/diamonds-multi-facet-proxy-eip-2535)-[Beacon Proxy](../standards-and-protocols/beacon-proxy) architecture to maintain the extensibility of land market operations even as each land parcel requires a separate contract instance.
 
 ## Code
 

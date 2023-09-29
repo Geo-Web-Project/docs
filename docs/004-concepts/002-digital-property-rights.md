@@ -12,7 +12,7 @@ A common criticism of the blockchain space is that it creates (false) scarcity f
 
 That reaction is especially strong if [you're "selling imaginary land" out from under the "rightful landowners](https://www.protocol.com/entertainment/upland-augmented-reality-real-estate)"...
 
-We'll further explore the superior efficiency and fairness of our proposed property rights relative to traditional systems in [the next section](partial-common-ownership.md), but let's first establish pragmatic reasons that property rights (i.e. scarcity) can be useful _even on the internet_.
+We'll further explore the superior efficiency and fairness of our proposed property rights relative to traditional systems in [the next section](./partial-common-ownership), but let's first establish pragmatic reasons that property rights (i.e. scarcity) can be useful _even on the internet_.
 
 From a technical standpoint, the Geo Web will never have a monopoly on the creation of digital land. There will always be different horizontal "layers" and vertically siloed applications that will compete to serve different augmented reality opportunities.
 
@@ -31,6 +31,6 @@ History has shown us that the emergent mechanisms in these scenarios start by pr
 
 Network effects are perhaps the most powerful force of the digital age. Shouldn't we make strategic, value-based decisions at the foundations of our internet infrastructure that harness scarcity and network effects instead of trying to pretend the inevitable away?
 
-Using digital land property rights on the Geo Web is our pragmatic design decision to help make the infinite possibilities of geospatial augmented reality meaningful while aligning with prosocial values. We believe that an [efficient, transparent market](partial-common-ownership.md) that [funds public goods instead of private profit](network-funds.md) is our best bet at [sustaining decentralized power and governance](../community-and-governance/geo-web-dao.md) in the [coming computing paradigm](../introduction/the-next-computing-paradigm.md).&#x20;
+Using digital land property rights on the Geo Web is our pragmatic design decision to help make the infinite possibilities of geospatial augmented reality meaningful while aligning with prosocial values. We believe that an [efficient, transparent market](./partial-common-ownership) that [funds public goods instead of private profit](./network-funds) is our best bet at [sustaining decentralized power and governance](../community-and-governance/geo-web-dao) in the [coming computing paradigm](../introduction/the-next-computing-paradigm).&#x20;
 
 The [legitimacy](https://vitalik.ca/general/2021/03/23/legitimacy.html) of the Geo Web is a societal choice. Yeah, it would be great if we could have a free (as in beer) and infinite system, but we should know at this point that just devolves into selling our attention to the highest bidder and extractive digital monopolies.

@@ -1,5 +1,4 @@
 ---
-slug: /developers/core-contracts/registrydiamond
 description: Documentation for the RegistryDiamond contract.
 ---
 
@@ -11,12 +10,12 @@ The `RegistryDiamond` is the facade contract that `delegatecall`s the facets tha
 
 The `RegistryDiamond`'s facets are modular, upgradable, and serve distinct purposes:
 
-| Name                                                | Type       | Description                                             |
-| --------------------------------------------------- | ---------- | ------------------------------------------------------- |
-| [PCOERC721Facet](erc721facet.md)                    | Core       | Implements the ERC721 NFT standard                      |
-| [GeoWebParcelFacet](geowebparcelfacet/)             | Core       | Defines the rules and structure of Geo Web land parcels |
-| [PCOLicenseClaimerFacet](pcolicenseclaimerfacet.md) | Action     | Used to claim new Geo Web land parcels                  |
-| [PCOLicenseParamsFacet](pcolicenseparamsfacet.md)   | Parameters | Sets global parameters for the Geo Web land market      |
+| Name                                               | Type       | Description                                             |
+| -------------------------------------------------- | ---------- | ------------------------------------------------------- |
+| [PCOERC721Facet](./erc721facet)                    | Core       | Implements the ERC721 NFT standard                      |
+| [GeoWebParcelFacet](geowebparcelfacet/)            | Core       | Defines the rules and structure of Geo Web land parcels |
+| [PCOLicenseClaimerFacet](./pcolicenseclaimerfacet) | Action     | Used to claim new Geo Web land parcels                  |
+| [PCOLicenseParamsFacet](./pcolicenseparamsfacet)   | Parameters | Sets global parameters for the Geo Web land market      |
 
 ## Code
 

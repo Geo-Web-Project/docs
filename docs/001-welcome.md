@@ -11,11 +11,11 @@ The Geo Web is in live beta on Optimism. Check out [the launch announcement](htt
 
 The Geo Web is a public good augmented reality network.
 
-On the Geo Web, publishers anchor digital content (images, videos, audio, or 3D objects) to physical locations using open, ownerless protocols. Users discover content in a [universal browser](concepts/spatial-browsing.md) on their smartphones, smartwatches, smartglasses, etc. based on their geolocation.
+On the Geo Web, publishers anchor digital content (images, videos, audio, or 3D objects) to physical locations using open, ownerless protocols. Users discover content in a [universal browser](concepts/spatial-browsing) on their smartphones, smartwatches, smartglasses, etc. based on their geolocation.
 
 The Geo Web creates a persistent, virtual layer covering Earth that can be experienced as naturally as the physical world. Rather than experiences intermediated by siloed apps and proprietary app stores, we can create an _augmented, shared reality_ with the Geo Web.
 
-The network is organized into [user-defined digital land parcel NFTs](concepts/digital-land.md). The land market is administered with a [system of property rights](concepts/partial-common-ownership.md) that encourages productive utility, open opportunity, and public goods funding.
+The network is organized into [user-defined digital land parcel NFTs](concepts/digital-land). The land market is administered with a [system of property rights](concepts/partial-common-ownership) that encourages productive utility, open opportunity, and public goods funding.
 
 The founding of the Geo Web is inspired by the open and democratizing nature of the early World Wide Web. Today, Web 2.0 is dominated by centralized powers (Google, Facebook, Apple, Amazon, etc.) that all too often abuse their monopoly positions, suppress innovation, and sell users' attention.
 

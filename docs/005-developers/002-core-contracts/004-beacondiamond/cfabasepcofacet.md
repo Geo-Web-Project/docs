@@ -6,7 +6,7 @@ description: Documentation for the CFABasePCOFacet contract.
 
 ## Summary
 
-The `CFABasePCOFacet` implements the functions required for the current licensor of a parcel to manage their `For Sale Price,`corresponding network fee stream, and required buffer deposit according to the [PCO market](../../../concepts/partial-common-ownership.md) and [Superfluid](https://docs.superfluid.finance/superfluid/developers/constant-flow-agreement-cfa) requirements.
+The `CFABasePCOFacet` implements the functions required for the current licensor of a parcel to manage their `For Sale Price,`corresponding network fee stream, and required buffer deposit according to the [PCO market](../../../concepts/partial-common-ownership) and [Superfluid](https://docs.superfluid.finance/superfluid/developers/constant-flow-agreement-cfa) requirements.
 
 ## Code
 
@@ -110,19 +110,19 @@ Get current bid
 
 ### LibCFABasePCO
 
-#### STORAGE\_POSITION
+#### STORAGE_POSITION
 
 ```solidity
 bytes32 STORAGE_POSITION
 ```
 
-#### STORAGE\_POSITION\_CUR\_BID
+#### STORAGE_POSITION_CUR_BID
 
 ```solidity
 bytes32 STORAGE_POSITION_CUR_BID
 ```
 
-#### STORAGE\_POSITION\_CFA
+#### STORAGE_POSITION_CFA
 
 ```solidity
 bytes32 STORAGE_POSITION_CFA

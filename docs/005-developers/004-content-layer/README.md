@@ -10,4 +10,4 @@ The core protocols of the internet and web were designed to enable peer-to-peer 
 
 While the security and data availability guarantees offered by Ethereum smart contracts are necessary for the Geo Web’s digital land market operations, the Geo Web’s content layer calls for a different set of tools. The Geo Web needs dynamic, efficient, but still decentralized content linking, transmission, and storage. The user experience offered must match or exceed the convenience and cost effectiveness offered by Web 2.0 architectures.
 
-We're still in the early days of web3, but we're well on our way to delivering on this goal with a content layer consisting of [IPFS](ipfs.md), [Ceramic](ceramic.md), and [Filecoin](storage.md).
+We're still in the early days of web3, but we're well on our way to delivering on this goal with a content layer consisting of [IPFS](./ipfs), [Ceramic](./ceramic), and [Filecoin](./storage).

@@ -6,9 +6,10 @@ description: >-
 
 # GeoWebCoordinate
 
-The `GeoWebCoordinate` entity indexes Geo Web coordinate's inclusion in an existing land parcel and its shape as a set of four [GeoPoints](geopoint.md) (bottom left, bottom right, top right, and top left):
+The `GeoWebCoordinate` entity indexes Geo Web coordinate's inclusion in an existing land parcel and its shape as a set of four [GeoPoints](./geopoint) (bottom left, bottom right, top right, and top left):
 
 {% code title="GeoWebCoordinate" %}
+
 ```graphql
 id: ID!
 parcel: GeoWebParcel!
@@ -20,6 +21,7 @@ pointBR: GeoPoint!
 pointTR: GeoPoint!
 pointTL: GeoPoint!
 ```
+
 {% endcode %}
 
-GeoWebCoordinate uses data from the [GeoWebParcel](../core-contracts/registrydiamond/geowebparcelfacet/) smart contracts to map a coordinate to a parcel. Querying this entity is the first external call for [Spatial Browsers](../spatial-browser-development.md) to resolve content.&#x20;
+GeoWebCoordinate uses data from the [GeoWebParcel](../core-contracts/registrydiamond/geowebparcelfacet/) smart contracts to map a coordinate to a parcel. Querying this entity is the first external call for [Spatial Browsers](../spatial-browser-development) to resolve content.&#x20;

@@ -1,5 +1,4 @@
 ---
-slug: /developers/core-contracts
 description: Documentation for the core of the Geo Web protocol.
 ---
 
@@ -15,24 +14,24 @@ Broadly speaking, we want to make it easy for stakeholders to read, understand, 
 
 The Geo Web's contracts use and are inspired by several design patterns and protocols in pursuit of these goals:
 
-- [Diamonds, Multi-Facet Proxy (EIP-2535)](standards-and-protocols/diamonds-multi-facet-proxy-eip-2535.md)
-- [Beacon Proxy](standards-and-protocols/beacon-proxy.md)
-- [Superfluid protocol](standards-and-protocols/superfluid.md)&#x20;
+- [Diamonds, Multi-Facet Proxy (EIP-2535)](./standards-and-protocols/diamonds-multi-facet-proxy-eip-2535)
+- [Beacon Proxy](./standards-and-protocols/beacon-proxy)
+- [Superfluid protocol](./standards-and-protocols/superfluid)&#x20;
 
 The resulting contracts are detailed in the following sections:
 
-- [RegistryDiamond](registrydiamond/)
-  - [PCOERC721Facet](registrydiamond/erc721facet.md)
-  - [GeoWebParcelFacet](registrydiamond/geowebparcelfacet/)
-  - [PCOLicenseClaimerFacet](registrydiamond/pcolicenseclaimerfacet.md)
-  - [PCOLicenseParamsFacet](registrydiamond/pcolicenseparamsfacet.md)
-- [PCOLicenseDiamond](pcolicensediamond/)
-  - [DiamondCut](pcolicensediamond/diamondcut.md)
-- [BeaconDiamond](beacondiamond/)(s)
-  - [CFABasePCOFacet](beacondiamond/cfabasepcofacet.md)
-  - [CFAPenaltyBidFacet](beacondiamond/cfapenaltybidfacet.md)
-  - [CFAReclaimerFacet](beacondiamond/cfareclaimerfacet.md)
-- [BeneficiarySuperApp](beneficiarysuperapp.md)
+- [RegistryDiamond](./registrydiamond/)
+  - [PCOERC721Facet](./registrydiamond/erc721facet)
+  - [GeoWebParcelFacet](./registrydiamond/geowebparcelfacet/)
+  - [PCOLicenseClaimerFacet](./registrydiamond/pcolicenseclaimerfacet)
+  - [PCOLicenseParamsFacet](./registrydiamond/pcolicenseparamsfacet)
+- [PCOLicenseDiamond](./pcolicensediamond/)
+  - [DiamondCut](./pcolicensediamond/diamondcut)
+- [BeaconDiamond](./beacondiamond/)(s)
+  - [CFABasePCOFacet](./beacondiamond/cfabasepcofacet)
+  - [CFAPenaltyBidFacet](./beacondiamond/cfapenaltybidfacet)
+  - [CFAReclaimerFacet](./beacondiamond/cfareclaimerfacet)
+- [BeneficiarySuperApp](./beneficiarysuperapp)
 
 :::caution
 When there are breaking storage changes made to facets, the previous facet(s) will remain in the Core Contract repository. The highest version number is currently active.

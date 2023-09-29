@@ -5,7 +5,7 @@ description: A guide for setting up email notifications for Geo Web parcel trans
 
 # Parcel Monitoring & Notifications
 
-The Geo Web's [partial common ownership](../concepts/partial-common-ownership.md) land market gives licensors 7 days to respond to incoming bids. To help avoid missing the response window after a rival bid (or any other parcel activity), we strongly suggest setting up notification emails for all the parcels in your portfolio.&#x20;
+The Geo Web's [partial common ownership](../concepts/partial-common-ownership) land market gives licensors 7 days to respond to incoming bids. To help avoid missing the response window after a rival bid (or any other parcel activity), we strongly suggest setting up notification emails for all the parcels in your portfolio.&#x20;
 
 The [Cadastre](https://geoweb.land/) now includes a simple feature & instructions to set up [Optimistic Etherscan](https://optimistic.etherscan.io/)'s _Watch List_ functionality to monitor all of your Geo Web parcels:
 

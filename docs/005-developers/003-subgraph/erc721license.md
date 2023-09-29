@@ -6,9 +6,10 @@ description: >-
 
 # GeoWebParcel
 
-The `GeoWebParcel` entity indexes the most fundamental information about each Geo Web land parcel (ID, parcel coordinates, owners) & [partial common ownership](../../concepts/partial-common-ownership.md) attributes (current For Sale Price and incoming bid value):
+The `GeoWebParcel` entity indexes the most fundamental information about each Geo Web land parcel (ID, parcel coordinates, owners) & [partial common ownership](../../concepts/partial-common-ownership) attributes (current For Sale Price and incoming bid value):
 
 {% code title="GeoWebParcel" %}
+
 ```graphql
 id: ID!
 coordinates: [GeoWebCoordinate!]
@@ -17,6 +18,7 @@ currentBid: Bid
 pendingBid: Bid
 licenseDiamond: Bytes
 ```
+
 {% endcode %}
 
-[Spatial Browsers](../spatial-browser-development.md) can use a chain of queries to obtain the`rootCID` from ERC721License for the user's current location (i.e. land parcel) then resolve the content from the Ceramic & IPFS networks.
+[Spatial Browsers](../spatial-browser-development) can use a chain of queries to obtain the`rootCID` from ERC721License for the user's current location (i.e. land parcel) then resolve the content from the Ceramic & IPFS networks.

@@ -6,7 +6,7 @@ description: Documentation of the LibGeoWebCoordinateV2 contract
 
 ### Summary
 
-The Geo Web Coordinate library defines the Geo Web's fixed global grid and coordinate system. It is the basis for the spatial definition of all [Geo Web land parcels](../../../../concepts/digital-land.md).
+The Geo Web Coordinate library defines the Geo Web's fixed global grid and coordinate system. It is the basis for the spatial definition of all [Geo Web land parcels](../../../../concepts/digital-land).
 
 The system's grid lines create rectangular areas referred to as Geo Web Coordinates. Each of these Coordinates is uniquely identified and stored with an EVM-optimized method as 1 bit (0=available, 1=claimed). This provides a scalable, on-chain way to ensure that no two parcels overlap (i.e. all Coordinates in a new claim are unclaimed) even as the number of claimed parcels grows into the millions.
 

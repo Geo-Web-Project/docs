@@ -17,7 +17,7 @@ Luckily there are many diverse (p2p) options for content storage that the Geo We
 
 For the average individual user, keeping their own node online at all times and pinning all of their content is impractical. This is why there are a number of pinning services (that run lots of reliable, redundant IPFS nodes) available in the IPFS ecosystem including [Pinata](https://www.pinata.cloud/), [Textile](https://www.textile.io/), and [Estuary](https://estuary.tech/).
 
-The [Cadastre](../../concepts/cadastre-intro.md) integrates with these 3rd-party services using the [IPFS Pinning Service API](https://ipfs.github.io/pinning-services-api-spec/) to provide long-term storage options for linked content.
+The [Cadastre](../../concepts/cadastre-intro) integrates with these 3rd-party services using the [IPFS Pinning Service API](https://ipfs.github.io/pinning-services-api-spec/) to provide long-term storage options for linked content.
 
 ![The Cadastre Media Gallery editor with content pinning integration ](/assets/media-gallery-pinning.png)
 

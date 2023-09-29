@@ -22,11 +22,11 @@ description: Describing the Geo Web's approach to initializing the land market f
 
 **Ending Price:** .005 ETHx (less than the price of a standard domain name)
 
-**Land Available:** The whole Earth—user-defined parcels must be rectangular, not overlap an existing parcel, and be less than or equal to 3,000 [Geo Web coordinates](../developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates.md).
+**Land Available:** The whole Earth—user-defined parcels must be rectangular, not overlap an existing parcel, and be less than or equal to 3,000 [Geo Web coordinates](../developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates).
 
 ‍
 
-**Market Structure:** Auction bid payments are made in addition to the [ongoing PCO market requirements](partial-common-ownership.md).
+**Market Structure:** Auction bid payments are made in addition to the [ongoing PCO market requirements](./partial-common-ownership).
 
 **Payment Token**: If you don’t have ETH on Optimism yet, you can bridge funds via the [Optimism Bridge](https://app.optimism.io/bridge/deposit) or [alternatives](https://www.optimism.io/apps/bridges). You can also directly purchase ETH on Optimism via [Ramp](https://ramp.network/buy/?defaultAsset=OPTIMISM_ETH) (no affiliation, not an endorsement, DYOR).
 
@@ -35,11 +35,11 @@ description: Describing the Geo Web's approach to initializing the land market f
 
 The Geo Web project is a public good that attempts to establish legitimacy through fairness and economic efficiency (amongst other core values).&#x20;
 
-Its [partial common ownership (PCO) system ](partial-common-ownership.md)promotes _ongoing_ healthy market dynamics (i.e. fairness and efficiency), but the base rules do not account for certain incentives created at the land market genesis.&#x20;
+Its [partial common ownership (PCO) system ](./partial-common-ownership)promotes _ongoing_ healthy market dynamics (i.e. fairness and efficiency), but the base rules do not account for certain incentives created at the land market genesis.&#x20;
 
 Geo Web land is transitioning from ownerless/non-existent to globally claimable at launch. If any space on the Geo Web is valued for any reason (utility, speculation, or otherwise), this moment in time would represent the start of a race to claim that economic value if the launch is naively designed.
 
-It is [well-established](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches) that "first-come-first-serve" is not a fair or efficient allocation mechanism under these conditions. It's not fair because [technically advanced participants have structural advantages](https://docs.flashbots.net/new-to-mev) over the average user to win these races on blockchains. It's not efficient because funds that could go [toward the project/public goods](network-funds.md) are consumed with high transaction fees. To top it all off, these races create negative externalities for the underlying blockchain network and its users through network congestion (see: Yuga Labs' [_Otherside_ metaverse launch](https://www.coindesk.com/business/2022/05/01/bayc-team-raises-285m-with-otherside-nfts-clogs-ethereum/) for a perfect demonstration of these issues).
+It is [well-established](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches) that "first-come-first-serve" is not a fair or efficient allocation mechanism under these conditions. It's not fair because [technically advanced participants have structural advantages](https://docs.flashbots.net/new-to-mev) over the average user to win these races on blockchains. It's not efficient because funds that could go [toward the project/public goods](./network-funds) are consumed with high transaction fees. To top it all off, these races create negative externalities for the underlying blockchain network and its users through network congestion (see: Yuga Labs' [_Otherside_ metaverse launch](https://www.coindesk.com/business/2022/05/01/bayc-team-raises-285m-with-otherside-nfts-clogs-ethereum/) for a perfect demonstration of these issues).
 
 Our solution is to launch the Geo Web with a global [Dutch auction](https://en.wikipedia.org/wiki/Dutch_auction).
 
@@ -69,4 +69,4 @@ The initial funds generated during this auction will fund public goods and may b
 
 Making initial land claims "free" may sound noble (and fairer to those with less capital), but that is just not how it would play out in practice if there is any competition/demand: the claim process would devolve into the FCFS race described in the opening of this article.&#x20;
 
-If there is no competition for a given area (e.g. a low-population area or a single-family home), then the auction will end with the [minimum `For Sale Price`](../community-and-governance/network-parameters.md). All interested participants will have been given a fair chance to back their claim(s) with a payment of commensurate value.
+If there is no competition for a given area (e.g. a low-population area or a single-family home), then the auction will end with the [minimum `For Sale Price`](../community-and-governance/network-parameters). All interested participants will have been given a fair chance to back their claim(s) with a payment of commensurate value.

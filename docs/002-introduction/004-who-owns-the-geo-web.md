@@ -17,6 +17,6 @@ The internet and World Wide Web’s minimalist protocol designs were key to scal
 
 We aim for this lesson to hold true for the three-dimensional iteration of a global information network as well.
 
-The narrow waist of the Geo Web network is the Geo Web's [Digital Land Registry](../concepts/digital-land-registry.md). It creates the necessary coordination and consensus for global network scale without specifying the hardware and software used throughout the rest of the stack. By including [credibly neutral](https://nakamoto.com/credible-neutrality/) economic incentives in the core protocols (something the internet and WWW don't have), we can supercharge the dynamic of permissionless innovation and counteract centralizing forces.
+The narrow waist of the Geo Web network is the Geo Web's [Digital Land Registry](../concepts/digital-land-registry). It creates the necessary coordination and consensus for global network scale without specifying the hardware and software used throughout the rest of the stack. By including [credibly neutral](https://nakamoto.com/credible-neutrality/) economic incentives in the core protocols (something the internet and WWW don't have), we can supercharge the dynamic of permissionless innovation and counteract centralizing forces.
 
 We simply believe that we will go further together than those that attempt to privatize, exclude, and go it alone.

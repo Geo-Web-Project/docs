@@ -7,7 +7,7 @@ description: >-
 
 # Network Funds
 
-The Geo Web's [partial common ownership system](partial-common-ownership.md) requires users to pay an ongoing licensing fee to "the network" to obtain and retain digital land property rights. Who exactly is "the network" though?
+The Geo Web's [partial common ownership system](./partial-common-ownership) requires users to pay an ongoing licensing fee to "the network" to obtain and retain digital land property rights. Who exactly is "the network" though?
 
 The Geo Web is a [public good](https://www.economicshelp.org/micro-economic-essays/marketfailure/public-goods/). Therefore, "the network" is a non-exclusionary term. Anyone in the world can join the network as a user, creator, publisher, or developer.$$^1$$ With this definition of "the network," network funds offer not only an opportunity, but a responsibility to fund the common good rather than privatize the funds for personal gain.
 

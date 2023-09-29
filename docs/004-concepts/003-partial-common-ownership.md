@@ -45,7 +45,7 @@ Here's an overview of how it works in practice:
 9\) Bob now has exclusive rights to anchor content within the parcel's boundaries and must maintain a valid license fee payment stream.
 :::
 
-The Geo Web implements and enforces these rules via the [Digital Land Registry smart contracts](digital-land-registry.md). It's an elegant system that enables a unified global digital land market with minimal centralization and overhead.
+The Geo Web implements and enforces these rules via the [Digital Land Registry smart contracts](./digital-land-registry). It's an elegant system that enables a unified global digital land market with minimal centralization and overhead.
 
 The system offers numerous benefits for the network's health versus a system of pure private property rights:
 
@@ -61,7 +61,7 @@ While the novelty of this property rights system will require effective messagin
 :::caution
 Additional Implementation Details:
 
-- The configurable parameters of the market like the network fee rate, minimum `For Sale Price`, bid rejection penalty, etc. can be adjusted via governance. The current values are [listed here](../community-and-governance/network-parameters.md).
+- The configurable parameters of the market like the network fee rate, minimum `For Sale Price`, bid rejection penalty, etc. can be adjusted via governance. The current values are [listed here](../community-and-governance/network-parameters).
 - The mainnet Geo Web land market will be initiated with a fair launch auction. Claims during this period will require a one-time payment as determined by a Dutch auction (starts at a high value and linearly decrease to the minimum `For Sale Price`). This is to limit gas price wars for highly-desirable locations and create a playing field in which those who genuinely value the land the most have a fair opportunity to claim it.
 - If a licensor's payment stream runs dry, their corresponding parcel(s) will also be placed in a Dutch auction. The auction price will linearly decrease from the previous `For Sale Price` to zero. Any user can claim the land during the auction at the current price. The previous landholder receives the proceeds from the auction.
   :::

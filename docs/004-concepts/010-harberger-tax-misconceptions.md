@@ -60,6 +60,6 @@ Detractors think of Harberger tax transfers as unannounced and instantaneous. Th
 
 Harberger taxes don’t have to be _taxes_. The mechanism works in many contexts where a coercive government isn’t making the decree.
 
-The Geo Web is one example. That’s why we use the [partial common ownership](partial-common-ownership.md) terminology.
+The Geo Web is one example. That’s why we use the [partial common ownership](./partial-common-ownership) terminology.
 
 Artist royalties, decentralized network assets, and other bottom-up community creations don’t require taxes but might benefit from the Harberger-style mechanism to manage scarcity and better reward value creation. These things aren’t evil or coercive and can fly under the banner of SALSA (Self-Assessed Licenses Sold at Auction), plural ownership, depreciating licenses, etc.

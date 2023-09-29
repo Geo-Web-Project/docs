@@ -6,14 +6,16 @@ description: >-
 
 # GeoPoint
 
-The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [LibGeoWebCoordinate](../core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates.md) library:
+The GeoPoint entity indexes latitude/longitude coordinate pairs with a unique ID according to the grid defined in the [LibGeoWebCoordinate](../core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates) library:
 
 {% code title="GeoPoint" %}
+
 ```graphql
 id: ID!
 lon: BigDecimal!
 lat: BigDecimal!
 ```
+
 {% endcode %}
 
-GeoPoint IDs define the four corners of Geo Web Coordinates in the [GeoWebCoordinate](geowebcoordinate.md) entity.
+GeoPoint IDs define the four corners of Geo Web Coordinates in the [GeoWebCoordinate](./geowebcoordinate) entity.

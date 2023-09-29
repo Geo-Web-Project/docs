@@ -6,7 +6,7 @@ description: Documentation for the PCOLicenseClaimerFacetV2 contract.
 
 ## Summary
 
-The `PCOLicenseClaimerFacet` is the action facet that implements the claiming of new Geo Web Land parcels. This includes both the [Fair Launch ](../../../concepts/fair-launch.md)and ongoing claim types.
+The `PCOLicenseClaimerFacet` is the action facet that implements the claiming of new Geo Web Land parcels. This includes both the [Fair Launch ](../../../concepts/fair-launch)and ongoing claim types.
 
 Claiming a parcel requires setting a `For Sale Price`, opening the required Network Fee stream, collecting a stream buffer, defining the shape, and paying a one-time claim payment (during the Fair Launch period).&#x20;
 
@@ -35,11 +35,9 @@ Build a parcel and mint a license
 | user   | address                             | Address of license owner to be |
 | parcel | struct LibGeoWebParcelV2.LandParcel | New parcel                     |
 
-
-
 ### LibPCOLicenseClaimer
 
-#### STORAGE\_POSITION
+#### STORAGE_POSITION
 
 ```solidity
 bytes32 STORAGE_POSITION
