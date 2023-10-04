@@ -1,6 +1,6 @@
 # MUD World
 
-Geospatial content anchored on the Geo Web is published onchain to a single [MUD](https://mud.dev) World. MUD is an EVM framework that handles access control, indexing, and extensibility to enable building [Autonomous Worlds](https://0xparc.org/blog/autonomous-worlds).
+Geo Web land parcel content is published onchain to a single [MUD](https://mud.dev) World. MUD is an EVM framework that handles access control, indexing, and extensibility to enable building [Autonomous Worlds](https://0xparc.org/blog/autonomous-worlds).
 
 Each [PCO](../../concepts/partial-common-ownership) parcel in the Geo Web is assigned a namespace in the global MUD world. The current owner of the parcel is the only one who can take ownership of the corresponding namespace for that parcel. They are then free to do what they wish so long as they keep paying the network fee. This includes keeping write permissions to themselves, opening up writing to anyone or any combination in between.
 
@@ -8,7 +8,7 @@ Each [PCO](../../concepts/partial-common-ownership) parcel in the Geo Web is ass
 
 ## Global Hooks and Systems
 
-In order to enforce the mechanics of [PCO](../../concepts/partial-common-ownership), the world has a custom hook and system installed in the `/world` namespace.
+In order to enforce the mechanics of [PCO](../../concepts/partial-common-ownership), the world has a [custom hook](https://mud.dev/store/advanced-features#storage-hooks) and [system](https://mud.dev/world/world-101#systems) installed in the `/world` namespace.
 
 A hook on `/world/NamespaceOwner` enforces that at any given time the namespace owner can only be changed to the current owner of the corresponding parcel. A custom system can then allow the namespace to be created upon claiming, or the ownership of the namespace transferred to the new parcel owner.
 
