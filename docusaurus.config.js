@@ -125,6 +125,18 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "W1Z56PWRF2",
+
+        // Public API key: it is safe to commit it
+        apiKey: "45fa93e80891fdca92934be886d6c430",
+
+        indexName: "geoweb",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+      },
     }),
 };
 
