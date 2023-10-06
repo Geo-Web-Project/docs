@@ -23,4 +23,4 @@ By default, the namespace owner can delegate permissions to others for any resou
 - Should there be a root owner of the world?
   - If not, how do upgrades occur?
   - Various client teams could attest to what world is the "correct" one via [EAS](https://attest.sh). Upgrading would simply be attesting a new, immutable world.
-  - New world someone fallsback to the old?
+  - New world somehow falls back to the old?

@@ -3,7 +3,7 @@
 An **Augment** is a MUD [module](https://mud.dev/world/modules) that can be installed onto a specific parcel in the [PCO World](./mud-world). A module is an onchain script that can pre-populate tables with content and install infrastructure like systems, hooks, or new tables. All Augments must conform to a simple onchain interface that enables them to be discovered and installed in a general way without any additional work needed by clients.
 
 :::tip
-You can think of Augments like Apps, only with more open distribution and flexibility for developers to create any business model they wish.
+You can think of Augments like apps, only with more open distribution and flexibility for developers to create any business model they wish.
 :::
 
 ## Augment Interface
