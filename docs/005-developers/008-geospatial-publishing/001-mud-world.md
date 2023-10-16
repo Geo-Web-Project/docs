@@ -18,6 +18,10 @@ By default, the namespace owner can delegate permissions to others for any resou
 
 ![](./mud-world-1.excalidraw.svg)
 
+## Deployments
+
+Current deployments can be found [here](https://github.com/Geo-Web-Project/mud-world-base/blob/main/packages/contracts/worlds.json).
+
 ## Open Questions
 
 - Should there be a root owner of the world?
