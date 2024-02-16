@@ -6,7 +6,7 @@ description: Step-by-step instructions for making Geo Web parcel claims
 # How to claim Geo Web land
 
 :::tip
-**OP incentives for Geo Web land claims are live for a limited time!** [Details here.](https://www.geoweb.network/post/op-incentives)
+**OP incentives for Geo Web land claims are live!** [Details here.](https://www.geoweb.network/post/op-incentives)
 :::
 
 :::info
@@ -25,7 +25,7 @@ So once you have all the [quick start requirements](./quickstart) covered, follo
 
 2\. Search for, zoom, and/or pan to the location where you want to make a parcel claim. **Click once on the map to start a claim.**
 
-3\. **Drag and resize the rectangle then confirm your desired claim shape**. You can still pan the map if needed by clicking and dragging outside the rectangle. [Parcels are currently limited](../developers/core-contracts/registrydiamond/geowebparcelfacet/) to rectangles with 3,000 or fewer [Coordinates](../developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates). Parcels also cannot exceed 200 coordinates North-to-South or East-to-West:
+3\. **Resize the rectangle then confirm your desired claim shape**. You can pan the map if needed by clicking and dragging outside the rectangle. [Parcels are currently limited](../developers/core-contracts/registrydiamond/geowebparcelfacet/) to rectangles with 3,000 or fewer [Coordinates](../developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates). Parcels also cannot exceed 200 coordinates North-to-South or East-to-West:
 
 <figure><img src="/assets/Claim Start (1).png" alt="View of the start of a parcel claim on the Geo Web near the Eiffel tower."/><figcaption><p>Starting a parcel claim. Pending parcel claims show as yellow rectangles in the Geo Web Coordinate grid.</p></figcaption></figure>
 

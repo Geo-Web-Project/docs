@@ -7,15 +7,15 @@ description: >-
 
 # The Next Computing Paradigm
 
-January 9th, 2007 marked the beginning of the smartphone age. Apple launched the original iPhone to much fanfare. In retrospect, it was the start point for changes to our world more dramatic than even the biggest Apple fans could have imagined.
+January 9th, 2007 marked the beginning of the smartphone age. Apple launched the original iPhone to much fanfare. In retrospect, it was the starting point for changes to our world more dramatic than even the biggest Apple fans could have imagined.
 
 The smartphone was a new computing paradigm. It would eventually put billions of people onto the internet for the first time. It made the already connected more connected than ever before. It created a new software industry based around "apps." It drove innovation in chips, digital displays, batteries, and wireless connectivity. It fueled a massive concentration of wealth and power to those that controlled the most popular operating systems and applications.
 
 The smartphone, directly and indirectly, defines today's economy, politics, and culture.
 
-The next computing paradigm shift will be even more impactful than the last. It will merge the physical and digital worlds into one. Some call it the metaverse.
+The next computing paradigm shift will be even more impactful than the last. It will merge the physical and digital worlds into one. For a couple months, people called it the metaverse. Apple is now calling it spatial computing.
 
-The internet won't be constrained to a glowing glass rectangle but will blanket our physical world. Its structure will define new virtual worlds and experiences. It will always be in our field of view.
+Whatever you call it, the internet won't be constrained to a glowing glass rectangle but will blanket our physical world. Its structure will define new virtual worlds and experiences. It will always be in our field of view.
 
 The next era of computing will be driven by augmented and virtual reality. Atoms will be replaced with pixels and bits. We'll build fantastic digital games, art, and tools that our brains will experience as part of a three-dimensional reality. We'll learn, socialize, and "travel" in mind-blowing new ways. Like each previous computing era, we'll unlock massive gains in productivity, cost savings, and new economic activity.
 

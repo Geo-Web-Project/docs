@@ -11,6 +11,6 @@ The opposite is a private good. It's an item used for private benefit that is ow
 
 Many products and services exist on a spectrum between a pure public good and a private good. Highway systems are often cited as a public good, but anyone who's experienced big city traffic knows that there is a limit to how many people can simultaneously use a road.
 
-Informational goods aren't constrained the same way. Information like scientific knowledge, mathematical equations, and software code can be replicated with effectively zero marginal cost: we are just scratching the surface of the implications.&#x20;
+Informational goods aren't constrained the same way. Information like scientific knowledge, mathematical equations, and software code can be replicated with effectively zero marginal cost: we are just scratching the surface of the implications.
 
 Digital and informational goods don't have to be rivalrous or excludable but can be made so. This decision should be a strategic choice—not one driven by a fixed mindset tradition. Blockchain technology and cryptography are opening up this design space. With thoughtful tradeoffs between public/private goods and mechanism design, we can create a future of abundance and mutual benefit for all.
