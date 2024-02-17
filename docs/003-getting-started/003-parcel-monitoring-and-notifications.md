@@ -9,7 +9,7 @@ The Geo Web's [partial common ownership](../concepts/partial-common-ownership) l
 
 The [Cadastre](https://geoweb.land/) now includes a simple feature & instructions to set up [Optimistic Etherscan](https://optimistic.etherscan.io/)'s _Watch List_ functionality to monitor all of your Geo Web parcels:
 
-:::caution
+:::note
 An Optimistic Etherscan account is required to use this functionality. If you don't have one yet, you can sign up for one here: [https://optimistic.etherscan.io/register](https://optimistic.etherscan.io/register).&#x20;
 
 Use an email that you regularly monitor!

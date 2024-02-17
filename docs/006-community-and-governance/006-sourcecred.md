@@ -5,7 +5,7 @@ description: A tool for measuring and rewarding value creation on the Geo Web pr
 # SourceCred
 
 :::danger
-Note: SouceCred is no longer in use on the Geo Web, but we're keeping the documentation up for transparency.
+SouceCred is no longer in use on the Geo Web, but we're keeping the documentation up for reference.
 :::
 
 One of the early tools that we've relied on most heavily to support the Geo Web's [open organizational vision](./open-org) is [SourceCred](https://sourcecred.io/).&#x20;

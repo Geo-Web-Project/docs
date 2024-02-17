@@ -1,9 +1,9 @@
 # Network Funds Allocation
 
-**Last Update: February 16th, 2024**
+**Last Update: February 17th, 2024**
 
 :::info
-Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
+The Geo Web's pilot of Streaming Quadratic Funding is live from February 20 to April 20, 2024. Participate a [https://geoweb.land/governance](https://geoweb.land/governance)
 :::
 
 The Geo Web generates [network funds](../concepts/network-funds) from its [partial common ownership](../concepts/partial-common-ownership) land market. These funds are designated to be invested into public goods and the creation of positive-sum outcomes.&#x20;
@@ -12,7 +12,7 @@ _How_ these funds are best allocated will be a perpetual challenge. There are ma
 
 In order to help maximize open participation in allocation decisions, network funds are initially, exclusively being used to fund matching pools for [quadratic matching rounds](https://wtfisqf.com/?grant=&grant=&grant=&grant=&match=1000).&#x20;
 
-This also limits core contract complexity and the exercise of centralized authority for the [Geo Web multi-sig](./governance-at-launch). The signers will simply be responsible for periodically transferring network funds from the Safe to quadratic matching pool address(es) and/or validated distribution contracts which to reflect the will of the community.
+This also limits core contract complexity and the exercise of centralized authority for the [Geo Web multi-sig](./governance-at-launch). The signers will simply be responsible for periodically transferring network funds from the Safe to quadratic matching pool address(es) and/or validated distribution contracts which to reflect the voice of the community.
 
 ## Quadratic Funding Round #1
 
@@ -37,4 +37,4 @@ This resulted in some very nearly eligible contributions (just under 1 USD and/o
 
 ## Quadratic Funding Round #2
 
-The second quadratic funding experiment run by the Geo Web is launching on February 20th, 2024. It's the first-ever [*streaming* quadratic funding](.../concepts/streaming-quadratic-funding) round. This pilot run is a collaboration between Geo Web, Superfluid, and Gitcoin Allo. Results, lessons learned, and anticipated next steps will be posted here after the round.
+The second quadratic funding experiment run by the Geo Web is launching on February 20th, 2024. It's the first-ever [*streaming* quadratic funding](../004-concepts/010-streaming-quadratic-funding) round. This pilot run is a collaboration between Geo Web, Superfluid, and Gitcoin Allo. Results, lessons learned, and anticipated next steps will be posted here after the round. You can participate in the round until April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance).

@@ -2,7 +2,7 @@
 slug: /introduction/the-next-computing-paradigm
 description: >-
   Augmented and virtual reality will come to define our world as the smartphone
-  does today.
+  does today. It's the spatial computing era.
 ---
 
 # The Next Computing Paradigm
@@ -13,9 +13,9 @@ The smartphone was a new computing paradigm. It would eventually put billions of
 
 The smartphone, directly and indirectly, defines today's economy, politics, and culture.
 
-The next computing paradigm shift will be even more impactful than the last. It will merge the physical and digital worlds into one. For a couple months, people called it the metaverse. Apple is now calling it spatial computing.
+The next computing paradigm shift will be even more impactful than the last. It will merge the physical and digital worlds into one. For a period, people called it the metaverse. Apple is now calling it spatial computing.
 
-Whatever you call it, the internet won't be constrained to a glowing glass rectangle but will blanket our physical world. Its structure will define new virtual worlds and experiences. It will always be in our field of view.
+Whatever you call _it_, the internet won't be constrained to a glowing glass rectangle but will blanket our physical world. Its structure will define new virtual worlds and experiences. It will always be in our field of view.
 
 The next era of computing will be driven by augmented and virtual reality. Atoms will be replaced with pixels and bits. We'll build fantastic digital games, art, and tools that our brains will experience as part of a three-dimensional reality. We'll learn, socialize, and "travel" in mind-blowing new ways. Like each previous computing era, we'll unlock massive gains in productivity, cost savings, and new economic activity.
 

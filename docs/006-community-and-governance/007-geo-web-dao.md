@@ -1,7 +1,7 @@
 # Geo Web DAO
 
 :::danger
-Note: This DAO is no longer in use, but we're keeping the documentation up for transparency. As of writing, the Geo Web core contributors don't have plans to implement a coin voting or membership DAO for the foreseeable future. Governance mechanisms for the protocol will likely be rolled out incrementally and will focus on enabling wide, fair, and effective participation.
+This DAO is no longer in use, but we're keeping the documentation up for reference. As of writing, the Geo Web core contributors don't have plans to implement a coin voting or membership DAO for the foreseeable future. Governance mechanisms for the protocol will likely be rolled out incrementally and will focus on enabling wide, fair, and effective participation.
 :::
 
 The Geo Web DAO (decentralized autonomous organization) is an entity established to help support transparent governance of the Geo Web network. The first iteration is an [Aragon DAO](https://aragon.org/) on the xDAI network found here: [https://aragon.1hive.org/#/geoweb/](https://aragon.1hive.org/#/geoweb/).

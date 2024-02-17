@@ -18,7 +18,7 @@ _The Metaverse_ has inspired countless fictional and real instantiations of the 
 
 The worlds listed above all exist separate from physical reality. What does the metaverse look like if we don't just live our lives in a VR headset or pod?
 
-We believe that there will always be room for digital enhancement of the physical world: eventually the metaverse will permeate every corner of it.
+We believe that there will always be room for digital enhancement of the physical world: eventually the metaverse may permeate every corner of it.
 
 Earth is 3D, persistent, and social because...physics. But physics enforces (sometimes) pesky costs and limitations to the experiences that we can physically build. Wouldn't it be great to maintain the former attributes without as much of the latter?
 
@@ -26,6 +26,6 @@ The Geo Web creates a global virtual overlay that's unencumbered by matter but i
 
 The Geo Web isn't "just an augmented reality app." It's an open network that enables any and all augmented reality use cases to coexist in the same reality. It creates natural discoverability and incentives for global consensus about _what exists where_. When two Geo Web users walk down the street, they see the same world.
 
-Siloed apps and smart assistants can support augmented reality use cases in isolation. But, they lack the same composability, incentives, and vision to create a shared digital reality that the Geo Web has.
+Siloed apps and smart assistants can support augmented reality use cases in isolation. But, they lack the same composability, incentives, and vision to create a shared digital reality which the Geo Web aims for.
 
 As we move to a world full of AR, the social impact and second-order impacts of our technology are just as important as the content itself. That's why we're building the Geo Web.

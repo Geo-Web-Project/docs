@@ -7,11 +7,11 @@ description: >-
 
 # Use Cases
 
+**Gaming & Geocaching** - Think of Pokemon Go, but not on a proprietary, siloed platform. You can use location-based Easter eggs on the Geo Web to drive traffic to real world locations or as part of a generalized game.&#x20;
+
 **NFT Display** - "$69M for a JPEG?!??!" Those that don't get digital art and NFTs yet eventually will. Virtual worlds have become a prime place to display digital art, but the Geo Web can bring NFTs to the "real world." Home/business decoration, public art installations, and art galleries are all possible. Whether 2D, 3D, or motion, we'll continue to build native integrations with blockchains and wallets to amplify the unique characteristics that separate an NFT from "just a JPEG."
 
-**Websites** - No more QR code scanning to pull up a restaurant's menu or searching the web to find that coupon for a retail outlet. Any place of business can anchor an existing website and traditional web content to be frictionlessly discovered by their customers on a Geo Web spatial browser.
-
-**Scavenger Hunts** - Think Pokemon Go, but not on a proprietary, siloed platform. You can use location-based Easter eggs on the Geo Web to drive traffic to real world locations or as part of a generalized game.&#x20;
+**Website Discovery** - No more QR code scanning to pull up a restaurant's menu or searching the web to find that coupon for a retail outlet. Any place of business can anchor an existing website and traditional web content to be frictionlessly discovered by their customers on a Geo Web spatial browser.
 
 **Social Experiences** - The shared social experience is what makes concerts, sporting events, and festivals special. Event organizers can use the Geo Web to augment the physical experience with shared digital engagement (e.g. chat/posts, collaborative art, games, etc) that is restricted to participants at the venue.
 

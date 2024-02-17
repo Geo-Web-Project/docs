@@ -7,7 +7,7 @@ description: >-
 
 # Persistence & Storage
 
-Neither IPFS nor Ceramic protocols guarantee data availability. Because content is found by what it is rather than where it is, no one is explicitly responsible for storing the data on these networks.&#x20;
+The IPFS protocol doesn't guarantee data availability. Because content is found by what it is rather than where it is, no one is explicitly responsible for storing the data on these networks.&#x20;
 
 With popular content that is naturally replicated across many connected nodes, this may not be an issue. That's not an adequate global assumption for Geo Web content to be reliably resolvable though.
 
@@ -22,14 +22,6 @@ The [Cadastre](../../concepts/cadastre-intro) integrates with these 3rd-party se
 ![The Cadastre Media Gallery editor with content pinning integration ](/assets/media-gallery-pinning.png)
 
 The Cadastre's current default storage integration is with [web3.storage](https://web3.storage/), but we eventually allow publishers to connect to alternative pinning services (by entering their own API credentials).
-
-:::info
-Note: The parcel linking metadata found in Streams is different than the linked content itself. Both need to be persisted for proper content resolution on the Geo Web.
-
-3Box Labs, the developer of Ceramic, currently runs a free hosted service for Ceramic nodes on their mainnet. The Geo Web Cadastre is able to automatically request that all Stream updates be pinned through this service.
-
-As the Ceramic network is progressively decentralized, the Geo Web may choose to run or subsidize additional Ceramic nodes used for pinning parcel metadata.&#x20;
-:::
 
 The Geo Web-web3.storage integration is both convenient and powerful. Each Geo Web land licensor is allocated this free storage without requiring any extra account creation or credentials.
 

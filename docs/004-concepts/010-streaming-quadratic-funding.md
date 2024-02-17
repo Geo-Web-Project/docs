@@ -7,7 +7,7 @@ description: >-
 # Streaming Quadratic Funding
 
 :::info
-Participate in the first-ever Streaming Quadratic Funding round February 20 to April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance)
+Participate in the first-ever Streaming Quadratic Funding round from February 20 to April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance)
 :::
 
 Streaming quadratic funding (SQF) is a supercharged implementation of [quadratic funding (QF)](https://www.wtfisqf.com/?grant=&grant=&grant=&grant=&match=1000)—the public goods funding mechanism popularized in web3 by [Gitcoin](https://gitcoin.co/).
