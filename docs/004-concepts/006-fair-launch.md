@@ -6,30 +6,22 @@ description: Describing the Geo Web's approach to initializing the land market f
 # Fair Launch
 
 :::tip
-**Mainnet Fair Launch TL;DR**\
+The Geo Web fair launch auction ended on January 14th, 2023. The following article is left only for reference. 
+:::
+
+:::info
+**Mainnet Fair Launch TL;DR**
 
 **Network:** Optimism ([EVM ChainID 10](https://chainlist.org/?search=Optimism))
-
 **Claim Interface:** Geo Web Cadastre ([https://geoweb.land](https://geoweb.land) or [https://cadastre.eth.limo](https://cadastre.eth.limo))
-
 **Auction Type:** Dutch auction (linearly decreasing)
-
 **Start Time (claims allowed):** Thursday, December 15th, 2022, 17:00 UTC
-
 **End Time (minimum claim price reached):** Saturday, January 14th, 2023, 17:00 UTC
-
 **Starting Price** 100 ETHx ([Superfluid wrapped ETH for streaming](https://docs.superfluid.finance/superfluid/developers/super-tokens/super-tokens/types-of-super-tokens/native-asset-super-tokens))
-
 **Ending Price:** .005 ETHx (less than the price of a standard domain name)
-
 **Land Available:** The whole Earth—user-defined parcels must be rectangular, not overlap an existing parcel, and be less than or equal to 3,000 [Geo Web coordinates](../developers/core-contracts/registrydiamond/geowebparcelfacet/geo-web-coordinates).
-
-‍
-
 **Market Structure:** Auction bid payments are made in addition to the [ongoing PCO market requirements](./partial-common-ownership).
-
 **Payment Token**: If you don’t have ETH on Optimism yet, you can bridge funds via the [Optimism Bridge](https://app.optimism.io/bridge/deposit) or [alternatives](https://www.optimism.io/apps/bridges). You can also directly purchase ETH on Optimism via [Ramp](https://ramp.network/buy/?defaultAsset=OPTIMISM_ETH) (no affiliation, not an endorsement, DYOR).
-
 **Test Before You Buy:** If you're not ready for the real thing just yet, you can explore the Geo Web testnet accessible at [https://testnet.geoweb.land/](https://testnet.geoweb.land/).
 :::
 

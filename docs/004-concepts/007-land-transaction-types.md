@@ -5,8 +5,8 @@ description: An overview of the six basic transactions of the Geo Web digital la
 
 # Land Transactions
 
-:::danger
-On the [testnet Cadastre](https://testnet.geoweb.land/), Optimistic Goerli ETH is required for all transactions. You can get free testnet ETH from [a community faucet or bridge it from Goerli](https://community.optimism.io/docs/useful-tools/faucets/).&#x20;
+:::tip
+On the [testnet Cadastre](https://testnet.geoweb.land/), OP Sepolia ETH is required for all transactions. You can get free testnet ETH from [a community faucet or bridge it from Sepolia](https://community.optimism.io/docs/useful-tools/faucets/).&#x20;
 :::
 
 :::info
