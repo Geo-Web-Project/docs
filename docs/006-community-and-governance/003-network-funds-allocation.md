@@ -37,4 +37,4 @@ This resulted in some very nearly eligible contributions (just under 1 USD and/o
 
 ## Quadratic Funding Round #2
 
-The second quadratic funding experiment run by the Geo Web is launching on February 20th, 2024. It's the first-ever [*streaming* quadratic funding](../004-concepts/010-streaming-quadratic-funding) round. This pilot run is a collaboration between Geo Web, Superfluid, and Gitcoin Allo. Results, lessons learned, and anticipated next steps will be posted here after the round. You can participate in the round until April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance).
+The second quadratic funding experiment run by the Geo Web is launching on February 20th, 2024. It's the first-ever [*streaming* quadratic funding](../concepts/streaming-quadratic-funding) round. This pilot run is a collaboration between Geo Web, Superfluid, and Gitcoin Allo. Results, lessons learned, and anticipated next steps will be posted here after the round. You can participate in the round until April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance).
