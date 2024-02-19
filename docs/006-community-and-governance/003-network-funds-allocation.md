@@ -3,7 +3,7 @@
 **Last Update: February 17th, 2024**
 
 :::info
-The Geo Web's pilot of Streaming Quadratic Funding is live from February 20 to April 20, 2024. Participate a [https://geoweb.land/governance](https://geoweb.land/governance)
+The Geo Web's pilot of Streaming Quadratic Funding is live from February 21 to April 21, 2024. Participate a [https://geoweb.land/governance](https://geoweb.land/governance)
 :::
 
 The Geo Web generates [network funds](../concepts/network-funds) from its [partial common ownership](../concepts/partial-common-ownership) land market. These funds are designated to be invested into public goods and the creation of positive-sum outcomes.&#x20;
@@ -27,7 +27,7 @@ _Geo Web + Spatial Computing Public Goods Quadratic Funding Results_ (aka Geo We
 - Geo Web Open Contributor Fund - 0.5774 ETH
 - Splant - 0.5602 ETH
 - Archly - 0.1723 ETH
-  :::
+:::
 
 The Geo Web was the first community to run a self-serve QF round on the [Gitcoin Grant Stack](https://www.gitcoin.co/grants-stack). The round utilized a [Gitcoin Passport](https://passport.gitcoin.co/#/) score of >=20 and a minimum donation of 1 USD equivalent as the eligibility criteria for inclusion in the matching calculation. The matching cap for a single grantee was 50% of the pool.&#x20;
 
@@ -37,4 +37,4 @@ This resulted in some very nearly eligible contributions (just under 1 USD and/o
 
 ## Quadratic Funding Round #2
 
-The second quadratic funding experiment run by the Geo Web is launching on February 20th, 2024. It's the first-ever [*streaming* quadratic funding](../concepts/streaming-quadratic-funding) round. This pilot run is a collaboration between Geo Web, Superfluid, and Gitcoin Allo. Results, lessons learned, and anticipated next steps will be posted here after the round. You can participate in the round until April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance).
+The second quadratic funding experiment run by the Geo Web is launching on February 21st, 2024. It's the first-ever [*streaming* quadratic funding](../concepts/streaming-quadratic-funding) round. This pilot run is a collaboration between Geo Web, Superfluid, and Gitcoin Allo. Results, lessons learned, and anticipated next steps will be posted here after the round. You can participate in the round until April 21st, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance).
