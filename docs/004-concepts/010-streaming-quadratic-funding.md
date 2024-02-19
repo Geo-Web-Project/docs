@@ -7,16 +7,16 @@ description: >-
 # Streaming Quadratic Funding
 
 :::info
-Participate in the first-ever Streaming Quadratic Funding round from February 20 to April 20th, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance)
+Participate in the first-ever Streaming Quadratic Funding round from February 21 to April 21st, 2024 at [https://geoweb.land/governance](https://geoweb.land/governance)
 :::
 
 Streaming quadratic funding (SQF) is a supercharged implementation of [quadratic funding (QF)](https://www.wtfisqf.com/?grant=&grant=&grant=&grant=&match=1000)—the public goods funding mechanism popularized in web3 by [Gitcoin](https://gitcoin.co/).
 
 Rather than discrete donations and payouts at the end of the round, SQF uses donation streams (i.e. continuous per-second transfers) and real-time quadratic matching streams.
 
-SQF can be thought of as running a full quadratic matching round every second, perpetually. Removing time discontinuities from quadratic funding can transform the grantee & donor experience,, amplify the impact of public goods funding, and promote governance composability without sacrificing efficiency.
+SQF can be thought of as running a full quadratic matching round every second, perpetually. Removing time discontinuities from quadratic funding can transform the grantee & donor experience, amplify the impact of public goods funding, and promote governance composability without sacrificing efficiency.
 
-The Geo Web, in partnership with Gitcoin and Superfluid, is operating the first SQF pilot round from February 20th to April 20th, 2024.
+The Geo Web, in partnership with Gitcoin and Superfluid, is operating the first SQF pilot round from February 21st to April 21st, 2024.
 
 ## Quickstart Requirements
 
@@ -73,7 +73,7 @@ To open or edit an existing matching pool stream, click on the green `Donate` bu
 
 ## Streaming Quadratic Matching
 
-How the grantee matching streams in SQF instantaneously reflect each donation stream is almost like magic. A single transaction can update tens or maybe even hundreds of streams without exploding transaction costs.
+How the grantee matching streams in SQF instantaneously reflect each donation stream is almost like magic. A single transaction can update tens or even hundreds of streams without exploding transaction costs.
 
 It is achieved with [Superfluid's Streaming Distribution](https://docs.superfluid.finance/docs/concepts/overview/distributions) primitive and the [Gitcoin Allo](https://allo.gitcoin.co/) protocol.
 
