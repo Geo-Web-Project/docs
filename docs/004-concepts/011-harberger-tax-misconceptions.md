@@ -13,7 +13,7 @@ Not all Harberger detractors will directly state that private property rights ar
 
 In reality, private property rights are a technology, not a law of the universe. Like other technology, they are a tool invented by humans to imperfectly solve a problem. Private property rights spread to become a foundation of our modern economy because they were more effective at addressing the [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) and encouraging investment-led economic growth (both good things!) than the previous systems.
 
-Whether it is Harberger taxes/partial common ownership or not, another system that better suits our dynamic, multi-variable needs will overtake private property rights through cold-hard economic efficiency. Our current view of private property rights will become as obsolete as feudalism, horse-drawn buggies, and paper money ;).
+Whether it is Harberger taxes/partial common ownership or not, another system that better suits our dynamic, multi-variable needs will overtake private property rights through cold-hard economic efficiency. Our current view of private property rights will become as obsolete as feudalism, horse-drawn buggies, and paper money...
 
 Dogmatically elevating any technology to sacred status just isn’t a winning proposition.
 

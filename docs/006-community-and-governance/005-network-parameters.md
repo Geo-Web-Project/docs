@@ -14,9 +14,9 @@ The Geo Web [core contracts](../developers/core-contracts/) contain [numerous](h
 - Bid Rejection Penalty = Bid For Sale Price \* 10%
 - Bid Response Window = 7 Days
 - Reclaim (Foreclosure) Auction Length = 14 Days
-- PCO Market Beneficiary Address = TBA
-- Fair Launch Start/End Time = TBA
-- Fair Launch Start/End Bid = TBA
+- PCO Market Beneficiary Address = [0x5aD276439E3772FDb6696B6cB61401902D4e8b72](https://optimistic.etherscan.io/address/0x5ad276439e3772fdb6696b6cb61401902d4e8b72)
+- Fair Launch Start/End Time = Thursday, December 15th, 2022, 17:00 UTC
+- Fair Launch Start/End Bid = Saturday, January 14th, 2023, 17:00 UTC
 - Geo Web Grid Size
   - \# of longitudinal lines = 2^23
   - \# of latitudinal lines = 2^22

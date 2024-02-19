@@ -11,7 +11,7 @@ description: >-
 Become a land licensor via the Geo Web Cadastre: [https://geoweb.land/](https://geoweb.land/)
 :::
 
-The Geo Web uses a novel property rights regime called _partial common ownership_$$^1$$ to fairly and efficiently administer its digital land market. Partial common ownership is a market-based solution with an important twist on private property rights:
+The Geo Web uses a novel property rights regime called _partial common ownership_ to fairly and efficiently administer its digital land market. Partial common ownership is a market-based solution with an important twist on private property rights:
 
 1. Landholders must publicly declare a `For Sale Price` for each of their land parcels
 2. Landholders pay a license fee to the network based on a percentage of their `For Sale Price`
@@ -58,14 +58,10 @@ The system offers numerous benefits for the network's health versus a system of 
 
 While the novelty of this property rights system will require effective messaging and additional user education, it is the optimal system for taking the Geo Web from bootstrap to scale.
 
-:::caution
+:::info
 Additional Implementation Details:
 
 - The configurable parameters of the market like the network fee rate, minimum `For Sale Price`, bid rejection penalty, etc. can be adjusted via governance. The current values are [listed here](../community-and-governance/network-parameters).
 - The mainnet Geo Web land market will be initiated with a fair launch auction. Claims during this period will require a one-time payment as determined by a Dutch auction (starts at a high value and linearly decrease to the minimum `For Sale Price`). This is to limit gas price wars for highly-desirable locations and create a playing field in which those who genuinely value the land the most have a fair opportunity to claim it.
 - If a licensor's payment stream runs dry, their corresponding parcel(s) will also be placed in a Dutch auction. The auction price will linearly decrease from the previous `For Sale Price` to zero. Any user can claim the land during the auction at the current price. The previous landholder receives the proceeds from the auction.
-  :::
-
-## Footnotes
-
-$$^1$$This system is also known as Harberger Taxes (economist Arnold Harberger initially outlined the basic scheme), Self-Assessed Licenses Sold at Auction (SALSA), Common Ownership Self-assessed Tax (COST), and Depreciating Licenses. Most recently it's gained attention through the book [_Radical Markets_](http://radicalmarkets.com/) by Eric A. Posner and Glen E. Weyl. Vitalik Buterin has [helped popularize the idea](https://vitalik.ca/general/2018/04/20/radical_markets.html) in blockchain/crypto circles as well.
+:::

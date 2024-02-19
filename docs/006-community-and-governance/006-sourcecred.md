@@ -4,6 +4,10 @@ description: A tool for measuring and rewarding value creation on the Geo Web pr
 
 # SourceCred
 
+:::danger
+SouceCred is no longer in use on the Geo Web, but we're keeping the documentation up for reference.
+:::
+
 One of the early tools that we've relied on most heavily to support the Geo Web's [open organizational vision](./open-org) is [SourceCred](https://sourcecred.io/).&#x20;
 
 SourceCred is a tool for communities to measure and reward value creation. It uses an algorithm and customizable weights to assign an accumulating score ("Cred") to community member actions. It integrates with a number of popular organizational/development tools (Github, Discord, Discourse, and more to come) in an attempt to capture a broad, but nuanced picture of project contributions and contributors.&#x20;
