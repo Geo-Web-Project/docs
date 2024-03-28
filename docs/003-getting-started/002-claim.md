@@ -10,7 +10,7 @@ description: Step-by-step instructions for making Geo Web parcel claims
 :::
 
 :::info
-**Reminder: All parcel claims require an upfront payment of 0.005 ETHx**. Your ongoing fee stream is variable based on your `For Sale Price`. [All funds go to supporting public goods!](../concepts/network-funds)
+**Reminder: All parcel claims require an upfront payment of 0.001 ETHx**. Your ongoing fee stream is variable based on your `For Sale Price`. [All funds go to supporting public goods!](../concepts/network-funds)
 :::
 
 Geo Web land parcels can be claimed around the globe via the [Cadastre (https://geoweb.land)](https://geoweb.land/) user interface.&#x20;
@@ -29,11 +29,11 @@ So once you have all the [quick start requirements](./quickstart) covered, follo
 
 <figure><img src="/assets/Claim Start (1).png" alt="View of the start of a parcel claim on the Geo Web near the Eiffel tower."/><figcaption><p>Starting a parcel claim. Pending parcel claims show as yellow rectangles in the Geo Web Coordinate grid.</p></figcaption></figure>
 
-4\. **Enter your `For Sale Price` (in ETHx) for the parcel**. This value should represent the price that you would be willing to sell this parcel for (it can be adjusted later). It must be greater than or equal to the flat claim fee of 0.005 ETHx:
+4\. **Enter your `For Sale Price` (in ETHx) for the parcel**. This value should represent the price that you would be willing to sell this parcel for (it can be adjusted later). It must be greater than or equal to the flat claim fee of 0.001 ETHx:
 
-<figure><img src="/assets/Min Claim Price.png" alt="Entering the For Sale Price during a fair launch claim on the Geo Web--the value entered must be greater than the current auction bid."/><figcaption><p>All claims require a 0.005 ETHx registration payment. We don't let price your parcel for less than that!</p></figcaption></figure>
+<figure><img src="/assets/Min Claim Price.png" alt="Entering the For Sale Price during a fair launch claim on the Geo Web--the value entered must be greater than the current auction bid."/><figcaption><p>All claims require a 0.001 ETHx registration payment. We don't let price your parcel for less than that!</p></figcaption></figure>
 
-5\. The ongoing `Network Fee` you are required to pay is proportional to the `For Sale Price` that you enter. This is a key requirement of [partial common ownership](../concepts/partial-common-ownership). You'll pay these `Network Fees` by opening and maintaining a per-second ETHx stream to the Geo Web treasury. **The **_**Transaction Summary**_** shows the details of the three payment components required to make your claim: the fixed claim payment (0.005 ETHx), an ongoing payment stream, & a** [**stream buffer**](https://help.superfluid.finance/en/articles/5744874-how-do-stream-buffers-work-in-superfluid)**.**&#x20;
+5\. The ongoing `Network Fee` you are required to pay is proportional to the `For Sale Price` that you enter. This is a key requirement of [partial common ownership](../concepts/partial-common-ownership). You'll pay these `Network Fees` by opening and maintaining a per-second ETHx stream to the Geo Web treasury. **The **_**Transaction Summary**_** shows the details of the three payment components required to make your claim: the fixed claim payment (0.001 ETHx), an ongoing payment stream, & a** [**stream buffer**](https://help.superfluid.finance/en/articles/5744874-how-do-stream-buffers-work-in-superfluid)**.**&#x20;
 
 <figure><img src="/assets/Transaction Summary.png" alt=""/><figcaption><p>Network Fees are proportional to entered For Sale Price and are paid via an ETHx steam. They are collected in addition to the one-time claim payment.</p></figcaption></figure>
 
