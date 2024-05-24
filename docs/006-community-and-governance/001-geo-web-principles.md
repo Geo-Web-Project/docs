@@ -1,10 +1,6 @@
 # Geo Web Principles
 
-**Last Update: November 29, 2022**
-
-:::info
-Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
-:::
+**Last Update: May 23, 2024**
 
 The Geo Web vision is to create infinite games of positive-sum coordination at the intersection of our digital and physical realities.
 

@@ -1,10 +1,6 @@
 # Governance at Launch
 
-**Last Update: November 29, 2022**
-
-:::info
-Help shape the direction of the Geo Web and participate in governance on our [forum](https://forum.geoweb.network/).
-:::
+**Last Update: May 23, 2024**
 
 The Geo Web project will be progressively decentralized.
 
